@@ -65,7 +65,7 @@ SUBSYSTEM_DEF(air)
 	name = "Air"
 	priority = SS_PRIORITY_AIR
 	init_order = INIT_ORDER_AIR
-	flags = SS_POST_FIRE_TIMING
+	flags = SS_NO_FIRE
 	runlevels = RUNLEVELS_PLAYING
 
 	//Geometry lists
