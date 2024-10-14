@@ -355,7 +355,7 @@
 	update_icon()
 
 /obj/item/stack/material/wood/coloured/mahogany
-	color = WOOD_COLOR_RICH
+	name = "rich mahogany plank"
 
 /obj/item/stack/material/wood/coloured/mahogany/Initialize()
 	. = ..()
@@ -363,7 +363,7 @@
 	update_icon()
 
 /obj/item/stack/material/wood/coloured/maple
-	color = WOOD_COLOR_PALE
+	name = "sickly maple plank"
 
 /obj/item/stack/material/wood/coloured/maple/Initialize()
 	. = ..()

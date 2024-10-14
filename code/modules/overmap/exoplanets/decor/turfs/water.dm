@@ -1,4 +1,8 @@
 /turf/simulated/floor/exoplanet/water
+	name = "deep sea water"
+	desc = "The encroaching sea, growing deeper as one looks further out."
+	icon = 'icons/turf/smooth/natural/fluid.dmi'
+	icon_state = "deep_still"
 	does_footprint = FALSE
 	footstep_sound = /singleton/sound_category/water_footstep
 	movement_cost = 4
@@ -100,6 +104,11 @@
 	if(!numobjects)
 		STOP_PROCESSING(SSprocessing, src)
 
+/turf/simulated/floor/exoplanet/water/ocean
+	name = "abyssal deep sea"
+	desc = "Dangerous, turbulent waves mask unknowable depths."
+	icon_state = "sea_still"
+
 /turf/simulated/floor/exoplanet/water/konyang
 	name = "deep glistening water"
 	desc = "Water, dense with algae and lustrous greenery. It maintains an almost glowing sea-blue sheen nonetheless."
@@ -109,10 +118,10 @@
 	smoothing_flags = SMOOTH_TRUE
 
 /turf/simulated/floor/exoplanet/water/shallow
-	name = "shallow water"
-	icon = 'icons/misc/beach.dmi'
-	icon_state = "seashallow"
-	footstep_sound = /singleton/sound_category/water_footstep
+	name = "shallow sea water"
+	desc = "Familiar coastal waters, calm and with a visible surface beneath."
+	icon = 'icons/turf/smooth/natural/fluid.dmi'
+	icon_state = "shallow_still"
 	deep = FALSE
 	var/reagent_type = /singleton/reagent/water
 

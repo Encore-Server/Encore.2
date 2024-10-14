@@ -72,3 +72,29 @@
 
 /obj/effect/decal/exterior_stairs/half/right
 	icon_state = "half-stairs-right"
+
+/obj/effect/decal/exterior_stairs/stone
+	icon = 'icons/obj/structure/urban/ledges_stone.dmi'
+	icon_state = "stairs-single"
+	layer = 2
+
+/obj/effect/decal/exterior_stairs/stone/center
+	icon_state = "stairs-center"
+
+/obj/effect/decal/exterior_stairs/stone/left
+	icon_state = "stairs-left"
+
+/obj/effect/decal/exterior_stairs/stone/right
+	icon_state = "stairs-right"
+
+/obj/effect/decal/exterior_stairs/stone/half
+	icon_state = "half-stairs-single"
+
+/obj/effect/decal/exterior_stairs/stone/half/center
+	icon_state = "half-stairs-center"
+
+/obj/effect/decal/exterior_stairs/stone/half/left
+	icon_state = "half-stairs-left"
+
+/obj/effect/decal/exterior_stairs/stone/half/right
+	icon_state = "half-stairs-right"

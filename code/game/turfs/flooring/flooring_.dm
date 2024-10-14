@@ -54,8 +54,8 @@
 
 /singleton/flooring/grass
 	name = "grass"
-	desc = "Do they smoke grass out in space, Bowie? Or do they smoke AstroTurf?"
-	icon = 'icons/turf/flooring/grass.dmi'
+	desc = "Green, probably."
+	icon = 'icons/turf/smooth/natural/grass.dmi'
 	icon_base = "grass"
 	has_base_range = 3
 	has_damage_range = 0
@@ -65,8 +65,18 @@
 	build_type = /obj/item/stack/tile/grass
 	footstep_sound = /singleton/sound_category/grass_footstep
 	floor_smooth = SMOOTH_NONE
+	flooring_whitelist = list(/singleton/flooring/dirt, /turf/simulated/floor/exoplanet/water)
 	wall_smooth = SMOOTH_ALL
-	space_smooth = SMOOTH_NONE
+
+/singleton/flooring/dirt
+	name = "dirt"
+	icon = 'icons/turf/smooth/natural/geology.dmi'
+	icon_base = "dirt"
+	flags = TURF_HAS_EDGES | TURF_OFFSET_EDGES | TURF_HAS_CORNERS
+	footstep_sound = /singleton/sound_category/asteroid_footstep
+	floor_smooth = SMOOTH_NONE
+	flooring_whitelist = list(/singleton/flooring/dirt, /turf/simulated/floor/exoplanet/water)
+	wall_smooth = SMOOTH_ALL
 
 /singleton/flooring/asteroid
 	name = "coarse sand"
@@ -85,6 +95,25 @@
 	has_base_range = 2
 	flags = TURF_HAS_EDGES | TURF_OFFSET_EDGES | TURF_REMOVE_SHOVEL
 	footstep_sound = /singleton/sound_category/snow_footstep
+
+//Primitive and stone flooring
+/singleton/flooring/cobble
+	name = "packed cobblestone"
+	desc = "Mismatched and roughly polished rocks vaguely resembling a stone path."
+	icon = 'icons/turf/smooth/primitive/flooring_cobble.dmi'
+	icon_base = "cobble"
+	flags = TURF_HAS_EDGES | TURF_OFFSET_EDGES | TURF_HAS_CORNERS | TURF_REMOVE_SHOVEL
+//	build_type = /obj/item/stack/tile/grass pending stone construction
+	footstep_sound = /singleton/sound_category/tiles_footstep
+	floor_smooth = SMOOTH_ALL
+	wall_smooth = SMOOTH_NONE
+	space_smooth = SMOOTH_NONE
+
+/singleton/flooring/cobble/moss
+	name = "overgrown cobblestone"
+	icon_base = "cobblemoss"
+//	build_type = /obj/item/stack/tile/grass pending stone construction
+	footstep_sound = /singleton/sound_category/tiles_footstep
 
 //Carpet
 /singleton/flooring/carpet

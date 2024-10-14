@@ -17,6 +17,26 @@
 	/// Pref holder for the speech bubble style.
 	var/speech_bubble_type
 
+	var/list/character_attributes = list(
+		TRAIT_STRENGTH = /datum/character_attribute/strength,
+		TRAIT_DEXTERITY = /datum/character_attribute/dexterity,
+		TRAIT_SPEED = /datum/character_attribute/speed,
+		TRAIT_INTELLIGENCE = /datum/character_attribute/intelligence,
+		TRAIT_PIETY = /datum/character_attribute/piety,
+		TRAIT_PNEUMA = /datum/character_attribute/pneuma,
+		TRAIT_WILLPOWER = /datum/character_attribute/willpower,
+		TRAIT_FORTITUDE = /datum/character_attribute/fortitude
+		)
+
+	var/stat_STR = TRAIT_STRENGTH
+	var/stat_DEX = TRAIT_DEXTERITY
+	var/stat_SPE = TRAIT_SPEED
+	var/stat_INT = TRAIT_INTELLIGENCE
+	var/stat_PITY = TRAIT_INTELLIGENCE
+	var/stat_PNEU = TRAIT_PIETY
+	var/stat_WILL = TRAIT_WILLPOWER
+	var/stat_FORT = TRAIT_FORTITUDE
+
 /mob/living/carbon/human/Initialize(mapload, var/new_species = null)
 	if(!dna)
 		dna = new /datum/dna(null)

@@ -66,6 +66,52 @@
 	. = ..()
 	icon_state = "rooftop[rand(1,3)]"
 
+/turf/simulated/floor/stone
+	name = "stone tiling"
+	desc = "Mismatched and rough stone tiling, a staple of urban development."
+	icon = 'icons/turf/flooring/stone.dmi'
+	icon_state = "stone2"
+
+/turf/simulated/floor/stone/detail
+	icon_state = "stone_detail"
+
+/turf/simulated/floor/stone/rough
+	icon_state = "stone3"
+
+/turf/simulated/floor/stone/rough/Initialize(mapload)
+	. = ..()
+	icon_state = "stone[rand(1,5)]"
+
+/turf/simulated/floor/stone/block
+	icon_state = "block1"
+
+/turf/simulated/floor/stone/block/Initialize(mapload)
+	. = ..()
+	icon_state = "block[rand(1,3)]"
+
+/turf/simulated/floor/stone/flat
+	icon_state = "flat1"
+
+/turf/simulated/floor/stone/flat/Initialize(mapload)
+	. = ..()
+	icon_state = "flat[rand(1,3)]"
+
+/turf/simulated/floor/stone/diag
+	icon_state = "stone_diag"
+
+/turf/simulated/floor/stone/granite
+	icon_state = "granite1"
+
+/turf/simulated/floor/stone/granite/Initialize(mapload)
+	. = ..()
+	icon_state = "granite[rand(1,4)]"
+
+/turf/simulated/floor/marble
+	name = "polished marble floor"
+	desc = "Solid, sheer and reflective marble flooring. Lavish."
+	icon = 'icons/turf/flooring/stone.dmi'
+	icon_state = "marble"
+
 /obj/structure/ledge
 	name = "tall ledge"
 	desc = "A tall ledge that seems difficult to surpass. You'd need some effort to get over this!"

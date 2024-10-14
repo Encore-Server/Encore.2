@@ -7,22 +7,29 @@
 		//Z1
 		list(ZTRAIT_STATION = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = FALSE),
 		//Z2
+		list(ZTRAIT_STATION = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = TRUE),
+		//Z3
+		list(ZTRAIT_STATION = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = TRUE),
+		//Z4
+		list(ZTRAIT_STATION = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = TRUE),
+		//Z5
 		list(ZTRAIT_STATION = TRUE, ZTRAIT_UP = FALSE, ZTRAIT_DOWN = TRUE)
 	)
 
 	lobby_icons = list('icons/misc/titlescreens/domotan/main_title.dmi')
 
-	admin_levels = list()
-	contact_levels = list(1, 2)
-	player_levels = list(1, 2)
-	restricted_levels = list()
-	accessible_z_levels = list("1" = 5, "2" = 5)
-	empty_levels = list(2)
+	admin_levels = list(5)
+	contact_levels = list(1, 2, 3, 4)
+	player_levels = list(1, 2, 3, 4)
+	restricted_levels = list(5)
+	accessible_z_levels = list()
+	empty_levels = list()
 	base_turf_by_z = list(
-		"1" = /turf/unsimulated/floor/plating,
-		"2" = /turf/unsimulated/floor/plating,
-		"3" = /turf/unsimulated/floor/plating,
-		"4" = /turf/unsimulated/floor/plating
+		"1" = /turf/simulated/floor/dirt,
+		"2" = /turf/simulated/floor/dirt,
+		"3" = /turf/simulated/floor/dirt,
+		"4" = /turf/simulated/floor/dirt,
+		"5" = /turf/simulated/floor/dirt
 	)
 
 	station_name = "Domotan Island"

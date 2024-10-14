@@ -39,6 +39,10 @@
 #define MATERIAL_ALUMINIUM					"aluminium"
 #define MATERIAL_LEAD						"lead"
 
+//Stones
+#define MATERIAL_SHALESTONE                 "shalestone"
+#define MATERIAL_DARKSTONE                  "darkstone"
+
 // Leathers and related.
 #define MATERIAL_RESIN                   "resin"
 #define MATERIAL_LEATHER                 "leather"

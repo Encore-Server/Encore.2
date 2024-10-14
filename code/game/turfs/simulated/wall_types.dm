@@ -123,10 +123,18 @@
 	. = ..(mapload, MATERIAL_BIRCH)
 	canSmoothWith = list(src.type)
 
+/turf/simulated/wall/mahoganywood
+	icon = 'icons/turf/smooth/primitive/wood_mahogany.dmi'
+	icon_state = "map_example"
+
 /turf/simulated/wall/mahoganywood/Initialize(mapload)
 	canSmoothWith = list(src.type)
 	. = ..(mapload, MATERIAL_MAHOGANY)
 	canSmoothWith = list(src.type)
+
+/turf/simulated/wall/maplewood
+	icon = 'icons/turf/smooth/primitive/wood_maple.dmi'
+	icon_state = "map_example"
 
 /turf/simulated/wall/maplewood/Initialize(mapload)
 	canSmoothWith = list(src.type)
@@ -173,3 +181,12 @@
 	canSmoothWith = list(src.type)
 	. = ..(mapload, MATERIAL_MARBLE)
 	canSmoothWith = list(src.type)
+
+/turf/simulated/wall/darkstone
+	icon = 'icons/turf/smooth/primitive/stone_dark.dmi'
+	icon_state = "map_example"
+	desc = "Heavy bricks, stacked high and neat. Sure to stand the test of time."
+	appearance_flags = NO_CLIENT_COLOR
+
+/turf/simulated/wall/darkstone/Initialize(mapload)
+	. = ..(mapload, MATERIAL_DARKSTONE)

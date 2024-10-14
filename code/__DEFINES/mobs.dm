@@ -549,3 +549,14 @@
 #define DO_MISSING_TARGET (-2)
 #define DO_INCAPACITATED (-3)
 #define DO_EXTRA_CHECKS (-4)
+
+// Attributes
+#define TRAIT_STRENGTH "strength"
+#define TRAIT_DEXTERITY "dexterity"
+#define TRAIT_SPEED  "speed"
+#define TRAIT_INTELLIGENCE  "intelligence"
+#define TRAIT_PIETY "piety"
+#define TRAIT_PNEUMA "pneuma"
+#define TRAIT_WILLPOWER  "willpower"
+#define TRAIT_FORTITUDE  "fortitude"
+#define ALL_TRAITS list(TRAIT_STRENGTH, TRAIT_DEXTERITY, TRAIT_SPEED, TRAIT_INTELLIGENCE, TRAIT_PIETY, TRAIT_PNEUMA, TRAIT_WILLPOWER, TRAIT_FORTITUDE)

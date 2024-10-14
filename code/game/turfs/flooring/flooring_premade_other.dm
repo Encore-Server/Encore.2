@@ -45,10 +45,28 @@
 
 /turf/simulated/floor/grass
 	name = "grass patch"
-	icon = 'icons/turf/flooring/grass.dmi'
+	icon = 'icons/turf/smooth/natural/grass.dmi'
 	icon_state = "grass0"
 	initial_flooring = /singleton/flooring/grass
 	footstep_sound = /singleton/sound_category/grass_footstep
+
+/turf/simulated/floor/dirt
+	name = "dirt"
+	icon = 'icons/turf/smooth/natural/geology.dmi'
+	icon_state = "dirt"
+	footstep_sound = /singleton/sound_category/asteroid_footstep
+	initial_flooring = /singleton/flooring/dirt
+
+/turf/simulated/floor/cobble
+	name = "cobblestone"
+	icon = 'icons/turf/smooth/primitive/flooring_cobble.dmi'
+	icon_state = "cobble"
+	footstep_sound = /singleton/sound_category/tiles_footstep
+	initial_flooring = /singleton/flooring/cobble
+
+/turf/simulated/floor/cobble/mossy
+	name = "mossy cobblestone"
+	icon_state = "cobblemoss"
 
 /turf/simulated/floor/diona
 	name = "biomass flooring"

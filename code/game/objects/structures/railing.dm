@@ -353,3 +353,25 @@
 /obj/structure/railing/fence/New(var/newloc, var/material_key = MATERIAL_WOOD)
 	material = material_key
 	..(newloc)
+
+/obj/structure/railing/maple_fence
+	name = "maplewood fence"
+	desc = "A sturdy wooden fence."
+	icon = 'icons/obj/structure/blocker/fence_maple.dmi'
+	icon_state = "railing0-1"
+	anchored = TRUE
+
+/obj/structure/railing/maple_fence/New(var/newloc, var/material_key = MATERIAL_MAPLE)
+	material = material_key
+	..(newloc)
+
+/obj/structure/railing/iron
+	name = "iron bars"
+	desc = "Rigid, gleaming iron bars."
+	icon = 'icons/obj/structure/blocker/fence_iron.dmi'
+	icon_state = "railing0-1"
+	anchored = TRUE
+
+/obj/structure/railing/iron/New(var/newloc, var/material_key = MATERIAL_IRON)
+	material = material_key
+	..(newloc)

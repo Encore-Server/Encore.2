@@ -288,7 +288,7 @@
 	stack_type = /obj/item/stack/material/diamond
 	flags = MATERIAL_UNMELTABLE
 	cut_delay = 60
-	icon_colour = "#00FFE1"
+	colour_blend = FALSE
 	opacity = 0.4
 	reflectivity = 0.6
 	conductivity = 1
@@ -304,7 +304,7 @@
 /material/gold
 	name = MATERIAL_GOLD
 	stack_type = /obj/item/stack/material/gold
-	icon_colour = "#EDD12F"
+	colour_blend = FALSE
 	weight = 30
 	hardness = 15
 	conductivity = 41
@@ -319,14 +319,14 @@
 	weight = 30
 	hardness = 50
 	conductivity = 11
-	icon_colour = "#EDD12F"
+	colour_blend = FALSE
 	stack_origin_tech = list(TECH_MATERIAL = 2)
 	golem = SPECIES_GOLEM_BRONZE
 
 /material/osmium
 	name = MATERIAL_OSMIUM
 	stack_type = /obj/item/stack/material/osmium
-	icon_colour = "#9999ff"
+	colour_blend = FALSE
 	stack_origin_tech = list(TECH_MATERIAL = 5)
 	sheet_singular_name = "ingot"
 	sheet_plural_name = "ingots"
@@ -335,7 +335,7 @@
 /material/silver
 	name = MATERIAL_SILVER
 	stack_type = /obj/item/stack/material/silver
-	icon_colour = "#D1E6E3"
+	colour_blend = FALSE
 	weight = 22
 	hardness = 50
 	conductivity = 63
@@ -378,9 +378,9 @@
 /material/stone
 	name = MATERIAL_SANDSTONE
 	stack_type = /obj/item/stack/material/sandstone
+	colour_blend = FALSE
 	icon_base = "stone"
 	reinf_icon = "reinf_stone"
-	icon_colour = "#d9c179"
 	wall_icon = 'icons/turf/smooth/composite_stone.dmi'
 	multipart_reinf_icon = 'icons/turf/smooth/composite_stone_reinf.dmi'
 	shard_type = SHARD_STONE_PIECE
@@ -395,9 +395,28 @@
 	drop_sound = 'sound/items/drop/boots.ogg'
 	pickup_sound = 'sound/items/pickup/boots.ogg'
 
+/material/darkstone
+	name = MATERIAL_DARKSTONE
+	stack_type = /obj/item/stack/material/sandstone
+	colour_blend = FALSE
+	icon_base = "stone"
+	reinf_icon = "reinf_stone"
+	wall_icon = 'icons/turf/smooth/primitive/stone_dark.dmi'
+	multipart_reinf_icon = 'icons/turf/smooth/composite_stone_reinf.dmi'
+	shard_type = SHARD_STONE_PIECE
+	weight = 22
+	hardness = 55
+	protectiveness = 5 // 20%
+	conductivity = 5
+	door_icon_base = "stone"
+	sheet_singular_name = "brick"
+	sheet_plural_name = "bricks"
+	drop_sound = 'sound/items/drop/boots.ogg'
+	pickup_sound = 'sound/items/pickup/boots.ogg'
+
 /material/stone/marble
 	name = MATERIAL_MARBLE
-	icon_colour = "#b4b1a6"
+	colour_blend = FALSE
 	weight = 26
 	hardness = 70
 	stack_type = /obj/item/stack/material/marble
@@ -407,8 +426,7 @@
 
 /material/concrete
 	name = MATERIAL_CONCRETE
-	icon_colour = COLOR_CONCRETE
-	wall_colour = COLOR_CONCRETE
+	colour_blend = FALSE
 	wall_icon = 'icons/turf/smooth/composite_solid_color.dmi'
 	table_icon = 'icons/obj/structure/tables/steel_table.dmi'
 	stack_type = null
@@ -422,8 +440,6 @@
 	protectiveness = 10 // 33%
 	wall_icon = 'icons/turf/smooth/composite_solid_color.dmi'
 	table_icon = 'icons/obj/structure/tables/steel_table.dmi'
-	icon_colour = COLOR_GRAY40
-	wall_colour = COLOR_GRAY20
 	golem = SPECIES_GOLEM_STEEL
 	hitsound = 'sound/weapons/smash.ogg'
 	weapon_hitsound = 'sound/weapons/metalhit.ogg'
@@ -699,7 +715,6 @@
 /material/iron
 	name = MATERIAL_IRON
 	stack_type = /obj/item/stack/material/iron
-	icon_colour = "#5C5454"
 	weight = 22
 	conductivity = 10
 	sheet_singular_name = "ingot"
@@ -711,7 +726,6 @@
 /material/aluminium
 	name = MATERIAL_ALUMINIUM
 	stack_type = /obj/item/stack/material/aluminium
-	icon_colour = "#cccdcc"
 	weight = 18
 	conductivity = 29.48
 	hitsound = 'sound/weapons/smash.ogg'
@@ -720,7 +734,6 @@
 /material/lead
 	name = MATERIAL_LEAD
 	stack_type = /obj/item/stack/material/lead
-	icon_colour = "#5f5960"
 	weight = 32
 	conductivity = 4.39
 	sheet_singular_name = "ingot"
@@ -745,7 +758,6 @@
 /material/wood
 	name = MATERIAL_WOOD
 	stack_type = /obj/item/stack/material/wood // why wouldn't it have a stacktype seriously guys why
-	icon_colour = WOOD_COLOR_GENERIC
 	integrity = 50
 	icon_base = "wood"
 	wall_icon = 'icons/turf/smooth/composite_wood.dmi'
@@ -777,42 +789,38 @@
 /material/wood/birch
 	name = MATERIAL_BIRCH
 	stack_type = /obj/item/stack/material/wood/coloured/birch
-	icon_colour = WOOD_COLOR_BIRCH
 
 /material/wood/mahogany
 	name = MATERIAL_MAHOGANY
 	stack_type = /obj/item/stack/material/wood/coloured/mahogany
-	icon_colour = WOOD_COLOR_RICH
+	colour_blend = FALSE
+	wall_icon = 'icons/turf/smooth/primitive/wood_mahogany.dmi'
 
 /material/wood/maple
 	name = MATERIAL_MAPLE
 	stack_type = /obj/item/stack/material/wood/coloured/maple
-	icon_colour = WOOD_COLOR_PALE
+	colour_blend = FALSE
+	wall_icon = 'icons/turf/smooth/primitive/wood_maple.dmi'
 
 /material/wood/bamboo
 	name = MATERIAL_BAMBOO
 	stack_type = /obj/item/stack/material/wood/coloured/bamboo
-	icon_colour = WOOD_COLOR_PALE2
 
 /material/wood/ebony
 	name = MATERIAL_EBONY
 	stack_type = /obj/item/stack/material/wood/coloured/ebony
-	icon_colour = WOOD_COLOR_BLACK
 
 /material/wood/walnut
 	name = MATERIAL_WALNUT
 	stack_type = /obj/item/stack/material/wood/coloured/walnut
-	icon_colour = WOOD_COLOR_CHOCOLATE
 
 /material/wood/yew
 	name = MATERIAL_YEW
 	stack_type = /obj/item/stack/material/wood/coloured/yew
-	icon_colour = WOOD_COLOR_YELLOW
 
 /material/wood/log //This is gonna replace wood planks in a  way for NBT, leaving it here for now
 	name = MATERIAL_WOOD_LOG
 	stack_type = /obj/item/stack/material/wood/log
-	icon_colour = "#824B28"
 	integrity = 50
 	explosion_resistance = 4
 	hardness = 30
@@ -827,7 +835,6 @@
 /material/wood/branch
 	name = MATERIAL_WOOD_BRANCH
 	stack_type = /obj/item/stack/material/wood/branch
-	icon_colour = "#824B28"
 	integrity = 10
 	explosion_resistance = 0
 	hardness = 0.1
@@ -841,7 +848,6 @@
 	name = MATERIAL_RUST
 	display_name = "rusty steel"
 	stack_type = null
-	icon_colour = "#B7410E"
 	icon_base = "arust"
 	wall_icon = 'icons/turf/smooth/rusty_wall.dmi'
 	integrity = 250
