@@ -375,3 +375,14 @@
 /obj/structure/railing/iron/New(var/newloc, var/material_key = MATERIAL_IRON)
 	material = material_key
 	..(newloc)
+
+/obj/structure/railing/rampart
+	name = "darkstone ramparts"
+	desc = "Incredibly sturdy ramparts serving as obstacles against projectiles."
+	icon = 'icons/obj/structure/blocker/rampart.dmi'
+	icon_state = "railing0-1"
+	anchored = TRUE
+
+/obj/structure/railing/rampart/New(var/newloc, var/material_key = MATERIAL_DARKSTONE)
+	material = material_key
+	..(newloc)

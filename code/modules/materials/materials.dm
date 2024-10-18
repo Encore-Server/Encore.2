@@ -397,7 +397,7 @@
 
 /material/darkstone
 	name = MATERIAL_DARKSTONE
-	stack_type = /obj/item/stack/material/sandstone
+	stack_type = /obj/item/stack/material/darkstone
 	colour_blend = FALSE
 	icon_base = "stone"
 	reinf_icon = "reinf_stone"
@@ -411,6 +411,15 @@
 	door_icon_base = "stone"
 	sheet_singular_name = "brick"
 	sheet_plural_name = "bricks"
+	drop_sound = 'sound/items/drop/boots.ogg'
+	pickup_sound = 'sound/items/pickup/boots.ogg'
+
+/material/stone/granite
+	name = MATERIAL_GRANITE
+	colour_blend = FALSE
+	weight = 28
+	hardness = 40
+	stack_type = /obj/item/stack/material/granite
 	drop_sound = 'sound/items/drop/boots.ogg'
 	pickup_sound = 'sound/items/pickup/boots.ogg'
 

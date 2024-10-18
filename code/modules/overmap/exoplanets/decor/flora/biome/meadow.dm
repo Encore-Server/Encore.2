@@ -61,3 +61,12 @@
 		/obj/structure/flora/bush/thick_brush,
 		/turf/simulated/wall
 	)
+
+/obj/structure/cliffside
+	name = "jagged cliff face"
+	desc = "A difficult-to-scale cliff face uprooted by some gentle, long-term erosion. It's sharp and craggy, but has a few surfaces for grabbing."
+	icon = 'icons/turf/smooth/natural/geology.dmi'
+	icon_state = "cliff"
+	anchored = TRUE
+	density = TRUE
+	climbable = TRUE

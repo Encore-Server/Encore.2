@@ -128,18 +128,16 @@
 	icon_state = "map_example"
 
 /turf/simulated/wall/mahoganywood/Initialize(mapload)
-	canSmoothWith = list(src.type)
 	. = ..(mapload, MATERIAL_MAHOGANY)
-	canSmoothWith = list(src.type)
+	canSmoothWith = list(/turf/simulated/wall/mahoganywood, /obj/structure/window/urban/mahogany)
 
 /turf/simulated/wall/maplewood
 	icon = 'icons/turf/smooth/primitive/wood_maple.dmi'
 	icon_state = "map_example"
 
 /turf/simulated/wall/maplewood/Initialize(mapload)
-	canSmoothWith = list(src.type)
 	. = ..(mapload, MATERIAL_MAPLE)
-	canSmoothWith = list(src.type)
+	canSmoothWith = list(/turf/simulated/wall/maplewood, /obj/structure/window/urban)
 
 /turf/simulated/wall/bamboowood/Initialize(mapload)
 	canSmoothWith = list(src.type)
@@ -190,3 +188,14 @@
 
 /turf/simulated/wall/darkstone/Initialize(mapload)
 	. = ..(mapload, MATERIAL_DARKSTONE)
+	canSmoothWith = list(/turf/simulated/wall/darkstone, /obj/structure/cavity)
+
+/turf/simulated/wall/granite
+	icon = 'icons/turf/smooth/primitive/granite_light.dmi'
+	icon_state = "map_example"
+	desc = "Dense polished granite walling."
+	appearance_flags = NO_CLIENT_COLOR
+
+/turf/simulated/wall/granite/Initialize(mapload)
+	. = ..(mapload, MATERIAL_GRANITE)
+	canSmoothWith = list(/turf/simulated/wall/granite, /obj/structure/cavity/granite)

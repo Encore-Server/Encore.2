@@ -42,6 +42,7 @@
 //Stones
 #define MATERIAL_SHALESTONE                 "shalestone"
 #define MATERIAL_DARKSTONE                  "darkstone"
+#define MATERIAL_GRANITE                  	"granite"
 
 // Leathers and related.
 #define MATERIAL_RESIN                   "resin"

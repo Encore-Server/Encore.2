@@ -146,6 +146,28 @@
 	amount = max_amount
 	update_icon()
 
+/obj/item/stack/material/darkstone
+	name = "darkstone brick"
+	icon_state = "sheet-sandstone"
+	default_type = MATERIAL_DARKSTONE
+	icon_has_variants = TRUE
+
+/obj/item/stack/material/darkstone/full/Initialize()
+	. = ..()
+	amount = max_amount
+	update_icon()
+
+/obj/item/stack/material/granite
+	name = "granite slab"
+	icon_state = "sheet-marble"
+	default_type = MATERIAL_GRANITE
+	icon_has_variants = TRUE
+
+/obj/item/stack/material/granite/full/Initialize()
+	. = ..()
+	amount = max_amount
+	update_icon()
+
 /obj/item/stack/material/marble
 	name = "marble brick"
 	icon_state = "sheet-marble"

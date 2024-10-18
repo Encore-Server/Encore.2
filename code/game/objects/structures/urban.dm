@@ -527,15 +527,15 @@ ABSTRACT_TYPE(/obj/structure/stairs/urban/road_ramp)
 	icon_state = "pharmacy_sign"
 
 /obj/structure/window/urban
-	icon = 'icons/obj/structure/urban/windows_tall.dmi'
-	icon_state = "wood"
-	basestate = "wood"
+	icon = 'icons/obj/structure/urban/windows.dmi'
+	icon_state = "maple"
+	basestate = "maple"
 	maxhealth = 60
 	alpha = 255
 
-/obj/structure/window/urban/framed
-	icon_state = "wood_framed"
-	basestate = "wood_framed"
+/obj/structure/window/urban/mahogany
+	icon_state = "mahogany"
+	basestate = "mahogany"
 
 /obj/structure/window/urban/external
 	icon = 'icons/obj/structure/urban/building_external.dmi'
@@ -786,3 +786,18 @@ ABSTRACT_TYPE(/obj/structure/stairs/urban/road_ramp)
 
 /obj/item/key/door_key/GetAccess()
 	return access_list
+
+//Stone and castle pieces
+/obj/structure/cavity
+	name = "darkstone window cavity"
+	desc = "A porthole from which you can view the peasants. Big enough to squeeze through if you try."
+	icon_state = "cavity"
+	icon = 'icons/turf/smooth/primitive/stone_dark.dmi'
+	anchored = TRUE
+	climbable = TRUE
+
+/obj/structure/cavity/granite
+	name = "granite window cavity"
+	icon = 'icons/turf/smooth/primitive/granite_light.dmi'
+	anchored = TRUE
+	climbable = TRUE
