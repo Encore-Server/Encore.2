@@ -342,7 +342,7 @@
 //fence
 
 /obj/structure/railing/fence
-	name = "fence"
+	name = "wooden blocker"
 	color = "#824B28"
 	anchored = TRUE
 

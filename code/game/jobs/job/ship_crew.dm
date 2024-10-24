@@ -1,5 +1,5 @@
 /datum/job/assistant
-	title = "Assistant"
+	title = "Citizen"
 	flag = ASSISTANT
 	departments = SIMPLEDEPT(DEPARTMENT_CIVILIAN)
 	department_flag = SERVICE
@@ -7,7 +7,7 @@
 	total_positions = -1
 	spawn_positions = -1
 	intro_prefix = "an"
-	supervisors = "absolutely everyone"
+	supervisors = "the regency of Etgard Keep upon Domotan Isle"
 	selection_color = "#949494"
 	economic_modifier = 1
 	access = list()			//See /datum/job/assistant/get_access()
@@ -22,21 +22,21 @@
 		return list()
 
 /obj/outfit/job/assistant
-	name = "Assistant"
+	name = "Traveler"
 	jobtype = /datum/job/assistant
 
 	uniform = /obj/item/clothing/under/color/grey
 	shoes = /obj/item/clothing/shoes/sneakers/black
 
 /datum/job/visitor
-	title = "Off-Duty Crew Member"
+	title = "Traveler"
 	flag = VISITOR
 	departments = SIMPLEDEPT(DEPARTMENT_CIVILIAN)
 	department_flag = SERVICE
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
-	supervisors = "any authority figure"
+	supervisors = "the summary of your own conviction and fealty"
 	selection_color = "#949494"
 	economic_modifier = 1
 	access = list()
@@ -56,14 +56,14 @@
 	jobtype = /datum/job/passenger
 
 /datum/job/passenger
-	title = "Passenger"
+	title = "Sailor"
 	flag = PASSENGER
 	departments = SIMPLEDEPT(DEPARTMENT_CIVILIAN)
 	department_flag = SERVICE
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
-	supervisors = "any authority figure"
+	supervisors = "your Captain and the four seas"
 	selection_color = "#949494"
 	economic_modifier = 1
 	access = list()

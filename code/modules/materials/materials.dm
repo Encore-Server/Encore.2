@@ -770,6 +770,7 @@
 	integrity = 50
 	icon_base = "wood"
 	wall_icon = 'icons/turf/smooth/composite_wood.dmi'
+	icon_colour = WOOD_COLOR_GENERIC
 	explosion_resistance = 2
 	shard_type = SHARD_SPLINTER
 	shard_can_repair = 0 // you can't weld splinters back into planks

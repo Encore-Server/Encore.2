@@ -801,3 +801,27 @@ ABSTRACT_TYPE(/obj/structure/stairs/urban/road_ramp)
 	icon = 'icons/turf/smooth/primitive/granite_light.dmi'
 	anchored = TRUE
 	climbable = TRUE
+
+/obj/structure/wall_lantern
+	name = "wall lantern"
+	desc = "Gentle flickering light, so sweet a sight in this darkest night."
+	icon = 'icons/obj/structure/urban/lighting.dmi'
+	icon_state = "wall_lantern"
+	layer = 9.1
+	anchored = TRUE
+	density = FALSE
+	light_color = "#ffd194"
+	light_wedge = LIGHT_OMNI
+	light_range = 4
+	light_power = 1
+
+/obj/structure/sink/homestead
+	name = "deep basin sink"
+	desc = "A rickety and long brass-hued faucet with a sink, utilizing cutting-edge and very safe lead pipes. Nifty."
+	icon = 'icons/obj/structure/urban/plumbing.dmi'
+	icon_state = "sink1"
+
+/obj/machinery/shower/homestead
+	desc = "Lead pipes delivering clean water to your face and body. A true innovation of pressurized technology!"
+	icon = 'icons/obj/structure/urban/plumbing.dmi'
+	icon_state = "shower1"

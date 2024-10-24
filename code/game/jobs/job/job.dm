@@ -215,22 +215,22 @@
 	allow_headset_choice = TRUE
 	var/jobtype = null
 
-	uniform = /obj/item/clothing/under/color/grey
-	id = /obj/item/card/id
-	back = /obj/item/storage/backpack
-	shoes = /obj/item/clothing/shoes/sneakers/black
+	uniform = null
+	id = null
+	back = null
+	shoes = null
 
-	headset = /obj/item/device/radio/headset
-	bowman = /obj/item/device/radio/headset/alt
-	double_headset = /obj/item/device/radio/headset/alt/double
-	wrist_radio = /obj/item/device/radio/headset/wrist
-	clipon_radio = /obj/item/device/radio/headset/wrist/clip
+	headset = null
+	bowman = null
+	double_headset = null
+	wrist_radio = null
+	clipon_radio = null
 
-	tab_pda = /obj/item/modular_computer/handheld/pda/civilian
-	wristbound = /obj/item/modular_computer/handheld/wristbound/preset/pda/civilian
-	tablet = /obj/item/modular_computer/handheld/preset/civilian
+	tab_pda = null
+	wristbound = null
+	tablet = null
 
-	var/box = /obj/item/storage/box/survival
+	var/box = null
 
 /obj/outfit/job/equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	back = null //Nulling the backpack here, since we already equipped the backpack in pre_equip
