@@ -52,3 +52,24 @@
       slowness: 0
       scale: "1, 1"
       shader: ""
+
+- type: parallax
+  id: Archipelago
+  layers:
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/Parallaxes/archipelago.png"
+      slowness: 0.98
+      scale: 1,1
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/Parallaxes/clouds.png"
+      slowness: 0.95
+      scale: "1.5, 1.5"
+      scrolling: "0.1, -0.05"
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/Parallaxes/clouds_thin.png"
+      slowness: 0.94
+      scale: "2, 2"
+      scrolling: "0.1, -0.05"

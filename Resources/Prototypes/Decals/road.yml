@@ -1,0 +1,176 @@
+- type: decal
+  id: RoadDecalThin
+  abstract: true
+
+- type: decal
+  id: RoadDecalThinCornerNe
+  parent: RoadDecalThin
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_corner_ne
+
+- type: decal
+  id: RoadDecalThinCornerSe
+  parent: RoadDecalThin
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_corner_se
+
+- type: decal
+  id: RoadDecalThinCornerNw
+  parent: RoadDecalThin
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_corner_nw
+
+- type: decal
+  id: RoadDecalThinCornerSw
+  parent: RoadDecalThin
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_corner_sw
+
+- type: decal
+  id: RoadDecalThinLineN
+  parent: RoadDecalThin
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_line_n
+
+- type: decal
+  id: RoadDecalThinLineE
+  parent: RoadDecalThin
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_line_e
+
+- type: decal
+  id: RoadDecalThinLineS
+  parent: RoadDecalThin
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_line_s
+
+- type: decal
+  id: RoadDecalThinLineW
+  parent: RoadDecalThin
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_line_w
+
+- type: decal
+  id: RoadDecalThinMid
+  abstract: true
+
+- type: decal
+  id: RoadDecalThinMidN
+  parent: RoadDecalThinMid
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_mid_n
+
+- type: decal
+  id: RoadDecalThinMidE
+  parent: RoadDecalThinMid
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_mid_e
+
+- type: decal
+  id: RoadDecalThinNoPass
+  abstract: true
+
+- type: decal
+  id: RoadDecalThinMidN
+  parent: RoadDecalThinNoPass
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_nopass_n
+
+- type: decal
+  id: RoadDecalThinMidE
+  parent: RoadDecalThinNoPass
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_nopass_e
+
+- type: decal
+  id: RoadDecalThinTurn
+  abstract: true
+
+- type: decal
+  id: RoadDecalThinTurnN
+  parent: RoadDecalThinTurn
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_turn_n
+
+- type: decal
+  id: RoadDecalThinTurnS
+  parent: RoadDecalThinTurn
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_turn_s
+
+- type: decal
+  id: RoadDecalThinTurnE
+  parent: RoadDecalThinTurn
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_turn_e
+
+- type: decal
+  id: RoadDecalThinTurnW
+  parent: RoadDecalThinTurn
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: thin_turn_w
+
+- type: decal
+  id: RoadDecalYield
+  abstract: true
+
+- type: decal
+  id: RoadDecalYield
+  parent: RoadDecalYield
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: yield
+
+- type: decal
+  id: RoadDecalCrossWalk
+  abstract: true
+
+- type: decal
+  id: RoadDecalCrossWalkN
+  parent: RoadDecalCrossWalk
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: crosswalk_n
+
+- type: decal
+  id: RoadDecalCrossWalkE
+  parent: RoadDecalCrossWalk
+  tags: ["station", "markings"]
+  sprite:
+    sprite: Decals/road.rsi
+    state: crosswalk_e
+
