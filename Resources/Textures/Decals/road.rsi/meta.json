@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "copyright": "Made by kyres1 (github)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "thin_corner_ne"
+    },
+    {
+      "name": "thin_corner_se"
+    },
+    {
+      "name": "thin_corner_nw"
+    },
+    {
+      "name": "thin_corner_sw"
+    },
+    {
+      "name": "thin_line_n"
+    },
+    {
+      "name": "thin_line_e"
+    },
+    {
+      "name": "thin_line_s"
+    },
+    {
+      "name": "thin_line_w"
+    },
+    {
+      "name": "thin_mid_n"
+    },
+    {
+      "name": "thin_mid_s"
+    },
+    {
+      "name": "thin_mid_e"
+    },
+    {
+      "name": "thin_mid_w"
+    },
+    {
+      "name": "thin_nopass_n"
+    },
+    {
+      "name": "thin_nopass_s"
+    },
+    {
+      "name": "thin_nopass_e"
+    },
+    {
+      "name": "thin_nopass_w"
+    },
+    {
+      "name": "thin_solid_n"
+    },
+    {
+      "name": "thin_solid_s"
+    },
+    {
+      "name": "thin_solid_e"
+    },
+    {
+      "name": "thin_solid_w"
+    },
+    {
+      "name": "thin_turn_n"
+    },
+    {
+      "name": "thin_turn_s"
+    },
+    {
+      "name": "thin_turn_e"
+    },
+    {
+      "name": "thin_turn_w"
+    },
+    {
+      "name": "yield"
+    },
+    {
+      "name": "crosswalk_n"
+    },
+    {
+      "name": "crosswalk_e"
+    }
+  ]
+}
