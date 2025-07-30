@@ -1,7 +1,6 @@
 # Encore Roleplay
 
-<p align="center"><img src="https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Textures/Logo/splashlogo.png" width="512px" /></p>
----
+<p align="center"><img src="https://raw.githubusercontent.com/Encore-Server/Encore.2/refs/heads/7-15-2025-encore_predevelopment/Resources/Textures/Logo/logo.png" width="512px" /></p>
 
 Encore is a fork of [Einstein Engines](https://github.com/Simple-Station/Einstein-Engines) which is being developed to facilitate a brand new roleplay server.
 
