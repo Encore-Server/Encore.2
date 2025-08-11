@@ -176,9 +176,10 @@
   components:
   - type: Sprite
     sprite: Structures/Lighting/LightPosts/large_light_post.rsi
-    snapCardinals: false
+    snapCardinals: true
     drawdepth: Overdoors
     noRot: false
+    offset: 0,2.5
   - type: PointLight
     enabled: true
     radius: 15
