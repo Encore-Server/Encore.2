@@ -61,6 +61,15 @@ internal sealed class BuckleSystem : SharedBuckleSystem
         // This code is garbage, it doesn't work with rotated viewports. I need to finally get around to reworking
         // sprite rendering for entity layers & direction dependent sorting.
 
+        // Future notes:
+        // Right now this doesn't handle: other grids, other grids rotating, the camera rotation changing, and many other fun rotation specific things
+        // The entire thing should be a concern of the engine, or something engine helps to implement properly.
+        // Give some of the sprite rotations their own drawdepth, maybe as an offset within the rsi, or something like this
+        // And we won't ever need to set the draw depth manually
+
+        if (!component.ModifyBuckleDrawDepth)
+            return;
+
         if (args.NewRotation == args.OldRotation)
             return;
 
@@ -87,6 +96,48 @@ internal sealed class BuckleSystem : SharedBuckleSystem
                 buckle.OriginalDrawDepth = null;
             }
         }
+    }
+
+    /// <summary>
+    /// Lower the draw depth of the buckled entity without needing for the strap entity to rotate/move.
+    /// Only do so when the entity is facing screen-local north
+    /// </summary>
+    private void OnBuckledEvent(Entity<BuckleComponent> ent, ref BuckledEvent args)
+    {
+        if (!args.Strap.Comp.ModifyBuckleDrawDepth)
+            return;
+
+        if (!TryComp<SpriteComponent>(args.Strap, out var strapSprite))
+            return;
+
+        if (!TryComp<SpriteComponent>(ent.Owner, out var buckledSprite))
+            return;
+
+        var angle = _xformSystem.GetWorldRotation(args.Strap) + _eye.CurrentEye.Rotation; // Get true screen position, or close enough
+
+        if (angle.GetCardinalDir() != Direction.North)
+            return;
+
+        ent.Comp.OriginalDrawDepth ??= buckledSprite.DrawDepth;
+        _sprite.SetDrawDepth((ent.Owner, buckledSprite), strapSprite.DrawDepth - 1);
+    }
+
+    /// <summary>
+    /// Was the draw depth of the buckled entity lowered? Reset it upon unbuckling.
+    /// </summary>
+    private void OnUnbuckledEvent(Entity<BuckleComponent> ent, ref UnbuckledEvent args)
+    {
+        if (!args.Strap.Comp.ModifyBuckleDrawDepth)
+            return;
+
+        if (!TryComp<SpriteComponent>(ent.Owner, out var buckledSprite))
+            return;
+
+        if (!ent.Comp.OriginalDrawDepth.HasValue)
+            return;
+
+        _sprite.SetDrawDepth((ent.Owner, buckledSprite), ent.Comp.OriginalDrawDepth.Value);
+        ent.Comp.OriginalDrawDepth = null;
     }
 
     private void OnAppearanceChange(EntityUid uid, BuckleComponent component, ref AppearanceChangeEvent args)
