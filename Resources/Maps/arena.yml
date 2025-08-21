@@ -15136,7 +15136,7 @@ entities:
   - uid: 654
     components:
     - type: MetaData
-      name: epistemics laboratory hallway APC
+      name: research laboratory hallway APC
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 11.5,-64.5
@@ -15454,7 +15454,7 @@ entities:
   - uid: 696
     components:
     - type: MetaData
-      name: mystagogue office APC
+      name: research director office APC
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 22.5,-66.5
@@ -15572,7 +15572,7 @@ entities:
   - uid: 711
     components:
     - type: MetaData
-      name: epistemics main APC
+      name: research main APC
     - type: Transform
       pos: 22.5,-53.5
       parent: 2
@@ -68305,7 +68305,7 @@ entities:
       pos: 22.5,-61.5
       parent: 2
     - type: FaxMachine
-      name: Epistemics
+      name: Research
   - uid: 10498
     components:
     - type: Transform
@@ -139344,7 +139344,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: Epistemics Anomaly Lab
+      id: Research Anomaly Lab
   - uid: 20932
     components:
     - type: Transform
@@ -139355,7 +139355,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: Epistemics Anomaly Testing
+      id: Research Anomaly Testing
   - uid: 20933
     components:
     - type: Transform
@@ -139377,7 +139377,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: Epistemics Gas Mixture Lab
+      id: Research Gas Mixture Lab
   - uid: 20935
     components:
     - type: Transform
@@ -139397,7 +139397,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: Epistemics Front Office
+      id: Research Front Office
   - uid: 20937
     components:
     - type: Transform
@@ -139408,7 +139408,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: Epistemics Asteroid Lab
+      id: Research Asteroid Lab
   - uid: 20938
     components:
     - type: Transform
@@ -139419,7 +139419,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: Epistemics Artifact Storage
+      id: Research Artifact Storage
   - uid: 20939
     components:
     - type: Transform
@@ -160807,14 +160807,14 @@ entities:
       pos: 20.5,-59.5
       parent: 2
     - type: WarpPoint
-      location: Epistemics
+      location: Research
   - uid: 24955
     components:
     - type: Transform
       pos: -2.5,-76.5
       parent: 2
     - type: WarpPoint
-      location: Epistemics Artifact Lab
+      location: Research Artifact Lab
   - uid: 24956
     components:
     - type: Transform

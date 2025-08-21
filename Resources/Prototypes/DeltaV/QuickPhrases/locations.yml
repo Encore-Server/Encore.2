@@ -14,8 +14,8 @@
   abstract: true
 
 - type: quickPhrase
-  parent: [ BaseEpistemicsPhrase, BaseLocationPhrase ]
-  id: BaseEpistemicsLocationPhrase
+  parent: [ BaseResearchPhrase, BaseLocationPhrase ]
+  id: BaseResearchLocationPhrase
   abstract: true
 
 - type: quickPhrase
@@ -201,45 +201,45 @@
   id: LocationTechVaultPhrase
   text: station-beacon-tech-vault
 
-# Epistemics
+# Research
 
 - type: quickPhrase
-  parent: BaseEpistemicsLocationPhrase
-  id: LocationEpistemicsPhrase
-  text: station-beacon-epistemics
+  parent: BaseResearchLocationPhrase
+  id: LocationResearchPhrase
+  text: station-beacon-research
 
 - type: quickPhrase
-  parent: BaseEpistemicsLocationPhrase
-  id: LocationMystagoguePhrase
-  text: station-beacon-mystagogue
+  parent: BaseResearchLocationPhrase
+  id: LocationResearchDirectorPhrase
+  text: station-beacon-research-director
 
 - type: quickPhrase
-  parent: BaseEpistemicsLocationPhrase
+  parent: BaseResearchLocationPhrase
   id: LocationMantisPhrase
   text: station-beacon-forensic-mantis
 
 - type: quickPhrase
-  parent: BaseEpistemicsLocationPhrase
+  parent: BaseResearchLocationPhrase
   id: LocationChapelPhrase
   text: station-beacon-chapel
 
 - type: quickPhrase
-  parent: BaseEpistemicsLocationPhrase
+  parent: BaseResearchLocationPhrase
   id: LocationRoboticsPhrase
   text: station-beacon-robotics
 
 - type: quickPhrase
-  parent: BaseEpistemicsLocationPhrase
+  parent: BaseResearchLocationPhrase
   id: LocationArtifactPhrase
   text: station-beacon-artifact-lab
 
 - type: quickPhrase
-  parent: BaseEpistemicsLocationPhrase
+  parent: BaseResearchLocationPhrase
   id: LocationAnomalyPhrase
   text: station-beacon-anomaly-gen
 
 - type: quickPhrase
-  parent: BaseEpistemicsLocationPhrase
+  parent: BaseResearchLocationPhrase
   id: LocationServerPhrase
   text: station-beacon-research-server
 

@@ -1,74 +1,74 @@
 #- type: characterItemGroup
-#  id: LoadoutAcolyteBackpacks
+#  id: LoadoutResearcherBackpacks
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteBelt
+#  id: LoadoutResearcherBelt
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteEars
+#  id: LoadoutResearcherEars
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutAcolyteEquipment
+  id: LoadoutResearcherEquipment
   maxItems: 3
   items:
     - type: loadout
-      id: LoadoutAcolyteEquipmentCandles
+      id: LoadoutResearcherEquipmentCandles
     - type: loadout
-      id: LoadoutAcolyteEquipmentCandlesSmall
+      id: LoadoutResearcherEquipmentCandlesSmall
     - type: loadout
-      id: LoadoutAcolytePillCanisterSpaceDrugs
+      id: LoadoutResearcherPillCanisterSpaceDrugs
 
 #- type: characterItemGroup
-#  id: LoadoutAcolyteEyes
+#  id: LoadoutResearcherEyes
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteGloves
+#  id: LoadoutResearcherGloves
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteHead
+#  id: LoadoutResearcherHead
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteId
+#  id: LoadoutResearcherId
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteNeck
+#  id: LoadoutResearcherNeck
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteMask
+#  id: LoadoutResearcherMask
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteOuter
+#  id: LoadoutResearcherOuter
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutAcolyteShoes
+#  id: LoadoutResearcherShoes
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutAcolyteUniforms
+  id: LoadoutResearcherUniforms
   maxItems: 1
   items:
     - type: loadout
-      id: LoadoutAcolyteUniformSuit
+      id: LoadoutResearcherUniformSuit
     - type: loadout
-      id: LoadoutAcolyteUniformSkirt
+      id: LoadoutResearcherUniformSkirt

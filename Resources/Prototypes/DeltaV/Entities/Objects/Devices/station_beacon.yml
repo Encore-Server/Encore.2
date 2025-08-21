@@ -48,7 +48,7 @@
   - type: NavMapBeacon
     text: station-beacon-psych
 
-#Epistemics
+#Research
 - type: entity
   parent: DefaultStationBeaconScience
   id: DefaultStationBeaconProber
@@ -159,7 +159,7 @@
   components:
   - type: NavMapBeacon
     text: station-beacon-prosecutor
-    
+
 - type: entity
   parent: DefaultStationBeaconJustice
   id: DefaultStationBeaconClerk

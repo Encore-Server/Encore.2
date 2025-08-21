@@ -1,75 +1,75 @@
-# Noviciate
+# Research Assistant
 #- type: characterItemGroup
-#  id: LoadoutNoviciateBackpacks
+#  id: LoadoutResearchAssistantBackpacks
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateBelt
+#  id: LoadoutResearchAssistantBelt
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateEars
+#  id: LoadoutResearchAssistantEars
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutNoviciateEquipment
+  id: LoadoutResearchAssistantEquipment
   maxItems: 3
   items:
     - type: loadout
-      id: LoadoutNoviciateEquipmentCandles
+      id: LoadoutResearchAssistantEquipmentCandles
     - type: loadout
-      id: LoadoutNoviciateEquipmentCandlesSmall
+      id: LoadoutResearchAssistantEquipmentCandlesSmall
     - type: loadout
-      id: LoadoutNoviciatePillCanisterSpaceDrugs
+      id: LoadoutResearchAssistantPillCanisterSpaceDrugs
 
 #- type: characterItemGroup
-#  id: LoadoutNoviciateEyes
+#  id: LoadoutResearchAssistantEyes
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateGloves
+#  id: LoadoutResearchAssistantGloves
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateHead
+#  id: LoadoutResearchAssistantHead
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateId
+#  id: LoadoutResearchAssistantId
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateNeck
+#  id: LoadoutResearchAssistantNeck
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateMask
+#  id: LoadoutResearchAssistantMask
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateOuter
+#  id: LoadoutResearchAssistantOuter
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutNoviciateShoes
+#  id: LoadoutResearchAssistantShoes
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutNoviciateUniforms
+  id: LoadoutResearchAssistantUniforms
   maxItems: 1
   items:
     - type: loadout
-      id: LoadoutNoviciateUniformSuit
+      id: LoadoutResearchAssistantUniformSuit
     - type: loadout
-      id: LoadoutNoviciateUniformSkirt
+      id: LoadoutResearchAssistantUniformSkirt

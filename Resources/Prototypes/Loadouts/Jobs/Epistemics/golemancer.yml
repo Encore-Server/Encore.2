@@ -1,8 +1,8 @@
-# Golemancer
+# Biologist
 # Backpacks
 - type: loadout
   id: LoadoutBackpackRobotics
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   exclusive: true
   items:
@@ -16,7 +16,7 @@
 
 - type: loadout
   id: LoadoutBackpackSatchelRobotics
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   exclusive: true
   items:
@@ -46,7 +46,7 @@
 # Belt
 - type: loadout
   id: LoadoutGolemancerBeltUtility
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 3
   exclusive: true
   requirements:
@@ -63,7 +63,7 @@
 # Equipment
 - type: loadout
   id: LoadoutGolemancerEquipmentCandles
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -76,7 +76,7 @@
 
 - type: loadout
   id: LoadoutGolemancerEquipmentCandlesSmall
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -89,7 +89,7 @@
 
 - type: loadout
   id: LoadoutGolemancerPillCanisterSpaceDrugs
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 1
   guideEntry: Psionics
   requirements:
@@ -116,7 +116,7 @@
 # Outer
 - type: loadout
   id: LoadoutScienceUniformWinterCoatRoboticist
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   requirements:
   - !type:CharacterItemGroupRequirement
@@ -131,7 +131,7 @@
 # Uniforms
 - type: loadout
   id: LoadoutScienceUniformJumpskirtRoboticist
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   exclusive: true
   requirements:
@@ -145,7 +145,7 @@
 
 - type: loadout
   id: LoadoutScienceUniformJumpsuitRoboticist
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   exclusive: true
   requirements:
@@ -159,7 +159,7 @@
 
 - type: loadout
   id: LoadoutScienceUniformJumpsuitRoboticistNT
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   exclusive: true
   guideEntry: NanoTrasen
@@ -177,7 +177,7 @@
 
 - type: loadout
   id: LoadoutScienceUniformJumpsuitRoboticistHeph
-  category: JobsEpistemicsGolemancer
+  category: JobsResearchGolemancer
   cost: 0
   exclusive: true
   guideEntry: HephaestusIndustries

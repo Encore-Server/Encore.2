@@ -12187,7 +12187,7 @@ entities:
   - uid: 484
     components:
     - type: MetaData
-      name: Mystagogue's Office
+      name: Research Director's Office
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -15.5,-16.5
@@ -12195,7 +12195,7 @@ entities:
   - uid: 485
     components:
     - type: MetaData
-      name: Mystagogue's Office
+      name: Research Director's Office
     - type: Transform
       pos: -16.5,-18.5
       parent: 2
@@ -12204,7 +12204,7 @@ entities:
   - uid: 486
     components:
     - type: MetaData
-      name: Mystagogue's Bedroom
+      name: Research Director's Bedroom
     - type: Transform
       pos: -11.5,-18.5
       parent: 2
@@ -12268,14 +12268,14 @@ entities:
   - uid: 494
     components:
     - type: MetaData
-      name: Epistemics
+      name: Research
     - type: Transform
       pos: -21.5,-13.5
       parent: 2
   - uid: 495
     components:
     - type: MetaData
-      name: Epistemics
+      name: Research
     - type: Transform
       pos: -21.5,-14.5
       parent: 2
@@ -12313,21 +12313,21 @@ entities:
   - uid: 500
     components:
     - type: MetaData
-      name: Epistemics
+      name: Research
     - type: Transform
       pos: -19.5,-1.5
       parent: 2
   - uid: 501
     components:
     - type: MetaData
-      name: Epistemics Lockers
+      name: Research Lockers
     - type: Transform
       pos: -5.5,-15.5
       parent: 2
   - uid: 502
     components:
     - type: MetaData
-      name: Epistemics Breakroom
+      name: Research Breakroom
     - type: Transform
       pos: -5.5,-4.5
       parent: 2
@@ -12342,7 +12342,7 @@ entities:
   - uid: 504
     components:
     - type: MetaData
-      name: Epistemics Lockers
+      name: Research Lockers
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -11.5,-15.5
@@ -13017,7 +13017,7 @@ entities:
   - uid: 601
     components:
     - type: MetaData
-      name: Epistemics APC
+      name: Research APC
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -17.5,-3.5
@@ -55156,7 +55156,7 @@ entities:
       pos: -19.5,-8.5
       parent: 2
     - type: FaxMachine
-      name: Epistemics
+      name: Research
   - uid: 8337
     components:
     - type: Transform
@@ -94758,7 +94758,7 @@ entities:
   - uid: 13925
     components:
     - type: MetaData
-      name: Epistemics
+      name: Research
     - type: Transform
       pos: -9.5,-8.5
       parent: 2
@@ -119238,7 +119238,7 @@ entities:
   - uid: 17972
     components:
     - type: MetaData
-      name: epistemics substation
+      name: research substation
     - type: Transform
       pos: -7.5,-18.5
       parent: 2
@@ -120443,7 +120443,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: Epistemics
+      id: Research
   - uid: 18131
     components:
     - type: Transform
@@ -141072,7 +141072,7 @@ entities:
   - uid: 21948
     components:
     - type: MetaData
-      name: Epistemics
+      name: Research
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -22.5,-7.5

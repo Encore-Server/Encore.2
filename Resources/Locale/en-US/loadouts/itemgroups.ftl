@@ -191,37 +191,37 @@ character-item-group-LoadoutTechnicalAssistantOuter = Technical Assistant Outerw
 character-item-group-LoadoutTechnicalAssistantShoes = Technical Assistant Shoes
 character-item-group-LoadoutTechnicalAssistantUniforms = Technical Assistant Uniforms
 
-# Epistemics
-character-item-group-LoadoutEpistemicsBackpacks = Epistemics Backpacks
-character-item-group-LoadoutEpistemicsBelt = Epistemics Belt
-character-item-group-LoadoutEpistemicsEars = Epistemics Ears
-character-item-group-LoadoutEpistemicsEquipment = Epistemics Equipment
-character-item-group-LoadoutEpistemicsEyes = Epistemics Eyewear
-character-item-group-LoadoutEpistemicsGloves = Epistemics Gloves
-character-item-group-LoadoutEpistemicsHead = Epistemics Headgear
-character-item-group-LoadoutEpistemicsId = Epistemics Id
-character-item-group-LoadoutEpistemicsNeck = Epistemics Neckwear
-character-item-group-LoadoutEpistemicsMask = Epistemics Masks
-character-item-group-LoadoutEpistemicsOuter = Epistemics Outerwear
-character-item-group-LoadoutEpistemicsShoes = Epistemics Shoes
-character-item-group-LoadoutEpistemicsUniforms = Epistemics Uniforms
+# Research
+character-item-group-LoadoutResearchBackpacks = Research Backpacks
+character-item-group-LoadoutResearchBelt = Research Belt
+character-item-group-LoadoutResearchEars = Research Ears
+character-item-group-LoadoutResearchEquipment = Research Equipment
+character-item-group-LoadoutResearchEyes = Research Eyewear
+character-item-group-LoadoutResearchGloves = Research Gloves
+character-item-group-LoadoutResearchHead = Research Headgear
+character-item-group-LoadoutResearchId = Research Id
+character-item-group-LoadoutResearchNeck = Research Neckwear
+character-item-group-LoadoutResearchMask = Research Masks
+character-item-group-LoadoutResearchOuter = Research Outerwear
+character-item-group-LoadoutResearchShoes = Research Shoes
+character-item-group-LoadoutResearchUniforms = Research Uniforms
 
-# Epistemics - Acolyte
-character-item-group-LoadoutAcolyteBackpacks = Acolyte Backpacks
-character-item-group-LoadoutAcolyteBelt = Acolyte Belt
-character-item-group-LoadoutAcolyteEars = Acolyte Ears
-character-item-group-LoadoutAcolyteEquipment = Acolyte Equipment
-character-item-group-LoadoutAcolyteEyes = Acolyte Eyewear
-character-item-group-LoadoutAcolyteGloves = Acolyte Gloves
-character-item-group-LoadoutAcolyteHead = Acolyte Headgear
-character-item-group-LoadoutAcolyteId = Acolyte Id
-character-item-group-LoadoutAcolyteNeck = Acolyte Neckwear
-character-item-group-LoadoutAcolyteMask = Acolyte Masks
-character-item-group-LoadoutAcolyteOuter = Acolyte Outerwear
-character-item-group-LoadoutAcolyteShoes = Acolyte Shoes
-character-item-group-LoadoutAcolyteUniforms = Acolyte Uniforms
+# Research - Researcher
+character-item-group-LoadoutResearcherBackpacks = Researcher Backpacks
+character-item-group-LoadoutResearcherBelt = Researcher Belt
+character-item-group-LoadoutResearcherEars = Researcher Ears
+character-item-group-LoadoutResearcherEquipment = Researcher Equipment
+character-item-group-LoadoutResearcherEyes = Researcher Eyewear
+character-item-group-LoadoutResearcherGloves = Researcher Gloves
+character-item-group-LoadoutResearcherHead = Researcher Headgear
+character-item-group-LoadoutResearcherId = Researcher Id
+character-item-group-LoadoutResearcherNeck = Researcher Neckwear
+character-item-group-LoadoutResearcherMask = Researcher Masks
+character-item-group-LoadoutResearcherOuter = Researcher Outerwear
+character-item-group-LoadoutResearcherShoes = Researcher Shoes
+character-item-group-LoadoutResearcherUniforms = Researcher Uniforms
 
-# Epistemics - Cataloger
+# Research - Cataloger
 character-item-group-LoadoutCatalogerBackpacks = Cataloger Backpacks
 character-item-group-LoadoutCatalogerBelt = Cataloger Belt
 character-item-group-LoadoutCatalogerEars = Cataloger Ears
@@ -236,7 +236,7 @@ character-item-group-LoadoutCatalogerOuter = Cataloger Outerwear
 character-item-group-LoadoutCatalogerShoes = Cataloger Shoes
 character-item-group-LoadoutCatalogerUniforms = Cataloger Uniforms
 
-# Epistemics - Chaplain
+# Research - Chaplain
 character-item-group-LoadoutChaplainBackpacks = Chaplain Backpacks
 character-item-group-LoadoutChaplainBelt = Chaplain Belt
 character-item-group-LoadoutChaplainEars = Chaplain Ears
@@ -251,67 +251,67 @@ character-item-group-LoadoutChaplainOuter = Chaplain Outerwear
 character-item-group-LoadoutChaplainShoes = Chaplain Shoes
 character-item-group-LoadoutChaplainUniforms = Chaplain Uniforms
 
-# Epistemics - Golemancer
-character-item-group-LoadoutGolemancerBackpacks = Golemancer Backpacks
-character-item-group-LoadoutGolemancerBelt = Golemancer Belt
-character-item-group-LoadoutGolemancerEars = Golemancer Ears
-character-item-group-LoadoutGolemancerEquipment = Golemancer Equipment
-character-item-group-LoadoutGolemancerEyes = Golemancer Eyewear
-character-item-group-LoadoutGolemancerGloves = Golemancer Gloves
-character-item-group-LoadoutGolemancerHead = Golemancer Headgear
-character-item-group-LoadoutGolemancerId = Golemancer Id
-character-item-group-LoadoutGolemancerNeck = Golemancer Neckwear
-character-item-group-LoadoutGolemancerMask = Golemancer Masks
-character-item-group-LoadoutGolemancerOuter = Golemancer Outerwear
-character-item-group-LoadoutGolemancerShoes = Golemancer Shoes
-character-item-group-LoadoutGolemancerUniforms = Golemancer Uniforms
+# Research - Biologist
+character-item-group-LoadoutBiologistBackpacks = Biologist Backpacks
+character-item-group-LoadoutBiologistBelt = Biologist Belt
+character-item-group-LoadoutBiologistEars = Biologist Ears
+character-item-group-LoadoutBiologistEquipment = Biologist Equipment
+character-item-group-LoadoutBiologistEyes = Biologist Eyewear
+character-item-group-LoadoutBiologistGloves = Biologist Gloves
+character-item-group-LoadoutBiologistHead = Biologist Headgear
+character-item-group-LoadoutBiologistId = Biologist Id
+character-item-group-LoadoutBiologistNeck = Biologist Neckwear
+character-item-group-LoadoutBiologistMask = Biologist Masks
+character-item-group-LoadoutBiologistOuter = Biologist Outerwear
+character-item-group-LoadoutBiologistShoes = Biologist Shoes
+character-item-group-LoadoutBiologistUniforms = Biologist Uniforms
 
-# Epistemics - Mystagogue
-character-item-group-LoadoutMystagogueBackpacks = Mystagogue Backpacks
-character-item-group-LoadoutMystagogueBelt = Mystagogue Belt
-character-item-group-LoadoutMystagogueEars = Mystagogue Ears
-character-item-group-LoadoutMystagogueEquipment = Mystagogue Equipment
-character-item-group-LoadoutMystagogueEyes = Mystagogue Eyewear
-character-item-group-LoadoutMystagogueGloves = Mystagogue Gloves
-character-item-group-LoadoutMystagogueHead = Mystagogue Headgear
-character-item-group-LoadoutMystagogueId = Mystagogue Id
-character-item-group-LoadoutMystagogueNeck = Mystagogue Neckwear
-character-item-group-LoadoutMystagogueMask = Mystagogue Masks
-character-item-group-LoadoutMystagogueOuter = Mystagogue Outerwear
-character-item-group-LoadoutMystagogueShoes = Mystagogue Shoes
-character-item-group-LoadoutMystagogueUniforms = Mystagogue Uniforms
+# Research - Research Director
+character-item-group-LoadoutResearchDirectorBackpacks = Research Director Backpacks
+character-item-group-LoadoutResearchDirectorBelt = Research Director Belt
+character-item-group-LoadoutResearchDirectorEars = Research Director Ears
+character-item-group-LoadoutResearchDirectorEquipment = Research Director Equipment
+character-item-group-LoadoutResearchDirectorEyes = Research Director Eyewear
+character-item-group-LoadoutResearchDirectorGloves = Research Director Gloves
+character-item-group-LoadoutResearchDirectorHead = Research Director Headgear
+character-item-group-LoadoutResearchDirectorId = Research Director Id
+character-item-group-LoadoutResearchDirectorNeck = Research Director Neckwear
+character-item-group-LoadoutResearchDirectorMask = Research Director Masks
+character-item-group-LoadoutResearchDirectorOuter = Research Director Outerwear
+character-item-group-LoadoutResearchDirectorShoes = Research Director Shoes
+character-item-group-LoadoutResearchDirectorUniforms = Research Director Uniforms
 
-# Epistemics - Mystic
-character-item-group-LoadoutMysticBackpacks = Mystic Backpacks
-character-item-group-LoadoutMysticBelt = Mystic Belt
-character-item-group-LoadoutMysticEars = Mystic Ears
-character-item-group-LoadoutMysticEquipment = Mystic Equipment
-character-item-group-LoadoutMysticEyes = Mystic Eyewear
-character-item-group-LoadoutMysticGloves = Mystic Gloves
-character-item-group-LoadoutMysticHead = Mystic Headgear
-character-item-group-LoadoutMysticId = Mystic Id
-character-item-group-LoadoutMysticNeck = Mystic Neckwear
-character-item-group-LoadoutMysticMask = Mystic Masks
-character-item-group-LoadoutMysticOuter = Mystic Outerwear
-character-item-group-LoadoutMysticShoes = Mystic Shoes
-character-item-group-LoadoutMysticUniforms = Mystic Uniforms
+# Research - Psycom
+character-item-group-LoadoutPsycomBackpacks = Psycom Backpacks
+character-item-group-LoadoutPsycomBelt = Psycom Belt
+character-item-group-LoadoutPsycomEars = Psycom Ears
+character-item-group-LoadoutPsycomEquipment = Psycom Equipment
+character-item-group-LoadoutPsycomEyes = Psycom Eyewear
+character-item-group-LoadoutPsycomGloves = Psycom Gloves
+character-item-group-LoadoutPsycomHead = Psycom Headgear
+character-item-group-LoadoutPsycomId = Psycom Id
+character-item-group-LoadoutPsycomNeck = Psycom Neckwear
+character-item-group-LoadoutPsycomMask = Psycom Masks
+character-item-group-LoadoutPsycomOuter = Psycom Outerwear
+character-item-group-LoadoutPsycomShoes = Psycom Shoes
+character-item-group-LoadoutPsycomUniforms = Psycom Uniforms
 
-# Epistemics - Noviciate
-character-item-group-LoadoutNoviciateBackpacks = Noviciate Backpacks
-character-item-group-LoadoutNoviciateBelt = Noviciate Belt
-character-item-group-LoadoutNoviciateEars = Noviciate Ears
-character-item-group-LoadoutNoviciateEquipment = Noviciate Equipment
-character-item-group-LoadoutNoviciateEyes = Noviciate Eyewear
-character-item-group-LoadoutNoviciateGloves = Noviciate Gloves
-character-item-group-LoadoutNoviciateHead = Noviciate Headgear
-character-item-group-LoadoutNoviciateId = Noviciate Id
-character-item-group-LoadoutNoviciateNeck = Noviciate Neckwear
-character-item-group-LoadoutNoviciateMask = Noviciate Masks
-character-item-group-LoadoutNoviciateOuter = Noviciate Outerwear
-character-item-group-LoadoutNoviciateShoes = Noviciate Shoes
-character-item-group-LoadoutNoviciateUniforms = Noviciate Uniforms
+# Research - Research Assistant
+character-item-group-LoadoutResearchAssistantBackpacks = Research Assistant Backpacks
+character-item-group-LoadoutResearchAssistantBelt = Research Assistant Belt
+character-item-group-LoadoutResearchAssistantEars = Research Assistant Ears
+character-item-group-LoadoutResearchAssistantEquipment = Research Assistant Equipment
+character-item-group-LoadoutResearchAssistantEyes = Research Assistant Eyewear
+character-item-group-LoadoutResearchAssistantGloves = Research Assistant Gloves
+character-item-group-LoadoutResearchAssistantHead = Research Assistant Headgear
+character-item-group-LoadoutResearchAssistantId = Research Assistant Id
+character-item-group-LoadoutResearchAssistantNeck = Research Assistant Neckwear
+character-item-group-LoadoutResearchAssistantMask = Research Assistant Masks
+character-item-group-LoadoutResearchAssistantOuter = Research Assistant Outerwear
+character-item-group-LoadoutResearchAssistantShoes = Research Assistant Shoes
+character-item-group-LoadoutResearchAssistantUniforms = Research Assistant Uniforms
 
-# Epistemics - Psionic Mantis
+# Research - Psionic Mantis
 character-item-group-LoadoutPsionicMantisBackpacks = Psionic Mantis Backpacks
 character-item-group-LoadoutPsionicMantisBelt = Psionic Mantis Belt
 character-item-group-LoadoutPsionicMantisEars = Psionic Mantis Ears

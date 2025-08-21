@@ -1,5 +1,4 @@
-station-beacon-epistemics = Epistemics
-station-beacon-mystagogue = Mystagogue
+station-beacon-research = Research
 
 station-beacon-logistics = Logistics
 station-beacon-logistics-reception = Logistics

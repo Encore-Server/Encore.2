@@ -8,7 +8,7 @@
 # Equipment
 - type: loadout
   id: LoadoutPsionicMantisEquipmentCandles
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -21,7 +21,7 @@
 
 - type: loadout
   id: LoadoutPsionicMantisEquipmentCandlesSmall
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -34,7 +34,7 @@
 
 - type: loadout
   id: LoadoutPsionicMantisPillCanisterSpaceDrugs
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 0
   guideEntry: Psionics
   requirements:
@@ -48,7 +48,7 @@
 
 - type: loadout
   id: LoadoutPsionicMantisPillCanisterCryptobiolin
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 0
   guideEntry: PsionicInsulation
   requirements:
@@ -63,7 +63,7 @@
 # Eyes
 - type: loadout
   id: LoadoutPsionicMantisEyesEpiHUD
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 0
   exclusive: true
   requirements:
@@ -73,11 +73,11 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingEyesHudEpistemics
+    - ClothingEyesHudResearch
 
 - type: loadout
   id: LoadoutPsionicMantisEyesEpiGlasses
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 3
   exclusive: true
   requirements:
@@ -87,7 +87,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingEyesGlassesEpistemics
+    - ClothingEyesGlassesResearch
 
 
 # Gloves
@@ -103,7 +103,7 @@
 # Outer
 - type: loadout
   id: LoadoutScienceOuterWinterCoatMantis
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 0
   exclusive: true
   requirements:
@@ -121,7 +121,7 @@
 # Uniforms
 - type: loadout
   id: LoadoutPsionicMantisUniformSuit
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 0
   exclusive: true
   requirements:
@@ -135,7 +135,7 @@
 
 - type: loadout
   id: LoadoutPsionicMantisUniformSkirt
-  category: JobsEpistemicsPsionicMantis
+  category: JobsResearchPsionicMantis
   cost: 0
   exclusive: true
   requirements:

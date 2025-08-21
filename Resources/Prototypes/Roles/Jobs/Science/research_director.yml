@@ -72,7 +72,7 @@
     id: RnDPDA
     ears: ClothingHeadsetAltScience
     pocket1: BookPsionicsGuidebook
-    pocket2: BibleMystagogue
+    pocket2: BibleResearchDirector
   storage:
     back:
     - Flash

@@ -1,4 +1,4 @@
-# Mystagogue
+# Research Director
 # Backpacks
 
 # Belt
@@ -7,12 +7,12 @@
 
 # Equipment
 - type: loadout
-  id: LoadoutMystagogueEquipmentCandles
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorEquipmentCandles
+  category: JobsResearchResearchDirector
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueEquipment
+      group: LoadoutResearchDirectorEquipment
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -20,12 +20,12 @@
     - BoxCandle
 
 - type: loadout
-  id: LoadoutMystagogueEquipmentCandlesSmall
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorEquipmentCandlesSmall
+  category: JobsResearchResearchDirector
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueEquipment
+      group: LoadoutResearchDirectorEquipment
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -33,13 +33,13 @@
     - BoxCandleSmall
 
 - type: loadout
-  id: LoadoutMystagoguePillCanisterSpaceDrugs
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorPillCanisterSpaceDrugs
+  category: JobsResearchResearchDirector
   cost: 0
   guideEntry: Psionics
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueEquipment
+      group: LoadoutResearchDirectorEquipment
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -48,44 +48,44 @@
 
 # Eyes
 - type: loadout
-  id: LoadoutMystagogueEyesEpiHUD
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorEyesEpiHUD
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueEquipment
+      group: LoadoutResearchDirectorEquipment
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
   items:
-    - ClothingEyesHudEpistemics
+    - ClothingEyesHudResearch
 
 - type: loadout
-  id: LoadoutMystagogueEyesEpiGlasses
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorEyesEpiGlasses
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueEquipment
+      group: LoadoutResearchDirectorEquipment
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
   items:
-    - ClothingEyesGlassesEpistemics
+    - ClothingEyesGlassesResearch
 
 # Gloves
 
 # Head
 - type: loadout
   id: LoadoutCommandRDHeadHatBeretMysta
-  category: JobsEpistemicsMystagogue
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueHead
+      group: LoadoutResearchDirectorHead
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -94,12 +94,12 @@
 
 - type: loadout
   id: LoadoutCommandRDHeadHoodMysta
-  category: JobsEpistemicsMystagogue
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueHead
+      group: LoadoutResearchDirectorHead
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -108,8 +108,8 @@
 
 # Id
 - type: loadout
-  id: LoadoutMystagogueNTPDA
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorNTPDA
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
@@ -117,7 +117,7 @@
       tracker: JobResearchDirector
       min: 36000 # 10 hours
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueId
+      group: LoadoutResearchDirectorId
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -127,12 +127,12 @@
 # Neck
 - type: loadout
   id: LoadoutCommandRDNeckMantle
-  category: JobsEpistemicsMystagogue
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueNeck
+      group: LoadoutResearchDirectorNeck
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -141,12 +141,12 @@
 
 - type: loadout
   id: LoadoutCommandRDNeckCloak
-  category: JobsEpistemicsMystagogue
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueNeck
+      group: LoadoutResearchDirectorNeck
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -154,27 +154,27 @@
     - ClothingNeckCloakRd
 
 - type: loadout
-  id: LoadoutCommandRDNeckCloakMystagogue
-  category: JobsEpistemicsMystagogue
+  id: LoadoutCommandRDNeckCloakResearchDirector
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueNeck
+      group: LoadoutResearchDirectorNeck
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
   items:
-    - ClothingNeckCloakMystagogue
+    - ClothingNeckCloakResearchDirector
 
 - type: loadout
-  id: LoadoutMystagogueNeckSciencemedal
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorNeckSciencemedal
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueNeck
+      group: LoadoutResearchDirectorNeck
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -186,11 +186,11 @@
 # Outer
 - type: loadout
   id: LoadoutCommandRDOuterWinter
-  category: JobsEpistemicsMystagogue
+  category: JobsResearchResearchDirector
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueOuter
+      group: LoadoutResearchDirectorOuter
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -199,11 +199,11 @@
 
 - type: loadout
   id: LoadoutCommandRDOuterMysta
-  category: JobsEpistemicsMystagogue
+  category: JobsResearchResearchDirector
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueOuter
+      group: LoadoutResearchDirectorOuter
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -213,27 +213,27 @@
 # Shoes
 - type: loadout
   id: LoadoutCommandRDShoesBootsWinter
-  category: JobsEpistemicsMystagogue
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueShoes
+      group: LoadoutResearchDirectorShoes
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
   items:
-    - ClothingShoesBootsWinterMystagogue
+    - ClothingShoesBootsWinterResearchDirector
 
 # Uniforms
 - type: loadout
-  id: LoadoutMystagogueUniformJumpsuit
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorUniformJumpsuit
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueUniforms
+      group: LoadoutResearchDirectorUniforms
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector
@@ -241,13 +241,13 @@
     - ClothingUniformJumpsuitResearchDirector
 
 - type: loadout
-  id: LoadoutMystagogueUniformJumpskirt
-  category: JobsEpistemicsMystagogue
+  id: LoadoutResearchDirectorUniformJumpskirt
+  category: JobsResearchResearchDirector
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMystagogueUniforms
+      group: LoadoutResearchDirectorUniforms
     - !type:CharacterJobRequirement
       jobs:
         - ResearchDirector

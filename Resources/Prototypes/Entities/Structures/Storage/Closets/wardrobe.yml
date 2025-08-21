@@ -221,7 +221,7 @@
 - type: entity
   id: WardrobeScience
   parent: WardrobeWhite
-  name: epistemics wardrobe # DeltaV - Epistemics Department replacing Science
+  name: research wardrobe # DeltaV - Research Department replacing Science
 
 - type: entity
   id: WardrobeBotanist

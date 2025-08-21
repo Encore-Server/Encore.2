@@ -14,7 +14,7 @@ warp-point-court = Courtroom
 warp-point-medical = Medical
 warp-point-morgue = Morgue
 
-warp-point-epistemics = Epistemics
+warp-point-research = Research
 
 warp-point-logistics = Logistics
 warp-point-salvage = Salvage

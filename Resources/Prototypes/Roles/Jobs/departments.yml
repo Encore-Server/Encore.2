@@ -135,8 +135,8 @@
   - Brigmedic
 
 - type: department
-  id: Epistemics
-  name: department-Epistemics
+  id: Research
+  name: department-Research
   description: department-Science-description
   color: "#D381C9"
   roles:

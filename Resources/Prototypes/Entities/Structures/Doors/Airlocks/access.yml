@@ -29,7 +29,7 @@
       board: [ DoorElectronicsTheatre ]
 
 - type: entity
-  parent: AirlockScience # DeltaV - Chapel is in Epistemics
+  parent: AirlockScience # DeltaV - Chapel is in Research
   id: AirlockChapelLocked
   suffix: Chapel, Locked
   components:
@@ -257,7 +257,7 @@
 - type: entity
   parent: AirlockScience
   id: AirlockScienceLocked
-  suffix: Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Research, Locked # DeltaV - Research Department replacing Science
   components:
   - type: ContainerFill
     containers:
@@ -266,7 +266,7 @@
 - type: entity
   parent: AirlockScience
   id: AirlockMedicalScienceLocked
-  suffix: Medical/Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Medical/Research, Locked # DeltaV - Research Department replacing Science
   components:
   - type: ContainerFill
     containers:
@@ -550,7 +550,7 @@
       board: [ DoorElectronicsHydroponics ]
 
 - type: entity
-  parent: AirlockScienceGlass  # DeltaV - Chapel is in Epistemics
+  parent: AirlockScienceGlass  # DeltaV - Chapel is in Research
   id: AirlockChapelGlassLocked
   suffix: Chapel, Locked
   components:
@@ -641,7 +641,7 @@
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockScienceGlassLocked
-  suffix: Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Research, Locked # DeltaV - Research Department replacing Science
   components:
   - type: ContainerFill
     containers:
@@ -650,7 +650,7 @@
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockMedicalScienceGlassLocked
-  suffix: Medical/Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Medical/Research, Locked # DeltaV - Research Department replacing Science
   components:
   - type: ContainerFill
     containers:
@@ -997,7 +997,7 @@
 - type: entity
   parent: AirlockMaint
   id: AirlockMaintRnDLocked
-  suffix: Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Research, Locked # DeltaV - Research Department replacing Science
   components:
   - type: ContainerFill
     containers:
@@ -1008,7 +1008,7 @@
 - type: entity
   parent: AirlockMaintRnDLocked
   id: AirlockMaintRnDMedLocked
-  suffix: Medical/Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Medical/Research, Locked # DeltaV - Research Department replacing Science
   components:
   - type: ContainerFill
     containers:

@@ -50,22 +50,22 @@
   - type: Label
     currentLabel: holodpad-logistics-mailfront
 
-#Epistemics
+#Research
 - type: entity
   parent: Holopad
-  id: HolopadEpistemicsMantis
+  id: HolopadResearchMantis
   suffix: Mantis
   components:
   - type: Label
-    currentLabel: holopad-epistemics-mantis
+    currentLabel: holopad-research-mantis
 
 - type: entity
   parent: Holopad
-  id: HolopadEpistemicsOracle
+  id: HolopadResearchOracle
   suffix: Oracle
   components:
   - type: Label
-    currentLabel: holopad-epistemics-oracle
+    currentLabel: holopad-research-oracle
 
 #Security
 - type: entity

@@ -306,9 +306,9 @@ trait-description-WeaponsGeneralist =
     You are a jack of all trades with melee weapons, enabling you to be versatile with your weapon arsenal.
     Your melee damage bonus for all Brute damage types (Blunt, Slash, Piercing) becomes 30%.
 
-trait-name-Mystic = Mystic
-trait-description-Mystic =
-    You are trained in Mysticism instead of melee combat, reducing your melee capabilities but drastically increasing your psionic potential.
+trait-name-Psycom = Psycom
+trait-description-Psycom =
+    You are trained in Psionics instead of melee combat, reducing your melee capabilities but drastically increasing your psionic potential.
     Your melee damage bonus for all Brute damage types (Blunt, Slash, Piercing) becomes 10%, but your Potentia gain is drastically increased.
 
 trait-name-Singer = Singer

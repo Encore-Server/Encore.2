@@ -5651,28 +5651,28 @@ entities:
   - uid: 262
     components:
     - type: MetaData
-      name: epistemics front
+      name: research front
     - type: Transform
       pos: -34.5,-12.5
       parent: 2
   - uid: 263
     components:
     - type: MetaData
-      name: epistemics front
+      name: research front
     - type: Transform
       pos: -30.5,-18.5
       parent: 2
   - uid: 264
     components:
     - type: MetaData
-      name: epistemics
+      name: research
     - type: Transform
       pos: -28.5,-12.5
       parent: 2
   - uid: 265
     components:
     - type: MetaData
-      name: epistemics
+      name: research
     - type: Transform
       pos: -31.5,-2.5
       parent: 2
@@ -29657,7 +29657,7 @@ entities:
     - type: Transform
       pos: -18.673035,-16.724771
       parent: 2
-- proto: ClothingNeckMantleMystagogue
+- proto: ClothingNeckMantleResearchDirector
   entities:
   - uid: 4854
     components:
@@ -35715,7 +35715,7 @@ entities:
       pos: -35.5,-4.5
       parent: 2
     - type: FaxMachine
-      name: Epi, Mystagogue
+      name: Epi, Research Director
   - uid: 5769
     components:
     - type: Transform

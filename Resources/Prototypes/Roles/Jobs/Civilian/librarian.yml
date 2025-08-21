@@ -5,7 +5,7 @@
   playTimeTracker: JobLibrarian
   requirements:
   - !type:CharacterDepartmentTimeRequirement
-    department: Epistemics
+    department: Research
     min: 14400
   - !type:CharacterLogicOrRequirement
     requirements:

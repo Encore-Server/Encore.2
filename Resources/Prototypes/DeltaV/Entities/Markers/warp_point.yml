@@ -98,14 +98,14 @@
   - type: WarpPoint
     location: Morgue
 
-#Epistemics
+#Research
 - type: entity
-  id: WarpPointEpistemics
+  id: WarpPointResearch
   parent: WarpPoint
-  suffix: Epistemics
+  suffix: Research
   components:
   - type: WarpPoint
-    location: Epistemics
+    location: Research
 
 #Logistics
 - type: entity

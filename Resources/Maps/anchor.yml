@@ -129279,7 +129279,7 @@ entities:
     - type: Transform
       pos: 56.5,-22.5
       parent: 2
-- proto: HolopadEpistemicsMantis
+- proto: HolopadResearchMantis
   entities:
   - uid: 30309
     components:

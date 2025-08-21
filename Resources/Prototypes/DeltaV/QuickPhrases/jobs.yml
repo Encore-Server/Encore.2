@@ -14,8 +14,8 @@
   abstract: true
 
 - type: quickPhrase
-  parent: [ BaseEpistemicsPhrase, BaseJobPhrase ]
-  id: BaseEpistemicsJobPhrase
+  parent: [ BaseResearchPhrase, BaseJobPhrase ]
+  id: BaseResearchJobPhrase
   abstract: true
 
 - type: quickPhrase
@@ -74,7 +74,7 @@
 
 - type: quickPhrase
   parent: BaseCommandJobPhrase
-  id: StationAIPhrase 
+  id: StationAIPhrase
   text: job-name-station-ai
 
 # Engineering
@@ -99,35 +99,35 @@
   id: TechAssistantPhrase
   text: job-name-technical-assistant
 
-# Epistemics
+# Research
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
-  id: MystagoguePhrase
+  parent: BaseResearchJobPhrase
+  id: ResearchDirectorPhrase
   text: job-name-rd
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: PsionicMantisPhrase
   text: job-name-mantis
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: ScientistPhrase
   text: job-name-scientist
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: ResearchAssistantPhrase
   text: job-name-research-assistant
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: RoboticistPhrase
   text: job-name-roboticist
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: BorgPhrase
   text: job-name-borg
 

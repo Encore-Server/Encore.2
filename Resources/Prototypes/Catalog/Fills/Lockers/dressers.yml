@@ -97,7 +97,7 @@
       - id: ClothingEyesGlasses
       - id: ClothingOuterWinterRD
       - id: ClothingOuterCoatRD
-      - id: ClothingNeckCloakMystagogue # DeltaV - ClothingNeckCloakRd replaced in favour of Velta variant
+      - id: ClothingNeckCloakResearchDirector # DeltaV - ClothingNeckCloakRd replaced in favour of Velta variant
 
 - type: entity
   id: DresserWardenFilled

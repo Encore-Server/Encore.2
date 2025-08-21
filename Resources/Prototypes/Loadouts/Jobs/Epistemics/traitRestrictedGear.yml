@@ -3,7 +3,7 @@
 # Hud
 - type: loadout
   id: LoadoutScienceRestrictedGearEyesHudDiagnostic
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 2
   exclusive: true
   requirements:
@@ -11,18 +11,18 @@
       traits:
         - RestrictedGear
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsEyes
+      group: LoadoutResearchEyes
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingEyesHudDiagnostic
 
 # Eyepatch
 - type: loadout
   id: LoadoutScienceRestrictedGearEyesEyepatchHudDiag
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 2
   exclusive: true
   requirements:
@@ -30,10 +30,10 @@
       traits:
         - RestrictedGear
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsEyes
+      group: LoadoutResearchEyes
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingEyesEyepatchHudDiag

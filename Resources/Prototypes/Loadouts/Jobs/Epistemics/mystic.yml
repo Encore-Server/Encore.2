@@ -1,4 +1,4 @@
-# Mystic
+# Psycom
 # Backpacks
 
 # Belt
@@ -7,12 +7,12 @@
 
 # Equipment
 - type: loadout
-  id: LoadoutMysticEquipmentCandles
-  category: JobsEpistemicsMystic
+  id: LoadoutResearchEquipmentCandles
+  category: JobsResearchResearch
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMysticEquipment
+      group: LoadoutResearchEquipment
     - !type:CharacterJobRequirement
       jobs:
         - SeniorResearcher
@@ -20,12 +20,12 @@
     - BoxCandle
 
 - type: loadout
-  id: LoadoutMysticEquipmentCandlesSmall
-  category: JobsEpistemicsMystic
+  id: LoadoutResearchEquipmentCandlesSmall
+  category: JobsResearchResearch
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMysticEquipment
+      group: LoadoutResearchEquipment
     - !type:CharacterJobRequirement
       jobs:
         - SeniorResearcher
@@ -33,13 +33,13 @@
     - BoxCandleSmall
 
 - type: loadout
-  id: LoadoutMysticPillCanisterSpaceDrugs
-  category: JobsEpistemicsMystic
+  id: LoadoutResearchPillCanisterSpaceDrugs
+  category: JobsResearchResearch
   cost: 0
   guideEntry: Psionics
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMysticEquipment
+      group: LoadoutResearchEquipment
     - !type:CharacterJobRequirement
       jobs:
         - SeniorResearcher
@@ -61,13 +61,13 @@
 # Outer
 - type: loadout
   id: LoadoutScienceOuterLabcoatSeniorResearcher
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   customColorTint: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMysticOuter
+      group: LoadoutResearchOuter
     - !type:CharacterJobRequirement
       jobs:
         - SeniorResearcher
@@ -79,12 +79,12 @@
 # Uniforms
 - type: loadout
   id: LoadoutScienceUniformJumpskirtSenior
-  category: JobsEpistemicsMystic
+  category: JobsResearchResearch
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMysticUniforms
+      group: LoadoutResearchUniforms
     - !type:CharacterJobRequirement
       jobs:
         - SeniorResearcher
@@ -93,12 +93,12 @@
 
 - type: loadout
   id: LoadoutScienceUniformJumpsuitSenior
-  category: JobsEpistemicsMystic
+  category: JobsResearchResearch
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMysticUniforms
+      group: LoadoutResearchUniforms
     - !type:CharacterJobRequirement
       jobs:
         - SeniorResearcher
