@@ -91,7 +91,7 @@
   abstract: true
 
 - type: decal
-  id: RoadDecalThinMidN
+  id: RoadDecalThinMidNoPassN
   parent: RoadDecalThinNoPass
   tags: ["station", "markings"]
   sprite:
@@ -99,7 +99,7 @@
     state: thin_nopass_n
 
 - type: decal
-  id: RoadDecalThinMidE
+  id: RoadDecalThinMidNoPassE
   parent: RoadDecalThinNoPass
   tags: ["station", "markings"]
   sprite:
@@ -141,18 +141,6 @@
   sprite:
     sprite: Decals/road.rsi
     state: thin_turn_w
-
-- type: decal
-  id: RoadDecalYield
-  abstract: true
-
-- type: decal
-  id: RoadDecalYield
-  parent: RoadDecalYield
-  tags: ["station", "markings"]
-  sprite:
-    sprite: Decals/road.rsi
-    state: yield
 
 - type: decal
   id: RoadDecalCrossWalk

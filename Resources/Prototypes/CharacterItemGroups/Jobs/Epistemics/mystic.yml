@@ -1,74 +1,74 @@
-# Mystic
+# Psycom
 #- type: characterItemGroup
-#  id: LoadoutMysticBackpacks
+#  id: LoadoutResearchBackpacks
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutMysticBelt
+#  id: LoadoutResearchBelt
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutMysticEars
+#  id: LoadoutResearchEars
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutMysticEquipment
+  id: LoadoutResearchEquipment
   maxItems: 3
   items:
     - type: loadout
-      id: LoadoutMysticEquipmentCandles
+      id: LoadoutResearchEquipmentCandles
     - type: loadout
-      id: LoadoutMysticEquipmentCandlesSmall
+      id: LoadoutResearchEquipmentCandlesSmall
     - type: loadout
-      id: LoadoutMysticPillCanisterSpaceDrugs
+      id: LoadoutResearchPillCanisterSpaceDrugs
 
 #- type: characterItemGroup
-#  id: LoadoutMysticEyes
+#  id: LoadoutResearchEyes
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutMysticGloves
+#  id: LoadoutResearchGloves
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutMysticHead
+#  id: LoadoutResearchHead
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutMysticId
+#  id: LoadoutResearchId
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutMysticNeck
+#  id: LoadoutResearchNeck
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutMysticMask
+#  id: LoadoutResearchMask
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutMysticOuter
+  id: LoadoutResearchOuter
   maxItems: 1
   items:
     - type: loadout
       id: LoadoutScienceOuterLabcoatSeniorResearcher
 
 #- type: characterItemGroup
-#  id: LoadoutMysticShoes
+#  id: LoadoutResearchShoes
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutMysticUniforms
+  id: LoadoutResearchUniforms
   maxItems: 1
   items:
     - type: loadout

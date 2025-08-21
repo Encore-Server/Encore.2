@@ -14551,7 +14551,7 @@ entities:
   - uid: 825
     components:
     - type: MetaData
-      name: mystagogue's APC
+      name: research director's APC
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 18.5,-38.5
@@ -120248,7 +120248,7 @@ entities:
   - uid: 18298
     components:
     - type: MetaData
-      name: Mystagogue's office
+      name: Research Director's office
     - type: Transform
       pos: 22.5,-36.5
       parent: 2
@@ -170361,7 +170361,7 @@ entities:
     - type: Transform
       pos: 52.5,3.5
       parent: 2
-- proto: WarpPointEpistemics
+- proto: WarpPointResearch
   entities:
   - uid: 26677
     components:

@@ -31,17 +31,17 @@ loadout-category-JobsEngineeringSeniorEngineer = Senior Engineer
 loadout-category-JobsEngineeringStationEngineer = Station Engineer
 loadout-category-JobsEngineeringTechnicalAssistant = Technical Assistant
 
-# Epistemics
-loadout-category-JobsEpistemics = Epistemics
-loadout-category-JobsEpistemicsAAUncategorized = All Epistemiologists
-loadout-category-JobsEpistemicsAcolyte = Acolyte
-loadout-category-JobsEpistemicsCataloger = Cataloger
-loadout-category-JobsEpistemicsChaplain = Chaplain
-loadout-category-JobsEpistemicsGolemancer = Golemancer
-loadout-category-JobsEpistemicsMystagogue = Mystagogue
-loadout-category-JobsEpistemicsMystic = Mystic
-loadout-category-JobsEpistemicsNoviciate = Noviciate
-loadout-category-JobsEpistemicsPsionicMantis = Psionic Mantis
+# Research
+loadout-category-JobsResearch = Research
+loadout-category-JobsResearchAAUncategorized = All Epistemiologists
+loadout-category-JobsResearchResearcher = Researcher
+loadout-category-JobsResearchCataloger = Cataloger
+loadout-category-JobsResearchChaplain = Chaplain
+loadout-category-JobsResearchGolemancer = Biologist
+loadout-category-JobsResearchResearchDirector = Research Director
+loadout-category-JobsResearchResearch = Psycom
+loadout-category-JobsResearchResearchAssistant = Research Assistant
+loadout-category-JobsResearchPsionicMantis = Psionic Mantis
 
 # Logistics
 loadout-category-JobsLogistics = Logistics

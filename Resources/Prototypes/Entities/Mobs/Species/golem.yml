@@ -385,7 +385,7 @@
 #   parent: MobGolemBase
 #   name: silver golem
 #   id: MobGolemSilver
-#   description: A fusion between soul and quantum machine, the epitome of epistemics.
+#   description: A fusion between soul and quantum machine, the epitome of research.
 #   components:
 #     - type: MovementSpeedModifier
 #       baseWalkSpeed: 4

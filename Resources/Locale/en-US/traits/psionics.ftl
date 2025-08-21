@@ -31,7 +31,7 @@ trait-name-PsychoHistorian = Psycho-Historian
 trait-description-PsychoHistorian =
     Psycho-Historians are a fairly common and well-studied branch of psionic users, whose powers are documented in the public domain
     as far back as the 1970s on Earth. Mythological accounts of such individuals can also be traced back thousands of years. Today,
-    Psycho-Historians make up the overwhelming bulk of the Epistemics Cult's awakened members. Your powers are generally regarded as "Safe", as they
+    Psycho-Historians make up the overwhelming bulk of the Research Cult's awakened members. Your powers are generally regarded as "Safe", as they
     exclusively interact from one mind to another without need of interacting with extra-planar forces. However, you will never be able
     to learn any powers known as "Kinesis".
 

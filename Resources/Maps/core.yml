@@ -103636,7 +103636,7 @@ entities:
     - type: Transform
       pos: 40.5,-65.5
       parent: 2
-- proto: HolopadEpistemicsMantis
+- proto: HolopadResearchMantis
   entities:
   - uid: 14988
     components:
@@ -124700,7 +124700,7 @@ entities:
       pos: 69.5,-29.5
       parent: 2
     - type: SurveillanceCamera
-      id: Mystagogue Prober and robotics console
+      id: Research Director Prober and robotics console
 - proto: SurveillanceCameraEngineering
   entities:
   - uid: 18133

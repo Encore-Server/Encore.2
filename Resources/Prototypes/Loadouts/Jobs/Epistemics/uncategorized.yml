@@ -2,45 +2,45 @@
 # Backpacks
 - type: loadout
   id: LoadoutBackpackScience
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   items:
     - ClothingBackpackScience
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsBackpacks
+      group: LoadoutResearchBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
 
 - type: loadout
   id: LoadoutBackpackSatchelScience
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   items:
     - ClothingBackpackSatchelScience
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsBackpacks
+      group: LoadoutResearchBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
 
 - type: loadout
   id: LoadoutBackpackDuffelScience
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   items:
     - ClothingBackpackDuffelScience
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsBackpacks
+      group: LoadoutResearchBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
 
 # Belt
 
@@ -51,101 +51,101 @@
 # Eyes
 - type: loadout
   id: LoadoutScienceEyesHudDiagnostic
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 1
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsEyes
+      group: LoadoutResearchEyes
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingEyesHudDiagnostic
 
 - type: loadout
   id: LoadoutScienceEyesEyepatchHudDiag
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 1
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsEyes
+      group: LoadoutResearchEyes
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingEyesEyepatchHudDiag
 
 # Gloves
 - type: loadout
   id: LoadoutScienceHandsGlovesColorPurple
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsGloves
+      group: LoadoutResearchGloves
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingHandsGlovesColorPurple
 
 - type: loadout
   id: LoadoutScienceHandsGlovesLatex
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsGloves
+      group: LoadoutResearchGloves
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingHandsGlovesLatex
 
 - type: loadout
   id: LoadoutScienceHandsGlovesRobohands
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsGloves
+      group: LoadoutResearchGloves
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingHandsGlovesRobohands
 
 # Head
 - type: loadout
   id: LoadoutScienceHeadHatBeret
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsHead
+      group: LoadoutResearchHead
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingHeadHatBeretRND
 
 - type: loadout
   id: LoadoutScienceHeadHatFez
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsHead
+      group: LoadoutResearchHead
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingHeadHatFez
 
@@ -158,53 +158,53 @@
     - ClothingHeadTechPriest
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsHead
+      group: LoadoutResearchHead
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
 
 # Id
 
 # Neck
 - type: loadout
   id: LoadoutScienceNeckTieSci
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsNeck
+      group: LoadoutResearchNeck
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingNeckTieSci
 
 - type: loadout
   id: LoadoutScienceNeckScarfStripedPurple
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsNeck
+      group: LoadoutResearchNeck
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingNeckScarfStripedPurple
 
 - type: loadout
   id: LoadoutScienceNeckScarfStripedBlack
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsNeck
+      group: LoadoutResearchNeck
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingNeckScarfStripedBlack
 
@@ -213,74 +213,74 @@
 # Outer
 - type: loadout
   id: LoadoutScienceOuterCoat
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   customColorTint: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsOuter
+      group: LoadoutResearchOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingOuterCoatRnd
 
 - type: loadout
   id: LoadoutScienceOuterLabcoat
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   customColorTint: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsOuter
+      group: LoadoutResearchOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingOuterCoatLab
 
 - type: loadout
   id: LoadoutScienceOuterCoatRobo
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsOuter
+      group: LoadoutResearchOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingOuterCoatRobo
 
 - type: loadout
   id: LoadoutScienceOuterWinterSci
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsOuter
+      group: LoadoutResearchOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingOuterWinterSci
 
 - type: loadout
   id: LoadoutScienceOuterExplorerLabcoat
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   customColorTint: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsOuter
+      group: LoadoutResearchOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingOuterExplorerCoat
 
@@ -292,23 +292,23 @@
     - ClothingOuterRobeTechPriest
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsOuter
+      group: LoadoutResearchOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
 
 # Shoes
 - type: loadout
   id: LoadoutScienceShoesBootsWinterSci
-  category: JobsEpistemicsAAUncategorized
+  category: JobsResearchAAUncategorized
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEpistemicsShoes
+      group: LoadoutResearchShoes
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Research
   items:
     - ClothingShoesBootsWinterSci
 

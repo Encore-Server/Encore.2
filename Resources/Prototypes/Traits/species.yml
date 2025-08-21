@@ -20,7 +20,7 @@
       traits:
         - Spearmaster
         - WeaponsGeneralist
-        - Mystic
+        - Psycom
 
 
 - type: trait
@@ -45,7 +45,7 @@
       traits:
         - Swashbuckler
         - WeaponsGeneralist
-        - Mystic
+        - Psycom
 
 - type: trait
   id: WeaponsGeneralist
@@ -69,10 +69,10 @@
       traits:
         - Swashbuckler
         - Spearmaster
-        - Mystic
+        - Psycom
 
 - type: trait
-  id: Mystic
+  id: Psycom
   category: Mental
   points: 0
   functions:

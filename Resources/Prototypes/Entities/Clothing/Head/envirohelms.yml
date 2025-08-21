@@ -295,8 +295,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmResearchDirector
-  name: mystagogue's envirosuit helmet
-  description: A special containment helmet designed for the Mystagogue. A light brown design is applied to differentiate them from other scientists.
+  name: research director's envirosuit helmet
+  description: A special containment helmet designed for the Research Director. A light brown design is applied to differentiate them from other scientists.
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/rd.rsi

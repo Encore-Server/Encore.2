@@ -44,7 +44,7 @@ ent-ClothingHeadHelmetHardsuitMedical = ZhP-25m helmet
     It is primarily made from transparent hard-plastics, providing complete freedom of vision.
 ent-ClothingHeadHelmetHardsuitRd = NT-45e helmet
     .desc = A heavily armored helmet worn over the Sophia hardsuit. It boasts the same near-immunity to explosions, heat and radiation as the suit, but heavily restricts the wearer's mobility.
-ent-ClothingHeadHelmetHardsuitMystagogue = NT-45e helmet
+ent-ClothingHeadHelmetHardsuitResearchDirector = NT-45e helmet
     .desc = { ent-ClothingHeadHelmetHardsuitRd.desc }
 ent-ClothingHeadHelmetHardsuitSecurityRed = FPA-98s helmet
     .desc = A high quality helmet for the Dayicin tacsuit. It offers better overall protection than standard tacsuits without impacting mobility as much.

@@ -68,7 +68,7 @@
   sizeString: salvage-map-wreck-size-large
 
 - type: salvageMap
-  id: AtlasEpistemics
+  id: AtlasResearch
   mapPath: /Maps/Salvage/DeltaV/DV-atlas-epi.yml
   sizeString: salvage-map-wreck-size-large
 

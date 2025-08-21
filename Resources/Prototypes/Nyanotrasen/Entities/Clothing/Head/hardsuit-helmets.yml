@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitRd
-  id: ClothingHeadHelmetHardsuitMystagogue
+  id: ClothingHeadHelmetHardsuitResearchDirector
   categories: [ HideSpawnMenu ]
-  name: mystagogue's hardsuit helmet
+  name: research director's hardsuit helmet
   description: Lightweight hardsuit helmet that has a galaxy-first psionic passthrough system.
   components:
   - type: Psionic
@@ -34,7 +34,7 @@
     slots:
     - Snout
     - Hair
-    
+
 
 - type: entity
   parent: ClothingHeadHelmetHardsuitCybersun
@@ -76,4 +76,4 @@
       - state: on-equipped-HELMET
       - state: on-equipped-HELMET-unshaded
         shader: unshaded
-  
+

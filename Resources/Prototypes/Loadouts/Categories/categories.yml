@@ -33,7 +33,7 @@
     - JobsAUncategorized
     - JobsCommand
     - JobsEngineering
-    - JobsEpistemics
+    - JobsResearch
     - JobsLogistics
     - JobsMedical
     - JobsSecurity
@@ -107,46 +107,46 @@
 - type: loadoutCategory
   id: JobsEngineeringTechnicalAssistant
 
-# Epistemics
+# Research
 - type: loadoutCategory
-  id: JobsEpistemics
+  id: JobsResearch
   subCategories:
-    - JobsEpistemicsAAUncategorized
-    - JobsEpistemicsAcolyte
-    - JobsEpistemicsCataloger
-    - JobsEpistemicsChaplain
-    - JobsEpistemicsGolemancer
-    - JobsEpistemicsMystagogue
-    - JobsEpistemicsMystic
-    - JobsEpistemicsNoviciate
-    - JobsEpistemicsPsionicMantis
+    - JobsResearchAAUncategorized
+    - JobsResearchResearcher
+    - JobsResearchCataloger
+    - JobsResearchChaplain
+    - JobsResearchGolemancer
+    - JobsResearchResearchDirector
+    - JobsResearchResearch
+    - JobsResearchResearchAssistant
+    - JobsResearchPsionicMantis
 
 - type: loadoutCategory
-  id: JobsEpistemicsAAUncategorized
+  id: JobsResearchAAUncategorized
 
 - type: loadoutCategory
-  id: JobsEpistemicsAcolyte
+  id: JobsResearchResearcher
 
 - type: loadoutCategory
-  id: JobsEpistemicsCataloger
+  id: JobsResearchCataloger
 
 - type: loadoutCategory
-  id: JobsEpistemicsChaplain
+  id: JobsResearchChaplain
 
 - type: loadoutCategory
-  id: JobsEpistemicsGolemancer
+  id: JobsResearchGolemancer
 
 - type: loadoutCategory
-  id: JobsEpistemicsMystagogue
+  id: JobsResearchResearchDirector
 
 - type: loadoutCategory
-  id: JobsEpistemicsMystic
+  id: JobsResearchResearch
 
 - type: loadoutCategory
-  id: JobsEpistemicsNoviciate
+  id: JobsResearchResearchAssistant
 
 - type: loadoutCategory
-  id: JobsEpistemicsPsionicMantis
+  id: JobsResearchPsionicMantis
 
 # Logistics
 - type: loadoutCategory

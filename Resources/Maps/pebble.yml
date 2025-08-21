@@ -51998,7 +51998,7 @@ entities:
     - type: Transform
       pos: -12.5,-43.5
       parent: 2
-- proto: HolopadEpistemicsMantis
+- proto: HolopadResearchMantis
   entities:
   - uid: 11407
     components:
@@ -62268,7 +62268,7 @@ entities:
   - uid: 7727
     components:
     - type: MetaData
-      name: Epistemics Substation
+      name: Research Substation
     - type: Transform
       pos: -14.5,28.5
       parent: 2
@@ -62463,7 +62463,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraCommand
       nameSet: True
-      id: Mystagogue
+      id: Research Director
   - uid: 11789
     components:
     - type: Transform

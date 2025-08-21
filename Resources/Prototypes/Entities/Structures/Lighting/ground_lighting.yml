@@ -178,7 +178,7 @@
     sprite: Structures/Lighting/LightPosts/large_light_post.rsi
     snapCardinals: true
     drawdepth: Overdoors
-    noRot: false
+    noRot: true
     offset: 0,2.5
   - type: PointLight
     enabled: true

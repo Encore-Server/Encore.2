@@ -1,6 +1,6 @@
-# All Epistemics
+# All Research
 - type: characterItemGroup
-  id: LoadoutEpistemicsBackpacks
+  id: LoadoutResearchBackpacks
   maxItems: 1
   items:
     - type: loadout
@@ -11,22 +11,22 @@
       id: LoadoutBackpackDuffelScience
 
 #- type: characterItemGroup
-#  id: LoadoutEpistemicsBelt
+#  id: LoadoutResearchBelt
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutEpistemicsEars
+#  id: LoadoutResearchEars
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutEpistemicsEquipment
+#  id: LoadoutResearchEquipment
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutEpistemicsEyes
+  id: LoadoutResearchEyes
   maxItems: 1
   items:
     - type: loadout
@@ -35,7 +35,7 @@
       id: LoadoutScienceEyesEyepatchHudDiag
 
 - type: characterItemGroup
-  id: LoadoutEpistemicsGloves
+  id: LoadoutResearchGloves
   maxItems: 1
   items:
     - type: loadout
@@ -46,7 +46,7 @@
       id: LoadoutScienceHandsGlovesRobohands
 
 - type: characterItemGroup
-  id: LoadoutEpistemicsHead
+  id: LoadoutResearchHead
   maxItems: 1
   items:
     - type: loadout
@@ -57,12 +57,12 @@
       id: LoadoutHeadHoodTechPriest
 
 #- type: characterItemGroup
-#  id: LoadoutEpistemicsId
+#  id: LoadoutResearchId
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutEpistemicsNeck
+  id: LoadoutResearchNeck
   maxItems: 1
   items:
     - type: loadout
@@ -73,12 +73,12 @@
       id: LoadoutScienceNeckScarfStripedBlack
 
 #- type: characterItemGroup
-#  id: LoadoutEpistemicsMask
+#  id: LoadoutResearchMask
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutEpistemicsOuter
+  id: LoadoutScienceOuter
   maxItems: 1
   items:
     - type: loadout
@@ -95,12 +95,12 @@
       id: LoadoutOuterRobeTechPriest
 
 - type: characterItemGroup
-  id: LoadoutEpistemicsShoes
+  id: LoadoutResearchShoes
   items:
     - type: loadout
       id: LoadoutScienceShoesBootsWinterSci
 
 #- type: characterItemGroup
-#  id: LoadoutEpistemicsUniforms
+#  id: LoadoutResearchUniforms
 #  maxItems: 1
 #  items:

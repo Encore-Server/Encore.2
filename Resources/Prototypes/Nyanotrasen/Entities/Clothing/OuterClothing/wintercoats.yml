@@ -66,5 +66,5 @@
 
 - type: entity
   parent: ClothingOuterWinterRD
-  id: ClothingOuterWinterMystagogue
-  name: mystagogue's winter coat
+  id: ClothingOuterWinterResearchDirector
+  name: research director's winter coat

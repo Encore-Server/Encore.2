@@ -2,7 +2,7 @@
   parent: SimpleSpaceMobBase
   id: MobIfritFamiliar
   name: Ifrit
-  description: The mystagogue's servant.
+  description: The research director's servant.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -127,7 +127,7 @@
     allowSpeech: true
     requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
+      department: Research
       min: 14400 # 4 hours
 
 - type: entity

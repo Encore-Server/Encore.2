@@ -337,29 +337,29 @@
 
 - type: entity
   parent: LunchboxGeneric
-  id: LunchboxEpistemics
-  suffix: Epistemics
+  id: LunchboxResearch
+  suffix: Research
   components:
   - type: Sprite
     layers:
-    - state: epistemics
-    - state: epistemics-open
+    - state: research
+    - state: research-open
       map: [ "openLayer" ]
   - type: Item
-    heldPrefix: epistemics
+    heldPrefix: research
 
 - type: entity
   parent: LunchboxGenericFilledRandom
-  id: LunchboxEpistemicsFilledRandom
-  suffix: Epistemics, Filled, Random
+  id: LunchboxResearchFilledRandom
+  suffix: Research, Filled, Random
   components:
   - type: Sprite
     layers:
-    - state: epistemics
-    - state: epistemics-open
+    - state: research
+    - state: research-open
       map: [ "openLayer" ]
   - type: Item
-    heldPrefix: epistemics
+    heldPrefix: research
 
 
 - type: entity

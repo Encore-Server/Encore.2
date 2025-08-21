@@ -1,4 +1,4 @@
-# Acolyte
+# Researcher
 # Backpacks
 
 # Belt
@@ -7,12 +7,12 @@
 
 # Equipment
 - type: loadout
-  id: LoadoutAcolyteEquipmentCandles
-  category: JobsEpistemicsAcolyte
+  id: LoadoutResearcherEquipmentCandles
+  category: JobsResearchResearcher
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutAcolyteEquipment
+      group: LoadoutResearcherEquipment
     - !type:CharacterJobRequirement
       jobs:
         - Scientist
@@ -20,12 +20,12 @@
     - BoxCandle
 
 - type: loadout
-  id: LoadoutAcolyteEquipmentCandlesSmall
-  category: JobsEpistemicsAcolyte
+  id: LoadoutResearcherEquipmentCandlesSmall
+  category: JobsResearchResearcher
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutAcolyteEquipment
+      group: LoadoutResearcherEquipment
     - !type:CharacterJobRequirement
       jobs:
         - Scientist
@@ -33,13 +33,13 @@
     - BoxCandleSmall
 
 - type: loadout
-  id: LoadoutAcolytePillCanisterSpaceDrugs
-  category: JobsEpistemicsAcolyte
+  id: LoadoutResearcherPillCanisterSpaceDrugs
+  category: JobsResearchResearcher
   cost: 1
   guideEntry: Psionics
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutAcolyteEquipment
+      group: LoadoutResearcherEquipment
     - !type:CharacterJobRequirement
       jobs:
         - Scientist
@@ -64,13 +64,13 @@
 
 # Uniforms
 - type: loadout
-  id: LoadoutAcolyteUniformSuit
-  category: JobsEpistemicsAcolyte
+  id: LoadoutResearcherUniformSuit
+  category: JobsResearchResearcher
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutAcolyteUniforms
+      group: LoadoutResearcherUniforms
     - !type:CharacterJobRequirement
       jobs:
         - Scientist
@@ -78,13 +78,13 @@
     - ClothingUniformJumpsuitScientist
 
 - type: loadout
-  id: LoadoutAcolyteUniformSkirt
-  category: JobsEpistemicsAcolyte
+  id: LoadoutResearcherUniformSkirt
+  category: JobsResearchResearcher
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutAcolyteUniforms
+      group: LoadoutResearcherUniforms
     - !type:CharacterJobRequirement
       jobs:
         - Scientist

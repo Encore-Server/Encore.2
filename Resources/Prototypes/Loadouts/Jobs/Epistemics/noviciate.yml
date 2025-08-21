@@ -1,4 +1,4 @@
-# Noviciate
+# Research Assistant
 # Backpacks
 
 # Belt
@@ -7,12 +7,12 @@
 
 # Equipment
 - type: loadout
-  id: LoadoutNoviciateEquipmentCandles
-  category: JobsEpistemicsNoviciate
+  id: LoadoutResearchAssistantEquipmentCandles
+  category: JobsResearchResearchAssistant
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNoviciateEquipment
+      group: LoadoutResearchAssistantEquipment
     - !type:CharacterJobRequirement
       jobs:
         - ResearchAssistant
@@ -20,12 +20,12 @@
     - BoxCandle
 
 - type: loadout
-  id: LoadoutNoviciateEquipmentCandlesSmall
-  category: JobsEpistemicsNoviciate
+  id: LoadoutResearchAssistantEquipmentCandlesSmall
+  category: JobsResearchResearchAssistant
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNoviciateEquipment
+      group: LoadoutResearchAssistantEquipment
     - !type:CharacterJobRequirement
       jobs:
         - ResearchAssistant
@@ -33,13 +33,13 @@
     - BoxCandleSmall
 
 - type: loadout
-  id: LoadoutNoviciatePillCanisterSpaceDrugs
-  category: JobsEpistemicsNoviciate
+  id: LoadoutResearchAssistantPillCanisterSpaceDrugs
+  category: JobsResearchResearchAssistant
   cost: 2
   guideEntry: Psionics
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNoviciateEquipment
+      group: LoadoutResearchAssistantEquipment
     - !type:CharacterJobRequirement
       jobs:
         - ResearchAssistant
@@ -64,13 +64,13 @@
 
 # Uniforms
 - type: loadout
-  id: LoadoutNoviciateUniformSuit
-  category: JobsEpistemicsNoviciate
+  id: LoadoutResearchAssistantUniformSuit
+  category: JobsResearchResearchAssistant
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNoviciateUniforms
+      group: LoadoutResearchAssistantUniforms
     - !type:CharacterJobRequirement
       jobs:
         - ResearchAssistant
@@ -78,13 +78,13 @@
     - ClothingUniformJumpsuitColorWhite
 
 - type: loadout
-  id: LoadoutNoviciateUniformSkirt
-  category: JobsEpistemicsNoviciate
+  id: LoadoutResearchAssistantUniformSkirt
+  category: JobsResearchResearchAssistant
   cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNoviciateUniforms
+      group: LoadoutResearchAssistantUniforms
     - !type:CharacterJobRequirement
       jobs:
         - ResearchAssistant

@@ -137,8 +137,8 @@
   parent: JobIcon
   id: JobIconChaplain
   icon:
-    sprite: /Textures/DeltaV/Interface/Misc/job_icons.rsi # DeltaV - Move Chaplain into Epistemics
-    state: Chaplain # DeltaV - Move Chaplain into Epistemics
+    sprite: /Textures/DeltaV/Interface/Misc/job_icons.rsi # DeltaV - Move Chaplain into Research
+    state: Chaplain # DeltaV - Move Chaplain into Research
   jobName: job-name-chaplain
 
 - type: jobIcon

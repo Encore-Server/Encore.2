@@ -5,7 +5,7 @@
   playTimeTracker: JobSeniorResearcher
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
+      department: Research
       min: 216000 #60 hrs
     - !type:CharacterEmployerRequirement
       employers:

@@ -8,7 +8,7 @@
 # Equipment
 #- type: loadout
 #  id: LoadoutCatalogerEquipmentPotentiometer
-#  category: JobsEpistemicsCataloger
+#  category: JobsResearchCataloger
 #  cost: 0
 #  requirements:
 #    - !type:CharacterItemGroupRequirement
@@ -21,7 +21,7 @@
 
 - type: loadout
   id: LoadoutCatalogerEquipmentCandles
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -34,7 +34,7 @@
 
 - type: loadout
   id: LoadoutCatalogerEquipmentCandlesSmall
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -47,7 +47,7 @@
 
 - type: loadout
   id: LoadoutCatalogerPillCanisterSpaceDrugs
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 1
   guideEntry: Psionics
   requirements:
@@ -62,7 +62,7 @@
 # Eyes
 - type: loadout
   id: LoadoutCatalogerEyesEpiHUD
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -72,11 +72,11 @@
       jobs:
         - Librarian
   items:
-    - ClothingEyesHudEpistemics
+    - ClothingEyesHudResearch
 
 - type: loadout
   id: LoadoutCatalogerEyesEpiGlasses
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 3
   exclusive: true
   requirements:
@@ -86,7 +86,7 @@
       jobs:
         - Librarian
   items:
-    - ClothingEyesGlassesEpistemics
+    - ClothingEyesGlassesResearch
 
 # Gloves
 
@@ -105,7 +105,7 @@
 # Uniforms
 - type: loadout
   id: LoadoutScienceJumpsuitLibrarianNt
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -119,7 +119,7 @@
 
 - type: loadout
   id: LoadoutScienceJumpsuitLibrarianIdris
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -133,7 +133,7 @@
 
 - type: loadout
   id: LoadoutScienceJumpsuitLibrarianOrion
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -147,7 +147,7 @@
 
 - type: loadout
   id: LoadoutScienceJumpsuitLibrarianHeph
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -161,7 +161,7 @@
 
 - type: loadout
   id: LoadoutScienceJumpsuitLibrarianPMCG
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -175,7 +175,7 @@
 
 - type: loadout
   id: LoadoutScienceJumpsuitLibrarianZav
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -189,7 +189,7 @@
 
 - type: loadout
   id: LoadoutScienceJumpsuitLibrarianZeng
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -203,7 +203,7 @@
 
 - type: loadout
   id: LoadoutScienceJumpsuitLibrarian
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:
@@ -217,7 +217,7 @@
 
 - type: loadout
   id: LoadoutScienceJumpskirtLibrarian
-  category: JobsEpistemicsCataloger
+  category: JobsResearchCataloger
   cost: 0
   exclusive: true
   requirements:

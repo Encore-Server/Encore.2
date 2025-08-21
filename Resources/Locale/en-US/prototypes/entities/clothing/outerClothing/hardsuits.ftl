@@ -59,7 +59,7 @@ ent-ClothingOuterHardsuitMedical = ZhP-25m - "Okuninushi" hardsuit
 ent-ClothingOuterHardsuitRd = NT-45e - "Sophia" research hardsuit
     .desc = The magnum opus of Nanotrasen's R&D division. The labels on this hardsuit claim that its near-immune to explosions, heat and radiation.
     Somehow it also can shrink enough to fit in a bag. It feels VERY heavy.
-ent-ClothingOuterHardsuitMystagogue = NT-45e - "Sophia" research hardsuit
+ent-ClothingOuterHardsuitResearchDirector = NT-45e - "Sophia" research hardsuit
     .desc = { ent-ClothingOuterHardsuitRd.desc }
 ent-ClothingOuterHardsuitSecurityRed = FPA-98s - "Dayicin" tacsuit
     .desc = A top-of-the-line tactical combat hardsuit  produced by Five-Points-Armory, often purchased for use by Nanotrasen senior security officers.

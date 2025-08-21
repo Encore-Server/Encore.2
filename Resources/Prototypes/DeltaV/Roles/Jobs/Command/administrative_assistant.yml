@@ -20,7 +20,7 @@
       department: Security
       min: 10800 # 3 hours
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
+      department: Research
       min: 10800 # 3 hours
     - !type:CharacterTraitRequirement
       inverted: true
