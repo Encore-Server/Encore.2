@@ -12,9 +12,8 @@
     - Muted
   - !type:CharacterEmployerRequirement
     employers:
-    - OrionExpress
-    - IdrisIncorporated
-    - NanoTrasen
+    - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"

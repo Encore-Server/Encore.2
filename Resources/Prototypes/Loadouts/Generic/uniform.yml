@@ -2479,7 +2479,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2498,7 +2498,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2517,7 +2517,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2536,7 +2536,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2555,7 +2555,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2575,7 +2575,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Solarian
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2594,7 +2594,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Solarian
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2613,7 +2613,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Solarian
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2632,7 +2632,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Solarian
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2651,7 +2651,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Solarian
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2670,7 +2670,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Solarian
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -2689,7 +2689,7 @@
       group: LoadoutUniformsCivilian
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Solarian
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet

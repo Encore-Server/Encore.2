@@ -13,7 +13,8 @@
   requirements:
     - !type:CharacterEmployerRequirement
       employers:
-      - EastOrionCompany
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
     - !type:CharacterJobRequirement
       jobs:
         - Botanist
@@ -71,7 +72,8 @@
       group: LoadoutBotanistUniforms
     - !type:CharacterEmployerRequirement
       employers:
-      - NanoTrasen
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
     - !type:CharacterJobRequirement
       jobs:
         - Botanist
@@ -88,7 +90,8 @@
       group: LoadoutBotanistUniforms
     - !type:CharacterEmployerRequirement
       employers:
-      - IdrisIncorporated
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
     - !type:CharacterJobRequirement
       jobs:
         - Botanist
@@ -105,7 +108,8 @@
       group: LoadoutBotanistUniforms
     - !type:CharacterEmployerRequirement
       employers:
-      - OrionExpress
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
     - !type:CharacterJobRequirement
       jobs:
         - Botanist
@@ -122,7 +126,8 @@
       group: LoadoutBotanistUniforms
     - !type:CharacterEmployerRequirement
       employers:
-      - EastOrionCompany
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
     - !type:CharacterJobRequirement
       jobs:
         - Botanist
@@ -139,7 +144,8 @@
       group: LoadoutBotanistUniforms
     - !type:CharacterEmployerRequirement
       employers:
-      - EastOrionCompany
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
     - !type:CharacterJobRequirement
       jobs:
         - Botanist

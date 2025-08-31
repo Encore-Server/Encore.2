@@ -83,7 +83,7 @@
   category: JobsLogisticsCargoTechnician
   cost: 0
   exclusive: true
-  guideEntry: HephaestusIndustries
+  guideEntry: NanoTrasen
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutCargoTechnicianUniforms
@@ -92,7 +92,8 @@
         - CargoTechnician
     - !type:CharacterEmployerRequirement
       employers:
-        - HephaestusIndustries
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitHephCargoTech
 
@@ -101,7 +102,7 @@
   category: JobsLogisticsCargoTechnician
   cost: 0
   exclusive: true
-  guideEntry: HephaestusIndustries
+  guideEntry: NanoTrasen
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutCargoTechnicianUniforms
@@ -110,7 +111,8 @@
         - CargoTechnician
     - !type:CharacterEmployerRequirement
       employers:
-        - HephaestusIndustries
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitHephCargoTechAlt
 
@@ -128,6 +130,7 @@
         - CargoTechnician
     - !type:CharacterEmployerRequirement
       employers:
-        - NanoTrasen
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitNTCargoTech

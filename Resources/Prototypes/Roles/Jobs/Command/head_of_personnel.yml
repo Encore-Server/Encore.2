@@ -12,8 +12,8 @@
     - Muted
   - !type:CharacterEmployerRequirement
     employers:
-    - NanoTrasen
-    - IdrisIncorporated
+    - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   weight: 10
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"

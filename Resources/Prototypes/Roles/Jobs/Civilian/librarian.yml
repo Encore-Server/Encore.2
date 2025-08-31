@@ -18,7 +18,8 @@
       - AnomalousPositronics
   - !type:CharacterEmployerRequirement
     employers:
-    - NanoTrasen
+    - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   - !type:CharacterItemGroupRequirement
     group: TraitsCasterType
   startingGear: LibrarianGear
