@@ -5,23 +5,17 @@ character-lifepath-requirement = You must{$inverted ->
     *[other]{""}
 } have one of these lifepaths: {$lifepaths}
 
-lifepath_name_spacer = Spacer
-lifepath_description_spacer = You have been born on a space station, and have lived in space all of your life. The only time you saw a planet was through a shuttle window.
-
 lifepath_name_bum = Bum
 lifepath_description_bum = Good for nothing. Penniless, homeless, useless.
-
-lifepath_name_solrefugee = Sol Refugee
-lifepath_description_solrefugee = You were worked to the bone in the Sol Alliance, with no rights or comfort to speak of, until you escaped.
 
 lifepath_name_deskworker = Desk Worker
 lifepath_description_deskworker = You've been pushing paper for as long as you remember.
 
 lifepath_name_junker = Junker
-lifepath_description_junker = You scavenge old ships, derelicts, and abandoned stations, searching for anything valuable.
+lifepath_description_junker = You scavenge old ships, derelicts, and abandoned settlements, searching for anything valuable.
 
 lifepath_name_wastelander = Wastelander
-lifepath_description_wastelander = You grew up in the ruins of a dead world, where survival meant salvaging and scrapping.
+lifepath_description_wastelander = You grew up in the ruins of a dead city, where survival meant salvaging and scrapping.
 
 lifepath_name_aristocrat = Aristocrat
 lifepath_description_aristocrat = Born into wealth and power, you have always lived in luxury, but now seek something more.
@@ -33,7 +27,7 @@ lifepath_name_clone = Clone
 lifepath_description_clone = You are not unique. Mass-produced for a purpose, you struggle to define your own identity.
 
 lifepath_name_miner = Miner
-lifepath_description_miner = Your life has been spent drilling into asteroids or planets, seeking wealth in the dark.
+lifepath_description_miner = Your life has been spent drilling into the planet's skin, seeking wealth in the dark.
 
 lifepath_name_smuggler = Smuggler
 lifepath_description_smuggler = You made your living moving illegal goods across borders, always one step ahead of the law.
@@ -45,7 +39,7 @@ lifepath_name_doctor = Doctor
 lifepath_description_doctor = Trained in medicine, you have saved lives—though whether in a sterile hospital or a back-alley clinic is another question.
 
 lifepath_name_voyager = Voyager
-lifepath_description_voyager = You embarked on a long journey through space, crossing vast distances with no certainty of what you’d find.
+lifepath_description_voyager = You embarked on a long journey across the world, crossing vast distances with no certainty of what you’d find.
 
 lifepath_name_collector = Collector
 lifepath_description_collector = Whether for passion or profit, you have spent your life gathering rare, valuable, or esoteric items.

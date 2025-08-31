@@ -143,7 +143,8 @@
         - TechnicalAssistant
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodEngineerApprentice
 
@@ -160,7 +161,8 @@
         - TechnicalAssistant
     - !type:CharacterEmployerRequirement
       employers:
-        - NanoTrasen
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitNTEngineeringApprentice
 
@@ -177,6 +179,7 @@
         - TechnicalAssistant
     - !type:CharacterEmployerRequirement
       employers:
-        - HephaestusIndustries
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitHephEngineerApprentice

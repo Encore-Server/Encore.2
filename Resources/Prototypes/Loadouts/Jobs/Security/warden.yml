@@ -133,6 +133,7 @@
         - Warden
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodWarden

@@ -34,7 +34,7 @@
     - !type:CharacterNationalityRequirement
       inverted: true
       nationalities:
-        - Solarian
+        - Federation
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
@@ -90,13 +90,13 @@
     - !type:CharacterNationalityRequirement
       inverted: true
       nationalities:
-        - Elyran
+        - Federation
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
-        - Elyran
+        - Federation
       languagesUnderstood:
-        - Elyran
+        - Federation
 
 - type: trait
   id: ValyrianStandard
@@ -110,7 +110,7 @@
     - !type:CharacterNationalityRequirement
       inverted: true
       nationalities:
-        - Valyrian
+        - Federation
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -118,9 +118,9 @@
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
-        - ValyrianStandard
+        - FederationStandard
       languagesUnderstood:
-        - ValyrianStandard
+        - FederationStandard
 
 - type: trait
   id: NovuNederic
@@ -134,7 +134,7 @@
     - !type:CharacterNationalityRequirement
       inverted: true
       nationalities:
-        - Nederlandic
+        - Federation
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:

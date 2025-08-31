@@ -29,8 +29,8 @@
         - ForeignerLight
     - !type:CharacterEmployerRequirement
       employers:
-      - IdrisIncorporated
-      - NanoTrasen
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: AdminAssistantGear
   icon: "JobIconAdminAssitant"
   supervisors: job-supervisors-command

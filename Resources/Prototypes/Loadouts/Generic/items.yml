@@ -70,7 +70,8 @@
       group: LoadoutSmokes
     - !type:CharacterEmployerRequirement
       employers:
-      - Interdyne
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 - type: loadout
   id: LoadoutItemLighter

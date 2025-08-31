@@ -14,7 +14,7 @@
     - !type:CharacterNationalityRequirement
       inverted: true
       nationalities:
-        - Adhomai
+        - Federation
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:

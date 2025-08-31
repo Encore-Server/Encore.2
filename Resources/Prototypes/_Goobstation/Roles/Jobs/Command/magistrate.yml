@@ -18,8 +18,8 @@
         - Muted
     - !type:CharacterEmployerRequirement
       employers:
-      - IdrisIncorporated
-      - NanoTrasen
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   weight: 20
   startingGear: MagistrateGear
   icon: "JobIconMagistrate"

@@ -306,7 +306,7 @@
         - Security
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -327,7 +327,7 @@
         - Security
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -348,7 +348,7 @@
         - Security
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -479,7 +479,7 @@
         - Security
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -500,7 +500,7 @@
         - Security
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
@@ -535,7 +535,8 @@
         - Security
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
   - ClothingOuterJacketZavSecurity
 
@@ -553,7 +554,8 @@
         - Security
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
   - ClothingOuterJacketZavSecurityAlt
 
@@ -721,7 +723,8 @@
         - Security
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodSecurityOfficer
 
@@ -739,7 +742,8 @@
         - Security
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodSecurityOfficerAlt1
 
@@ -757,7 +761,8 @@
         - Security
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodSecurityOfficerAlt2
 
@@ -775,7 +780,8 @@
         - Detective
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodCadet
 
@@ -789,7 +795,7 @@
       group: LoadoutSecurityUniforms
     - !type:CharacterEmployerRequirement
       employers:
-      - EastOrionCompany
+      - NEWSTAR
     - !type:CharacterDepartmentRequirement
       departments:
       - Security
@@ -806,7 +812,7 @@
       group: LoadoutSecurityUniforms
     - !type:CharacterEmployerRequirement
       employers:
-      - EastOrionCompany
+      - NEWSTAR
     - !type:CharacterDepartmentRequirement
       departments:
       - Security

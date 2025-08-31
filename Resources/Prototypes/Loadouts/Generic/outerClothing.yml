@@ -180,7 +180,8 @@
       group: LoadoutOuter
     - !type:CharacterEmployerRequirement
         employers:
-        - EinsteinEngines
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 - type: loadout
   id: LoadoutOuterHiCorporateJacket
@@ -194,7 +195,8 @@
       group: LoadoutOuter
     - !type:CharacterEmployerRequirement
         employers:
-        - HephaestusIndustries
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 - type: loadout
   id: LoadoutOuterHmCorporateJacket
@@ -217,7 +219,8 @@
       group: LoadoutOuter
     - !type:CharacterEmployerRequirement
         employers:
-        - Interdyne
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 - type: loadout
   id: LoadoutOuterBcCorporateJacket
@@ -271,7 +274,8 @@
       group: LoadoutOuter
     - !type:CharacterEmployerRequirement
         employers:
-        - ZengHuPharmaceuticals
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 - type: loadout
   id: LoadoutOuterIiCorporateJacket
@@ -285,7 +289,8 @@
       group: LoadoutOuter
     - !type:CharacterEmployerRequirement
         employers:
-        - IdrisIncorporated
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 - type: loadout
   id: LoadoutOuterOeCorporateJacket
@@ -299,7 +304,8 @@
       group: LoadoutOuter
     - !type:CharacterEmployerRequirement
         employers:
-        - OrionExpress
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 - type: loadout
   id: LoadoutOuterIdrisIncorporatedWindbreaker
@@ -311,7 +317,8 @@
       group: LoadoutOuter
     - !type:CharacterEmployerRequirement
         employers:
-        - IdrisIncorporated
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingOuterCoatIdrisIncorporatedWindbreaker
 
@@ -929,7 +936,7 @@
       group: LoadoutOuter
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet

@@ -25,10 +25,8 @@
   requirements:
     - !type:CharacterEmployerRequirement
       employers:
-      - ZavodskoiInterstellar
-      - PMCG
-      - NanoTrasen
-
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 - type: startingGear
   id: PrisonGuardGear
   subGear:

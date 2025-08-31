@@ -24,7 +24,8 @@
         - BrittleBoneDisease
     - !type:CharacterEmployerRequirement
       employers:
-      - NanoTrasen # BSO works directly for centcomm, they are not a contractor.
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   weight: 20
   startingGear: BlueshieldOfficerGear
   icon: "JobIconBlueshield"

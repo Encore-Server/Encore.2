@@ -171,7 +171,8 @@
         - Roboticist
     - !type:CharacterEmployerRequirement
       employers:
-        - NanoTrasen
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitNTRoboticist
 
@@ -189,6 +190,7 @@
         - Roboticist
     - !type:CharacterEmployerRequirement
       employers:
-        - HephaestusIndustries
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitHephRoboticist

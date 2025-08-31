@@ -9,10 +9,8 @@
     min: 14400 #4 hrs
   - !type:CharacterEmployerRequirement
     employers:
-    - HephaestusIndustries
-    - ZavodskoiInterstellar
-    - EinsteinEngines
-    - NanoTrasen
+    - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: StationEngineerGear
   icon: "JobIconStationEngineer"
   supervisors: job-supervisors-ce
