@@ -15,10 +15,8 @@
       min: 216000 # 60 hrs
     - !type:CharacterEmployerRequirement
       employers:
-      - HephaestusIndustries
-      - ZavodskoiInterstellar
-      - EinsteinEngines
-      - NanoTrasen
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
   supervisors: job-supervisors-ce

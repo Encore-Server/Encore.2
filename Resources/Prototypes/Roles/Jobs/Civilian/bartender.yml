@@ -9,9 +9,8 @@
     min: 3600 #DeltaV
   - !type:CharacterEmployerRequirement
     employers:
-    - IdrisIncorporated
-    - NanoTrasen
-    - OrionExpress
+    - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: BartenderGear
   icon: "JobIconBartender"
   supervisors: job-supervisors-hop

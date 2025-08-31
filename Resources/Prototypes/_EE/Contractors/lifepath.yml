@@ -1,9 +1,4 @@
 - type: lifepath
-  id: Spacer
-  nameKey: lifepath_name_spacer
-  descriptionKey: lifepath_description_spacer
-
-- type: lifepath
   id: Bum
   nameKey: lifepath_name_bum
   descriptionKey: lifepath_description_bum
@@ -11,16 +6,6 @@
     - !type:CharacterEmployerRequirement
       employers:
       - Unemployed
-
-- type: lifepath
-  id: SolRefugee
-  nameKey: lifepath_name_solrefugee
-  descriptionKey: lifepath_description_solrefugee
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Human
 
 - type: lifepath
   id: DeskWorker

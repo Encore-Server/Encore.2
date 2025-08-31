@@ -6,9 +6,8 @@
   requirements:
   - !type:CharacterEmployerRequirement
     employers:
-    - ZengHuPharmaceuticals
-    - Interdyne
-    - NanoTrasen
+    - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.  weight: 10
   startingGear: MedicalInternGear
   icon: "JobIconMedicalIntern"
   supervisors: job-supervisors-medicine

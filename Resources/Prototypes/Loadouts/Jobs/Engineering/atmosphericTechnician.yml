@@ -394,7 +394,8 @@
         - AtmosphericTechnician
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodAtmos
 
@@ -411,7 +412,8 @@
         - AtmosphericTechnician
     - !type:CharacterEmployerRequirement
       employers:
-        - NanoTrasen
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitNTAtmos
 
@@ -428,6 +430,7 @@
         - AtmosphericTechnician
     - !type:CharacterEmployerRequirement
       employers:
-        - HephaestusIndustries
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitHephAtmos

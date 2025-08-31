@@ -15,9 +15,8 @@
       min: 216000 # 60 hrs
     - !type:CharacterEmployerRequirement
       employers:
-      - ZengHuPharmaceuticals
-      - Interdyne
-      - NanoTrasen
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: SeniorPhysicianGear
   icon: "JobIconSeniorPhysician"
   supervisors: job-supervisors-cmo

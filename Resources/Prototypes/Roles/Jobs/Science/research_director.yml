@@ -23,7 +23,8 @@
     - ForeignerLight
   - !type:CharacterEmployerRequirement
     employers:
-    - NanoTrasen
+    - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.  weight: 10
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"

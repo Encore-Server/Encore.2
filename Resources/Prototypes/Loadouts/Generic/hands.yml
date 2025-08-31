@@ -130,7 +130,7 @@
       group: LoadoutGloves
     - !type:CharacterNationalityRequirement
       nationalities:
-        - Bieselite
+        - Federation
     - !type:CharacterLifepathRequirement
       lifepaths:
         - WarVet
