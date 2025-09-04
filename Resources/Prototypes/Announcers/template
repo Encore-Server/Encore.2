@@ -55,7 +55,7 @@
       path: alerts/blue.ogg
     - id: alertViolet # Viral infection or misc medical emergencies, listen to Medical
       path: alerts/violet.ogg
-    - id: alertWhite # Glimmer is too high, listen to Epistemics
+    - id: alertWhite # Glimmer is too high, listen to Research
       path: alerts/white.ogg
     - id: alertYellow # The station is being largely damaged, listen to Engineering
       path: alerts/yellow.ogg

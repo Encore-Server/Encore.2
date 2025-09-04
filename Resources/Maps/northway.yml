@@ -28679,7 +28679,7 @@ entities:
     - type: Transform
       pos: -16.5,-31.5
       parent: 2
-- proto: WarpPointEpistemics
+- proto: WarpPointResearch
   entities:
   - uid: 4216
     components:

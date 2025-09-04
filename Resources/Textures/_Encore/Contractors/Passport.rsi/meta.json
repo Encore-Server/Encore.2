@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Base open/close sprites taken from https://github.com/Aurorastation/Aurora.3/commit/c803da2644812ea9e175d2e84c5bbaf55fab6c3d, then edited by kyres1",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "passport_federation_closed"
+        },
+        {
+            "name": "passport_federation_open"
+        },
+        {
+            "name": "passport_atmacia_closed"
+        },
+        {
+            "name": "passport_atmacia_open"
+        },
+        {
+            "name": "passport_curasua_closed"
+        },
+        {
+            "name": "passport_curasua_open"
+        },
+        {
+            "name": "passport_arctica_closed"
+        },
+        {
+            "name": "passport_arctica_open"
+        },
+        {
+            "name": "passport_species_human"
+        },
+        {
+            "name": "passport_species_ipc"
+        }
+    ]
+}

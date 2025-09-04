@@ -166,3 +166,31 @@
       types:
         Heat: 1
     popupText: powered-light-component-burn-hand
+
+- type: entity
+  id: PoweredLEDLightPostPole
+  name: street light
+  description: "A tall light pole for street illumination. Draws power and produces light when equipped with a light tube."
+  suffix: LED
+  parent: LightPostSmall
+  components:
+  - type: Sprite
+    sprite: Structures/Lighting/LightPosts/large_light_post.rsi
+    snapCardinals: true
+    drawdepth: Overdoors
+    noRot: true
+    Offset: 0,1.25
+  - type: PointLight
+    enabled: true
+    radius: 15
+    energy: 1
+    softness: 0.9
+    color: "#cef3f8"
+  - type: PoweredLight
+    hasLampOnSpawn: LedLightTube
+  - type: AmbientOnPowered
+  - type: AmbientSound
+    volume: -15
+    range: 3
+    sound:
+      path: /Audio/Ambience/Objects/light_hum.ogg

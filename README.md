@@ -1,7 +1,14 @@
+# Encore Roleplay
+
+<p align="center"><img src="https://raw.githubusercontent.com/Encore-Server/Encore.2/refs/heads/7-15-2025-encore_predevelopment/Resources/Textures/Logo/logo.png" width="512px" /></p>
+
+Encore is a fork of [Einstein Engines](https://github.com/Simple-Station/Einstein-Engines) which is being developed to facilitate a brand new roleplay server.
+
+It's a heavy work in progress as of this moment. Some helpful links can be found below.
+
+[Discord(Encore)](https://discord.gg/PMkvqAkyrX) | [Wiki(Encore)](https://encore.miraheze.org/wiki/Main_Page)
+
 # Einstein Engines
-
-<p align="center"><img src="https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Textures/Logo/splashlogo.png" width="512px" /></p>
-
 ---
 
 Einstein Engines is a hard fork of [Space Station 14](https://github.com/space-wizards/space-station-14) built around the ideals and design inspirations of the Baystation family of servers from Space Station 13 with a focus on having modular code that anyone can use to make the RP server of their dreams.

@@ -81258,7 +81258,7 @@ entities:
       pos: -9.5,-20.5
       parent: 2
     - type: WarpPoint
-      location: epistemics breakroom
+      location: research breakroom
   - uid: 12854
     components:
     - type: Transform

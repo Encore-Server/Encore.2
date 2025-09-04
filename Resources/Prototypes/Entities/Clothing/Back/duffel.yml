@@ -124,7 +124,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelScience
-  name: epistemics duffel bag # DeltaV - Epistemics Department replacing Science
+  name: research duffel bag # DeltaV - Research Department replacing Science
   description: A large duffel bag for holding extra science related goods.
   components:
     - type: Sprite

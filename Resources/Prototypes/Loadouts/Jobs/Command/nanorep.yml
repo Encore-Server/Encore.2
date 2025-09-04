@@ -83,7 +83,8 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
       employers:
-      - NanoTrasen
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingOuterCorporateJacket
 
@@ -100,7 +101,8 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
       employers:
-      - ZavodskoiInterstellar
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingOuterZiCorporateJacket
 
@@ -117,7 +119,8 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
       employers:
-      - EinsteinEngines
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingOuterEeCorporateJacket
 
@@ -134,7 +137,8 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
       employers:
-      - HephaestusIndustries
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingOuterHiCorporateJacket
 
@@ -151,7 +155,8 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
       employers:
-      - Interdyne
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingOuterIdCorporateJacket
 
@@ -168,7 +173,8 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
       employers:
-      - ZengHuPharmaceuticals
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingOuterZhCorporateJacket
 
@@ -187,7 +193,8 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
         employers:
-        - IdrisIncorporated
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 - type: loadout
   id: LoadoutClothingOuterCorporateJacketOrionExpressCorporateLiaison
@@ -204,7 +211,8 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
         employers:
-        - OrionExpress
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
 
 # Shoes
 

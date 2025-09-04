@@ -1,52 +1,52 @@
-# Mystagogue
+# Research Director
 - type: characterItemGroup
-  id: LoadoutMystagogueBackpacks
+  id: LoadoutResearchDirectorBackpacks
   maxItems: 1
   items:
     - type: loadout
-      id: LoadoutMystagogueBackpacksBackpack
+      id: LoadoutResearchDirectorBackpacksBackpack
     - type: loadout
-      id: LoadoutMystagogueBackpacksSatchel
+      id: LoadoutResearchDirectorBackpacksSatchel
     - type: loadout
-      id: LoadoutMystagogueBackpacksDuffel
+      id: LoadoutResearchDirectorBackpacksDuffel
 
 #- type: characterItemGroup
-#  id: LoadoutMystagogueBelt
+#  id: LoadoutResearchDirectorBelt
 #  maxItems: 1
 #  items:
 #
 #- type: characterItemGroup
-#  id: LoadoutMystagogueEars
+#  id: LoadoutResearchDirectorEars
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutMystagogueEquipment
+  id: LoadoutResearchDirectorEquipment
   maxItems: 3
   items:
     - type: loadout
-      id: LoadoutMystagogueEquipmentCandles
+      id: LoadoutResearchDirectorEquipmentCandles
     - type: loadout
-      id: LoadoutMystagogueEquipmentCandlesSmall
+      id: LoadoutResearchDirectorEquipmentCandlesSmall
     - type: loadout
-      id: LoadoutMystagoguePillCanisterSpaceDrugs
+      id: LoadoutResearchDirectorPillCanisterSpaceDrugs
 
 - type: characterItemGroup
-  id: LoadoutMystagogueEyes
+  id: LoadoutResearchDirectorEyes
   maxItems: 1
   items:
     - type: loadout
-      id: LoadoutMystagogueEyesEpiHUD
+      id: LoadoutResearchDirectorEyesEpiHUD
     - type: loadout
-      id: LoadoutMystagogueEyesEpiGlasses
+      id: LoadoutResearchDirectorEyesEpiGlasses
 
 #- type: characterItemGroup
-#  id: LoadoutMystagogueGloves
+#  id: LoadoutResearchDirectorGloves
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutMystagogueHead
+  id: LoadoutResearchDirectorHead
   maxItems: 1
   items:
     - type: loadout
@@ -55,14 +55,14 @@
       id: LoadoutCommandRDHeadHoodMysta
 
 - type: characterItemGroup
-  id: LoadoutMystagogueId
+  id: LoadoutResearchDirectorId
   maxItems: 1
   items:
     - type: loadout
-      id: LoadoutMystagogueNTPDA
+      id: LoadoutResearchDirectorNTPDA
 
 - type: characterItemGroup
-  id: LoadoutMystagogueNeck
+  id: LoadoutResearchDirectorNeck
   maxItems: 1
   items:
     - type: loadout
@@ -70,17 +70,17 @@
     - type: loadout
       id: LoadoutCommandRDNeckCloak
     - type: loadout
-      id: LoadoutCommandRDNeckCloakMystagogue
+      id: LoadoutCommandRDNeckCloakResearchDirector
     - type: loadout
-      id: LoadoutMystagogueNeckSciencemedal
+      id: LoadoutResearchDirectorNeckSciencemedal
 
 #- type: characterItemGroup
-#  id: LoadoutMystagogueMask
+#  id: LoadoutResearchDirectorMask
 #  maxItems: 1
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutMystagogueOuter
+  id: LoadoutResearchDirectorOuter
   maxItems: 1
   items:
     - type: loadout
@@ -89,17 +89,17 @@
       id: LoadoutCommandRDOuterMysta
 
 - type: characterItemGroup
-  id: LoadoutMystagogueShoes
+  id: LoadoutResearchDirectorShoes
   maxItems: 1
   items:
     - type: loadout
       id: LoadoutCommandRDShoesBootsWinter
 
 - type: characterItemGroup
-  id: LoadoutMystagogueUniforms
+  id: LoadoutResearchDirectorUniforms
   maxItems: 1
   items:
     - type: loadout
-      id: LoadoutMystagogueUniformJumpsuit
+      id: LoadoutResearchDirectorUniformJumpsuit
     - type: loadout
-      id: LoadoutMystagogueUniformJumpskirt
+      id: LoadoutResearchDirectorUniformJumpskirt

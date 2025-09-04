@@ -20,7 +20,7 @@
       department: Security
       min: 10800 # 3 hours
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
+      department: Research
       min: 10800 # 3 hours
     - !type:CharacterTraitRequirement
       inverted: true
@@ -29,8 +29,8 @@
         - ForeignerLight
     - !type:CharacterEmployerRequirement
       employers:
-      - IdrisIncorporated
-      - NanoTrasen
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: AdminAssistantGear
   icon: "JobIconAdminAssitant"
   supervisors: job-supervisors-command

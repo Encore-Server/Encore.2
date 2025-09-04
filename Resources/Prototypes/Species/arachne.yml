@@ -1,7 +1,7 @@
 - type: species
   id: Arachne
   name: species-name-arachne
-  roundStart: false # I'll kill these issues somehow.
+  roundStart: false
   prototype: MobArachne
   sprites: MobArachneSprites
   defaultSkinTone: "#c0967f"

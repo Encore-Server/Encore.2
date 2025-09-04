@@ -2,7 +2,7 @@
   id: Departments
   values:
     - Engineering
-    - Epistemics
+    - Research
     - Botany
     - Service
     - Security
@@ -44,7 +44,7 @@
     - Silvia the Medical Snake
     - Bingus the Cat
     - A Bee
-    - Siobahn the Epistemics Fox
+    - Siobahn the Research Fox
     # End DeltaV Additions
 
 - type: dataset
@@ -84,7 +84,7 @@
     - The Burn Chamber
     - Hydroponics
     - The Kitchen
-    - Epistemics
+    - Research
     - Medical
     - Security
     - Lavaland
@@ -177,7 +177,7 @@
     - Bingus Day
     - Foster's Feast
     # Begin DeltaV Additions
-    - Preston’s Tomato Incident 
+    - Preston’s Tomato Incident
     - Submarine's Memorial
     - Pranksgiving
     - Sector Delta Employee Appreciation Week
@@ -196,7 +196,7 @@
     - the Talent Show
     - Luperthavia
     - Penny's Big Day
-    - Taco Tuesday 
+    - Taco Tuesday
     # End DeltaV Additions
 
 - type: dataset
@@ -227,9 +227,9 @@
     - Chief Engineer
     - Chief Medical Officer
     # Begin DeltaV Additions
-    - Mystagogue
+    - Research Director
     - Chief Justice
-    - Administrative Assistant 
+    - Administrative Assistant
     # End DeltaV Additions
 
 - type: dataset

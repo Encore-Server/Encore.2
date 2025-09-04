@@ -330,9 +330,9 @@
 
 - type: entity
   parent: [ClothingEyesBase, ShowPsionicsIcons]
-  id: ClothingEyesGlassesEpistemics
+  id: ClothingEyesGlassesResearch
   name: epi psionics glasses
-  description: Upgraded sunglasses that provide flash immunity and a epistemics psionics HUD.
+  description: Upgraded sunglasses that provide flash immunity and a research psionics HUD.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/epiglasses.rsi

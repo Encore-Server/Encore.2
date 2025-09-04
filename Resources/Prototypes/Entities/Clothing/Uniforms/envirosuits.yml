@@ -284,8 +284,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitResearchDirector
-  name: mystagogue's envirosuit
-  description: It's an envirosuit worn by those with the know-how to achieve the position of "Mystagogue".
+  name: research director's envirosuit
+  description: It's an envirosuit worn by those with the know-how to achieve the position of "Research Director".
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Envirosuits/rd.rsi

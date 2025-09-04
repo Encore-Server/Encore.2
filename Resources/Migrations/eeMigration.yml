@@ -19,10 +19,10 @@ ServiceTechFabCircuitboard: AutolatheMachineCircuitboard
 
 # 2023-10-05
 FoodMothTomatoSauce: null
-LockerEpistemicsFilled: LockerScienceFilled
-LockerMystagogueFilled: LockerResearchDirectorFilled
-LockerEpistemics: LockerScientist
-LockerMystagogue: LockerResearchDirector
+LockerResearchFilled: LockerScienceFilled
+LockerResearchDirectorFilled: LockerResearchDirectorFilled
+LockerResearch: LockerScientist
+LockerResearchDirector: LockerResearchDirector
 HyperlinkBookAlerts: BookRandom
 HyperlinkBookAtmos: BookAtmosDistro
 HyperlinkBookBartending: BookBartendersManual
@@ -41,7 +41,7 @@ SpawnPointCataloguer: SpawnPointLibrarian
 SpawnPointCyborg: SpawnPointBorg
 SpawnPointMedicalCyborg: null
 SpawnPointEpistemologist: SpawnPointScientist
-SpawnPointMystagogue: SpawnPointResearchDirector
+SpawnPointResearchDirector: SpawnPointResearchDirector
 SpawnPointSalvageTechnician: SpawnPointSalvageSpecialist
 SpawnPointValet: SpawnPointServiceWorker
 VendingMachineEpiDrobe: VendingMachineSciDrobe
@@ -59,7 +59,7 @@ FoodMealTaco: FoodMealSoftTaco
 FoodTinBeansOpen: FoodTinBeans
 FoodBreadMoldy: FoodBreadMoldySlice
 FoodMeatPatty: FoodMeatMeatball
-ClothingHeadHoodMystic: ClothingHeadHoodMysta
+ClothingHeadHoodResearch: ClothingHeadHoodMysta
 
 # 2023-11-07
 VendingMachineMailDrobe: VendingMachineCourierDrobe

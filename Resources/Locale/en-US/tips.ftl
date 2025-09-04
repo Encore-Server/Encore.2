@@ -168,7 +168,7 @@ tips-dataset-167 = The Saturnine trait gives your character a permanent large mo
 tips-dataset-168 = If you aren't playing any Medical character, consider taking the CPR Training trait! This often highly-underrated trait allows characters to sometimes revive other people without needing medical supplies.
 tips-dataset-169 = If you have the Latent Psychic trait, you can consume hallucinogenic drugs to have a chance to obtain psychic powers.
 tips-dataset-170 = Having the Natural Telepath trait, or rolling the Telepathy Power, allows a person to speak telepathically by starting a message with '='. Telepathy does not require a radio, but is also completely anonymous.
-tips-dataset-171 = Certain crew members, such as the Mystagogue, Cataloguer, and Psionic Mantis, all automatically start with certain Psychic Powers.
+tips-dataset-171 = Certain crew members, such as the Research Director, Cataloguer, and Psionic Mantis, all automatically start with certain Psychic Powers.
 tips-dataset-172 = NanoTrasen prefers to select its command staff for high psychic potential. Thus, all command staff are inherently more likely to obtain Psychic Powers should they also have the Latent Psychic trait.
 tips-dataset-173 = You can craft a tinfoil hat out of sheet metal. Wearing a tinfoil hat provides temporary protection from Psychic Powers! Beware, that it also disrupts the powers of any Psion who wears one.
 tips-dataset-174 = You can press the R key to lay down on the ground. While Laying down, you can crawl underneath certain objects. Additionally, bullets will pass harmlessly over someone laying down, unless the shooter targets them directly.

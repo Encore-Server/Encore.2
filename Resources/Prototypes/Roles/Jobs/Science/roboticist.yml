@@ -5,13 +5,12 @@
   playTimeTracker: JobRoboticist
   requirements:
   - !type:CharacterDepartmentTimeRequirement
-    department: Epistemics
+    department: Research
     min: 14400 # 4 hours - same as scientist
   - !type:CharacterEmployerRequirement
       employers:
-      - ZavodskoiInterstellar
-      - HephaestusIndustries
-      - NanoTrasen
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: RoboticistGear
   icon: "JobIconRoboticist"
   supervisors: job-supervisors-rd

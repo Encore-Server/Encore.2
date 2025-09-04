@@ -185,7 +185,7 @@
     state: stamp-qm
 
 - type: entity
-  name: mystagogue's rubber stamp
+  name: research director's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampRd
   suffix: DO NOT MAP

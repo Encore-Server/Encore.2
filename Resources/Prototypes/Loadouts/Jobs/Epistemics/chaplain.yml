@@ -8,7 +8,7 @@
 # Equipment
 - type: loadout
   id: LoadoutChaplainBible
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -22,7 +22,7 @@
 
 - type: loadout
   id: LoadoutChaplainStamp
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -36,7 +36,7 @@
 
 - type: loadout
   id: LoadoutChaplainEquipmentCandles
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -49,7 +49,7 @@
 
 - type: loadout
   id: LoadoutChaplainEquipmentCandlesSmall
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -62,7 +62,7 @@
 
 - type: loadout
   id: LoadoutChaplainPillCanisterSpaceDrugs
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   guideEntry: Psionics
   requirements:
@@ -77,7 +77,7 @@
 # Eyes
 - type: loadout
   id: LoadoutChaplainEyesEpiHUD
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -87,11 +87,11 @@
       jobs:
         - Chaplain
   items:
-    - ClothingEyesHudEpistemics
+    - ClothingEyesHudResearch
 
 - type: loadout
   id: LoadoutChaplainEyesEpiGlasses
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 3
   exclusive: true
   requirements:
@@ -101,14 +101,14 @@
       jobs:
         - Chaplain
   items:
-    - ClothingEyesGlassesEpistemics
+    - ClothingEyesGlassesResearch
 
 # Gloves
 
 # Head
 - type: loadout
   id: LoadoutScienceHeadHatHoodNunHood
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -122,7 +122,7 @@
 
 - type: loadout
   id: LoadoutScienceHeadHatPlaguedoctor
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -136,7 +136,7 @@
 
 - type: loadout
   id: LoadoutScienceHeadHatWitch
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -150,7 +150,7 @@
 
 - type: loadout
   id: LoadoutScienceHeadHatWitch1
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -167,7 +167,7 @@
 # Neck
 - type: loadout
   id: LoadoutScienceNeckStoleChaplain
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -182,7 +182,7 @@
 # Mask
 - type: loadout
   id: LoadoutScienceMaskPlague
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -197,7 +197,7 @@
 # Outer
 - type: loadout
   id: LoadoutScienceOuterPlagueSuit
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -211,7 +211,7 @@
 
 - type: loadout
   id: LoadoutScienceOuterNunRobe
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -225,7 +225,7 @@
 
 - type: loadout
   id: LoadoutScienceOuterHoodieBlack
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -239,7 +239,7 @@
 
 - type: loadout
   id: LoadoutScienceOuterHoodieChaplain
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -256,7 +256,7 @@
 # Uniforms
 - type: loadout
   id: LoadoutChaplainJumpsuit
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -270,7 +270,7 @@
 
 - type: loadout
   id: LoadoutChaplainJumpskirt
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   requirements:
@@ -284,7 +284,7 @@
 
 - type: loadout
   id: LoadoutScienceUniformJumpsuitMonasticRobeDark
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   canBeHeirloom: true
@@ -299,7 +299,7 @@
 
 - type: loadout
   id: LoadoutScienceUniformJumpsuitMonasticRobeLight
-  category: JobsEpistemicsChaplain
+  category: JobsResearchChaplain
   cost: 0
   exclusive: true
   customColorTint: true

@@ -51087,7 +51087,7 @@ entities:
     - type: Transform
       pos: 45.5,-15.5
       parent: 2
-- proto: HolopadEpistemicsMantis
+- proto: HolopadResearchMantis
   entities:
   - uid: 7799
     components:
@@ -62174,7 +62174,7 @@ entities:
   - uid: 9617
     components:
     - type: MetaData
-      name: camera router (epistemics)
+      name: camera router (research)
     - type: Transform
       pos: -26.5,-20.5
       parent: 2
@@ -62301,7 +62301,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: office, mystagogue's
+      id: office, research director's
   - uid: 9630
     components:
     - type: Transform
@@ -72218,7 +72218,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -11.5,9.5
       parent: 2
-- proto: WarpPointEpistemics
+- proto: WarpPointResearch
   entities:
   - uid: 11463
     components:

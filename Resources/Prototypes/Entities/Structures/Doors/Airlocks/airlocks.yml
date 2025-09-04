@@ -68,12 +68,12 @@
 - type: entity
   parent: Airlock
   id: AirlockScience
-  suffix: Epistemics # DeltaV - Epistemics Department replacing Science
+  suffix: Research # DeltaV - Research Department replacing Science
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/science.rsi
   - type: PaintableAirlock
-    department: Epistemics
+    department: Research
   - type: Wires
     layoutId: AirlockScience
 
@@ -224,12 +224,12 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockScienceGlass
-  suffix: Epistemics # DeltaV - Epistemics Department replacing Science
+  suffix: Research # DeltaV - Research Department replacing Science
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/science.rsi
   - type: PaintableAirlock
-    department: Epistemics
+    department: Research
   - type: Wires
     layoutId: AirlockScience
 

@@ -4,15 +4,15 @@ holopad-command-mysta = Command - Mysta
 holopad-command-cj = Command - CJ
 holopad-command-evac = Command - Evac
 
-# Epistemics
-holopad-epistemics-anomaly = Epistemics - Anomaly
-holopad-epistemics-artifact = Epistemics - Artifact
-holopad-epistemics-robotics = Epistemics - Robotics
-holopad-epistemics-rnd = Epistemics - R&D
-holopad-epistemics-front = Epistemics - Front
-holopad-epistemics-breakroom = Epistemics - Breakroom
-holopad-epistemics-mantis = Epistemics - Mantis
-holopad-epistemics-oracle = Epistemics - Oracle
+# Research
+holopad-research-anomaly = Research - Anomaly
+holopad-research-artifact = Research - Artifact
+holopad-research-robotics = Research - Robotics
+holopad-research-rnd = Research - R&D
+holopad-research-front = Research - Front
+holopad-research-breakroom = Research - Breakroom
+holopad-research-mantis = Research - Mantis
+holopad-research-oracle = Research - Oracle
 
 # Logistics
 holopad-logistics-front = Logistics - Front

@@ -276,7 +276,7 @@
 - type: entity
   id: IntercomScience
   parent: Intercom
-  suffix: Epistemics # DeltaV - Epistemics Department replacing Science
+  suffix: Research # DeltaV - Research Department replacing Science
   components:
   - type: ContainerFill
     containers:

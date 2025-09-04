@@ -348,7 +348,7 @@
   # DeltaV - Logistics Department - Replace Quartermaster with Logistics Officer
   - LOGISTICS OFFICERS
   # End of modified code
-  # DeltaV - Epistemics Department - Replace Research Director with Mystagogue
+  # DeltaV - Research Department - Replace Research Director with Research Director
   - MYSTAGOGUES
   # End of modified code
   - ROBOTICISTS
@@ -632,7 +632,7 @@
   - ENGINES
   - EQUIPMENT
   - ERRORS
-#  - EXTERMINATORS 
+#  - EXTERMINATORS
   - EXPLOSIVES
   - EYEWEAR
   - FEDORAS

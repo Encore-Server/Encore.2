@@ -7,7 +7,7 @@
     - !type:CharacterOverallTimeRequirement
       min: 18000
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics # DeltaV - Epistemics Department replacing Science
+      department: Research # DeltaV - Research Department replacing Science
       min: 3600
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -24,8 +24,8 @@
             - Pacifist
     - !type:CharacterEmployerRequirement
       employers:
-      - NanoTrasen
-      - ZengHuPharmaceuticals
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
     - !type:CharacterItemGroupRequirement
       group: TraitsCasterType
   startingGear: ForensicMantisGear
@@ -36,7 +36,7 @@
   access:
   - Research
   - Maintenance
-  - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
+  - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/research.yml
   special:
   - !type:AddComponentSpecial
     components:
@@ -64,7 +64,7 @@
     head: ClothingHeadHatFezMantis
     id: ForensicMantisPDA
     eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetScience # DeltaV - Mantis is part of Epistemics
+    ears: ClothingHeadsetScience # DeltaV - Mantis is part of Research
     gloves: ClothingHandsGlovesColorWhite
     outerClothing: ClothingOuterCoatMantis
     belt: ClothingBeltMantis

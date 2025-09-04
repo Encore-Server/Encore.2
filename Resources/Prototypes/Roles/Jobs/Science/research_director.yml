@@ -23,7 +23,8 @@
     - ForeignerLight
   - !type:CharacterEmployerRequirement
     employers:
-    - NanoTrasen
+    - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.  weight: 10
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
@@ -72,7 +73,7 @@
     id: RnDPDA
     ears: ClothingHeadsetAltScience
     pocket1: BookPsionicsGuidebook
-    pocket2: BibleMystagogue
+    pocket2: BibleResearchDirector
   storage:
     back:
     - Flash

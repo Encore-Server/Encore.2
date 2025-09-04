@@ -77,7 +77,8 @@
         - Detective
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingOuterJacketZavDetective
 
@@ -98,7 +99,8 @@
         - Detective
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodDetective
 
@@ -116,6 +118,7 @@
         - Detective
     - !type:CharacterEmployerRequirement
       employers:
-        - ZavodskoiInterstellar
+        - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   items:
     - ClothingUniformJumpsuitZavodDetectiveAlt

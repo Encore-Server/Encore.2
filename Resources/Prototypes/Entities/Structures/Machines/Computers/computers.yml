@@ -437,7 +437,7 @@
   parent: BaseComputerAiAccess
   id: ComputerPsionicsRecords
   name: psionics registry computer
-  description: This can be used to check psionics registry records. Only epistemics can modify them.
+  description: This can be used to check psionics registry records. Only research can modify them.
   components:
   - type: PsionicsRecordsConsole
   - type: UserInterface

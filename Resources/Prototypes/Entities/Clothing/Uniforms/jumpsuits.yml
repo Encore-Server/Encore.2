@@ -685,8 +685,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitResearchDirector
-  name: mystagogue's turtleneck # DeltaV - Epistemics Department replacing Science
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Mystagogue. Its fabric provides minor protection from biological contaminants. # DeltaV - Epistemics Department replacing Science
+  name: research director's turtleneck # DeltaV - Research Department replacing Science
+  description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants. # DeltaV - Research Department replacing Science
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/rnd.rsi
@@ -1385,7 +1385,7 @@
   parent: [ClothingUniformBase,ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSeniorResearcher
   name: senior researcher jumpsuit
-  description: A sign of skill and prestige within the epistemics department. # DeltaV - Epistemics Department replacing Science
+  description: A sign of skill and prestige within the research department. # DeltaV - Research Department replacing Science
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_researcher.rsi

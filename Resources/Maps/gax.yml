@@ -11571,7 +11571,7 @@ entities:
   - uid: 144
     components:
     - type: MetaData
-      name: Epistemics Substation
+      name: Research Substation
     - type: Transform
       pos: 18.5,11.5
       parent: 2
@@ -61747,7 +61747,7 @@ entities:
       pos: 51.5,14.5
       parent: 2
     - type: FaxMachine
-      name: Mystagogue
+      name: Research Director
   - uid: 9395
     components:
     - type: Transform
@@ -96862,7 +96862,7 @@ entities:
     - type: Transform
       pos: 30.5,-18.5
       parent: 2
-- proto: HolopadEpistemicsMantis
+- proto: HolopadResearchMantis
   entities:
   - uid: 13749
     components:
@@ -114585,7 +114585,7 @@ entities:
   - uid: 16744
     components:
     - type: MetaData
-      name: Epistemics Substation
+      name: Research Substation
     - type: Transform
       pos: 18.5,12.5
       parent: 2
@@ -116232,7 +116232,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: Epistemics Checkpoint
+      id: Research Checkpoint
   - uid: 16930
     components:
     - type: Transform
@@ -132942,7 +132942,7 @@ entities:
       pos: 54.5,26.5
       parent: 2
     - type: WarpPoint
-      location: Epistemics
+      location: Research
 - proto: WashingMachineFilledClothes
   entities:
   - uid: 20055

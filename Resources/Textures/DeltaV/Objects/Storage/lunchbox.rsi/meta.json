@@ -36,17 +36,17 @@
             "directions":4
         },
         {
-            "name":"epistemics"
+            "name":"research"
         },
         {
-            "name":"epistemics-open"
+            "name":"research-open"
         },
         {
-            "name":"epistemics-inhand-left",
+            "name":"research-inhand-left",
             "directions":4
         },
         {
-            "name":"epistemics-inhand-right",
+            "name":"research-inhand-right",
             "directions":4
         },
         {

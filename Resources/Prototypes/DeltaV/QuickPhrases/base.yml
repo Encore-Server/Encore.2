@@ -50,9 +50,9 @@
   abstract: true
 
 - type: quickPhrase
-  id: BaseEpistemicsPhrase
-  group: Epistemics
-  styleClass: EpistemicsButton
+  id: BaseResearchPhrase
+  group: Research
+  styleClass: ResearchButton
   abstract: true
 
 - type: quickPhrase

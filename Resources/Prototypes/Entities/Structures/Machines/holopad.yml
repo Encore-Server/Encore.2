@@ -360,7 +360,7 @@
   suffix: Anomaly
   components:
   - type: Label
-    currentLabel: holopad-epistemics-anomaly # DeltaV - Science > Epistemics
+    currentLabel: holopad-research-anomaly # DeltaV - Science > Research
 
 - type: entity
   parent: Holopad
@@ -368,7 +368,7 @@
   suffix: Artifact
   components:
   - type: Label
-    currentLabel: holopad-epistemics-artifact # DeltaV - Science > Epistemics
+    currentLabel: holopad-research-artifact # DeltaV - Science > Research
 
 - type: entity
   parent: Holopad
@@ -376,7 +376,7 @@
   suffix: Robotics
   components:
   - type: Label
-    currentLabel: holopad-epistemics-robotics # DeltaV - Science > Epistemics
+    currentLabel: holopad-research-robotics # DeltaV - Science > Research
 
 - type: entity
   parent: Holopad
@@ -384,23 +384,23 @@
   suffix: R&D
   components:
   - type: Label
-    currentLabel: holopad-epistemics-rnd # DeltaV - Science > Epistemics
+    currentLabel: holopad-research-rnd # DeltaV - Science > Research
 
 - type: entity
   parent: Holopad
   id: HolopadScienceFront
-  suffix: Epi Front # DeltaV - Science > Epistemics
+  suffix: Epi Front # DeltaV - Science > Research
   components:
   - type: Label
-    currentLabel: holopad-epistemics-front # DeltaV - Science > Epistemics
+    currentLabel: holopad-research-front # DeltaV - Science > Research
 
 - type: entity
   parent: Holopad
   id: HolopadScienceBreakroom
-  suffix: Epi Breakroom # DeltaV - Science > Epistemics
+  suffix: Epi Breakroom # DeltaV - Science > Research
   components:
   - type: Label
-    currentLabel: holopad-epistemics-breakroom # DeltaV - Science > Epistemics
+    currentLabel: holopad-research-breakroom # DeltaV - Science > Research
 
 # Medical
 - type: entity

@@ -441,7 +441,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureScienceLocked
-  suffix: Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Research, Locked # DeltaV - Research Department replacing Science
   components:
   - type: ContainerFill
     containers:

@@ -15,10 +15,8 @@
       min: 36000 # 10 hours
     - !type:CharacterEmployerRequirement
       employers:
-      - IdrisIncorporated
-      - NanoTrasen
-
-
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: ClerkGear
   icon: "JobIconClerk"
   requireAdminNotify: true

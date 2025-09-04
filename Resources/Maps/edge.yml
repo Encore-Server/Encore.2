@@ -92821,7 +92821,7 @@ entities:
   - uid: 14234
     components:
     - type: MetaData
-      name: camera router (epistemics)
+      name: camera router (research)
     - type: Transform
       pos: -27.5,-79.5
       parent: 2
@@ -107253,7 +107253,7 @@ entities:
       pos: -40.5,32.5
       parent: 2
     - type: WarpPoint
-      location: epistemics
+      location: research
   - uid: 16859
     components:
     - type: Transform

@@ -5,12 +5,12 @@
   playTimeTracker: JobSeniorResearcher
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
+      department: Research
       min: 216000 #60 hrs
     - !type:CharacterEmployerRequirement
       employers:
-      - NanoTrasen
-      - ZengHuPharmaceuticals
+      - NEWSTAR
+#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   startingGear: SeniorResearcherGear
   icon: "JobIconSeniorResearcher"
   supervisors: job-supervisors-rd
