@@ -440,7 +440,7 @@
 - type: entity
   id: SpawnPointResearchDirector
   parent: SpawnPointJobBase
-  name: research director # DeltaV - Research Department replacing Science
+  name: researchdirector # DeltaV - Research Department replacing Science
   components:
   - type: SpawnPoint
     job_id: ResearchDirector
@@ -448,7 +448,7 @@
     layers:
       - state: green
       - sprite: DeltaV/Markers/jobs.rsi # DeltaV - Research new labcoats
-        state: research director
+        state: researchdirector
 
 - type: entity
   id: SpawnPointSeniorResearcher
