@@ -179,6 +179,7 @@
     snapCardinals: true
     drawdepth: Overdoors
     noRot: true
+    Offset: 0,1.25
   - type: PointLight
     enabled: true
     radius: 15
