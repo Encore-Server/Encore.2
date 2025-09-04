@@ -1,3 +1,11 @@
+# SPDX-FileCopyrightText: 2025 Ark
+# SPDX-FileCopyrightText: 2025 Avalon
+# SPDX-FileCopyrightText: 2025 Ilya246
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   id: CombatMech
   abstract: true
@@ -41,7 +49,7 @@
 # Ripley MK-II
 - type: entity
   id: MechRipley2
-  parent: [ BaseMech, IndustrialMech ]
+  parent: [ BaseMech, IndustrialMech, BaseCargoContraband ]
   name: Ripley APLU MK-II
   description: The "MK-II" has a pressurized cabin for space operations, but the added weight has slowed it down.
   components:
@@ -67,6 +75,7 @@
     pilotWhitelist:
       components:
         - HumanoidAppearance
+        - BorgChassis # Goobstation - Let borgs pilot mechs
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -85,7 +94,8 @@
     - DoorBumpOpener
     - FootstepSound
     - RipleyMkII
-    
+    - CivilianMechBounty # Mono
+
 - type: entity
   id: MechRipley2Battery
   parent: MechRipley2
@@ -99,7 +109,7 @@
 # Clarke
 - type: entity
   id: MechClarke
-  parent: [ BaseMech, IndustrialMech ]
+  parent: [ BaseMech, IndustrialMech, BaseCargoContraband ]
   name: Clarke
   description: A fast-moving mech for space travel. It has built-in trusts.
   components:
@@ -120,11 +130,12 @@
     baseState: clarke
     openState: clarke-open
     brokenState: clarke-broken
-    mechToPilotDamageMultiplier: 0.5
+    mechToPilotDamageMultiplier: 0.25 # Mono
     airtight: true
     pilotWhitelist:
       components:
         - HumanoidAppearance
+        - BorgChassis # Goobstation - Let borgs pilot mechs
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -134,6 +145,7 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.5
     baseSprintSpeed: 4.5
+    baseWeightlessModifier: 5 # Mono
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
   - type: StaticPrice
@@ -170,7 +182,7 @@
 # Gygax
 - type: entity
   id: MechGygax
-  parent: [ BaseMech, CombatMech ]
+  parent: [ BaseMech, CombatMech, BaseRestrictedContraband ]
   name: Gygax
   description: While lightly armored, the Gygax has incredible mobility thanks to its ability that lets it smash through walls at high speeds.
   components:
@@ -191,11 +203,13 @@
     baseState: gygax
     openState: gygax-open
     brokenState: gygax-broken
-    mechToPilotDamageMultiplier: 0.3
+    mechToPilotDamageMultiplier: 0.1 # Mono
+    maxIntegrity: 550 # Mono
     airtight: true
     pilotWhitelist:
       components:
         - HumanoidAppearance
+        - BorgChassis # Goobstation - Let borgs pilot mechs
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -204,10 +218,11 @@
         Blunt: 25
         Structural: 180
   - type: CanMoveInAir
-  - type: MovementAlwaysTouching        
-  - type: MovementSpeedModifier
-    baseWalkSpeed: 2
-    baseSprintSpeed: 2.6
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier # Mono
+    baseWalkSpeed: 3
+    baseSprintSpeed: 4.5
+    baseWeightlessModifier: 5
   - type: StaticPrice
     price: 3000
   - type: Tag
@@ -229,7 +244,7 @@
 # Durand
 - type: entity
   id: MechDurand
-  parent: [ BaseMech, CombatMech ]
+  parent: [ BaseMech, CombatMech, BaseRestrictedContraband ]
   name: Durand
   description: A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!
   components:
@@ -252,10 +267,11 @@
     brokenState: durand-broken
     mechToPilotDamageMultiplier: 0.25
     airtight: true
-    maxIntegrity: 400
+    maxIntegrity: 800
     pilotWhitelist:
       components:
         - HumanoidAppearance
+        - BorgChassis # Goobstation - Let borgs pilot mechs
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -266,6 +282,7 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 1.5
     baseSprintSpeed: 2
+    baseWeightlessModifier: 3 # Mono
   - type: Damageable
     damageModifierSet: MediumArmorNT
   - type: CanMoveInAir
@@ -296,7 +313,7 @@
 # Marauder
 - type: entity
   id: MechMarauder
-  parent: [ BaseMech, CombatMech ]
+  parent: [ BaseMech, CombatMech, BaseCentcommContraband ]
   name: Marauder
   description: Looks like we're all saved. # ERT mech
   components:
@@ -319,11 +336,12 @@
     brokenState: marauder-broken
     mechToPilotDamageMultiplier: 0.1
     airtight: true
-    maxIntegrity: 500
+    maxIntegrity: 1000
     maxEquipmentAmount: 4
     pilotWhitelist:
       components:
         - HumanoidAppearance
+        - BorgChassis # Goobstation - Let borgs pilot mechs
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -334,6 +352,7 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 1
     baseSprintSpeed: 1.5
+    baseWeightlessModifier: 3 # Mono
   - type: Damageable
     damageModifierSet: HeavyArmorNT
   - type: CanMoveInAir
@@ -343,6 +362,10 @@
     doAfterDelay: 15
   - type: StaticPrice
     price: 15000 # Some respect if you steal one of these.
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
 
 - type: entity
   id: MechMarauderBattery
@@ -369,7 +392,7 @@
 # Seraph
 - type: entity
   id: MechSeraph
-  parent: [ BaseMech, CombatMech ]
+  parent: [ BaseMech, CombatMech, BaseCentcommContraband ]
   name: Seraph
   description: That's the last thing you'll see. # Death Squad mech
   components:
@@ -392,11 +415,12 @@
     brokenState: seraph-broken
     mechToPilotDamageMultiplier: 0.05
     airtight: true
-    maxIntegrity: 550
+    maxIntegrity: 1100
     maxEquipmentAmount: 5
     pilotWhitelist:
       components:
         - HumanoidAppearance
+        - BorgChassis # Goobstation - Let borgs pilot mechs
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -407,6 +431,7 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.2
     baseSprintSpeed: 3.7
+    baseWeightlessModifier: 3 # Mono
   - type: Damageable
     damageModifierSet: HeavyArmorNT
   - type: CanMoveInAir
@@ -416,6 +441,10 @@
     doAfterDelay: 20
   - type: StaticPrice
     price: 30000 # My respects if you manage to steal one of these.
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
 
 - type: entity
   id: MechSeraphBattery
@@ -445,7 +474,7 @@
 # Dark Gygax
 - type: entity
   id: MechGygaxSyndie
-  parent: [ BaseMech, CombatMech ]
+  parent: [ BaseMech, CombatMech, BaseSyndicateContraband ]
   name: Dark Gygax
   description: A modified Gygax used for nefarious purposes. On the back of the armor plate there is an inscription "Cybersun Inc."
   components:
@@ -468,11 +497,12 @@
     brokenState: darkgygax-broken
     mechToPilotDamageMultiplier: 0.15
     airtight: true
-    maxIntegrity: 300
+    maxIntegrity: 750
     maxEquipmentAmount: 4
     pilotWhitelist:
       components:
         - HumanoidAppearance
+        - BorgChassis # Goobstation - Let borgs pilot mechs
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -481,8 +511,9 @@
         Blunt: 30
         Structural: 200
   - type: MovementSpeedModifier
-    baseWalkSpeed: 2.2
-    baseSprintSpeed: 3.7
+    baseWalkSpeed: 3.5 # Mono
+    baseSprintSpeed: 5.5 # Mono
+    baseWeightlessModifier: 7 # Mono
   - type: Damageable
     damageModifierSet: MediumArmorSyndi
   - type: CanMoveInAir
@@ -492,6 +523,10 @@
     doAfterDelay: 20
   - type: StaticPrice
     price: 15000 # Some respect if you steal one of these.
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
 
 - type: entity
   id: MechGygaxSyndieBattery
@@ -518,7 +553,7 @@
 # Mauler
 - type: entity
   id: MechMaulerSyndie
-  parent: [ BaseMech, CombatMech ]
+  parent: [ BaseMech, CombatMech, BaseSyndicateContraband ]
   name: Mauler
   description: A modified Marauder used by the Syndicate that's not as maneuverable as the Dark Gygax, but it makes up for that in armor and sheer firepower. On the back of the armor plate there is an inscription "Cybersun Inc."
   components:
@@ -546,6 +581,7 @@
     pilotWhitelist:
       components:
         - HumanoidAppearance
+        - BorgChassis # Goobstation - Let borgs pilot mechs
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -565,6 +601,10 @@
     doAfterDelay: 25
   - type: StaticPrice
     price: 30000 # Some respect if you steal one of these.
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
 
 - type: entity
   id: MechMaulerSyndieBattery

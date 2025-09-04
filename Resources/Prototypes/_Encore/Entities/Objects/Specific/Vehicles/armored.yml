@@ -1,0 +1,225 @@
+- type: entity
+  id: IFVStriker
+  parent: [ BaseMech, HeavyMechMount, BaseRestrictedContraband ]
+  name: Striker
+  description: A mid-range armored vehicle designed for work where its contents need to be mostly intact.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 1.2
+        density: 600
+        restitution: 0.0
+        mask:
+        - LargeMobMask
+        layer:
+        - WallLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Encore/Objects/Specific/Vehicle/striker.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: striker
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Effects/Vehicle/vehicleengineidle.ogg
+  - type: Mech
+    baseState: striker
+    openState: striker-open
+    brokenState: striker-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 2
+    airtight: true
+    maxIntegrity: 2300
+    pilotWhitelist:
+      components:
+      - HumanoidAppearance
+      - BorgChassis
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadarConsole
+    maxRange: 256
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2
+    baseSprintSpeed: 4
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 60
+    doAfterDelay: 40
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Striker
+    - MilitaryMechBounty
+
+- type: entity
+  id: IFVStrikerBattery
+  parent: IFVStriker
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+- type: entity
+  id: IFVStrikerFederation
+  parent: IFVStriker
+  description: A mid-range armored vehicle designed for work where its contents need to be mostly intact. This one has the markings of a Federation military vehicle.
+  suffix: (Federation)
+  layers:
+  - map: [ "enum.MechVisualLayers.Base" ]
+    state: federationstriker
+  - map: [ "enum.PaperLabelVisuals.Layer" ]
+    sprite: Structures/Storage/Crates/labels.rsi
+    state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+     path: /Audio/Effects/Vehicle/vehicleengineidle.ogg
+  - type: Mech
+  baseState: federationstriker
+  openState: federationstriker-open
+  brokenState: federationstriker-broken
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+- type: entity
+  id: BTHopper
+  parent: [ BaseMech, HeavyMechMount, BaseRestrictedContraband ]
+  name: Hopper
+  description: A nimble and modern multi-legged armored fighting vehicle.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 1.2
+        density: 600
+        restitution: 0.0
+        mask:
+        - LargeMobMask
+        layer:
+        - WallLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Encore/Objects/Specific/Vehicle/hopper.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: hopper
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Effects/Vehicle/vehicleengineidle.ogg
+  - type: Mech
+    baseState: hopper
+    openState: hopper-open
+    brokenState: hopper-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 2
+    airtight: true
+    maxIntegrity: 2300
+    pilotWhitelist:
+      components:
+      - HumanoidAppearance
+      - BorgChassis
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadarConsole
+    maxRange: 256
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 4.5
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 60
+    doAfterDelay: 40
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Hopper
+    - MilitaryMechBounty
+
+- type: entity
+  id: BTHopperBattery
+  parent: BTHopper
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+- type: entity
+  id: BTHopperFederation
+  parent: BTHopper
+  description: A nimble and modern multi-legged armored fighting vehicle. This one has the markings of a Federation military vehicle.
+  suffix: (Federation)
+  layers:
+  - map: [ "enum.MechVisualLayers.Base" ]
+    state: federationhopper
+  - map: [ "enum.PaperLabelVisuals.Layer" ]
+    sprite: Structures/Storage/Crates/labels.rsi
+    state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Effects/Vehicle/vehicleengineidle.ogg
+  - type: Mech
+    baseState: hopper
+    openState: hopper-open
+    brokenState: hopper-broken
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHyper
