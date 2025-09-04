@@ -18,13 +18,13 @@ public sealed partial class MailMetricUiFragment : BoxContainer
         // This my way of adding multiple classes to a XAML control.
         // Haha Batman I'm going to blow up Gotham City
         OpenedMailCount.StyleClasses.Add("Good");
-        OpenedMailSpesos.StyleClasses.Add("Good");
+        OpenedMailCubits.StyleClasses.Add("Good");
         TamperedMailCount.StyleClasses.Add("Danger");
-        TamperedMailSpesos.StyleClasses.Add("Danger");
+        TamperedMailCubits.StyleClasses.Add("Danger");
         ExpiredMailCount.StyleClasses.Add("Danger");
-        ExpiredMailSpesos.StyleClasses.Add("Danger");
+        ExpiredMailCubits.StyleClasses.Add("Danger");
         DamagedMailCount.StyleClasses.Add("Danger");
-        DamagedMailSpesos.StyleClasses.Add("Danger");
+        DamagedMailCubits.StyleClasses.Add("Danger");
         UnopenedMailCount.StyleClasses.Add("Danger");
     }
 
@@ -39,16 +39,16 @@ public sealed partial class MailMetricUiFragment : BoxContainer
         var stats = state.Metrics;
 
         OpenedMailCount.Text = stats.OpenedCount.ToString();
-        OpenedMailSpesos.Text = stats.Earnings.ToString();
+        OpenedMailCubits.Text = stats.Earnings.ToString();
         TamperedMailCount.Text = stats.TamperedCount.ToString();
-        TamperedMailSpesos.Text = stats.TamperedLosses.ToString();
+        TamperedMailCubits.Text = stats.TamperedLosses.ToString();
         ExpiredMailCount.Text = stats.ExpiredCount.ToString();
-        ExpiredMailSpesos.Text = stats.ExpiredLosses.ToString();
+        ExpiredMailCubits.Text = stats.ExpiredLosses.ToString();
         DamagedMailCount.Text = stats.DamagedCount.ToString();
-        DamagedMailSpesos.Text = stats.DamagedLosses.ToString();
+        DamagedMailCubits.Text = stats.DamagedLosses.ToString();
         UnopenedMailCount.Text = state.UnopenedMailCount.ToString();
         TotalMailCount.Text = state.TotalMail.ToString();
-        TotalMailSpesos.Text = stats.TotalIncome.ToString();
+        TotalMailCubits.Text = stats.TotalIncome.ToString();
         SuccessRateCounts.Text = Loc.GetString("mail-metrics-progress",
             ("opened", stats.OpenedCount),
             ("total", state.TotalMail));
