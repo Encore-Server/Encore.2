@@ -324,7 +324,7 @@
   suffix: RD's Room
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-rd
+    defaultText: station-beacon-research-director
 
 - type: entity
   parent: DefaultStationBeaconScience
