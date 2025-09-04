@@ -1,0 +1,35 @@
+{
+  "copyright" : "kyres1 (Github)",
+  "license" : "CC-BY-SA-3.0",
+  "version": 1,
+  "size": {
+    "x": 128,
+    "y": 128
+  },
+  "states": [
+    {
+      "name": "striker",
+      "directions": 4
+    },
+    {
+      "name": "striker-open",
+      "directions": 4
+    },
+    {
+      "name": "striker-broken",
+      "directions": 4
+    },
+    {
+      "name": "federationstriker",
+      "directions": 4
+    },
+    {
+      "name": "federationstriker-open",
+      "directions": 4
+    },
+    {
+      "name": "federationstriker-broken",
+      "directions": 4
+    }
+  ]
+}

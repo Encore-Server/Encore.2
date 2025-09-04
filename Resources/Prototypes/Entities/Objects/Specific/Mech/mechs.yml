@@ -185,7 +185,7 @@
   - type: ContainerFill
     containers:
       mech-battery-slot:
-      - PowerCellHigh
+      - PowerCellMicroreactor
 
 - type: entity
   parent: [ BaseMech, SpecialMech ] # Goobstation

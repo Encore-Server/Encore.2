@@ -1,0 +1,35 @@
+{
+  "copyright" : "kyres1 (Github)",
+  "license" : "CC-BY-SA-3.0",
+  "version": 1,
+  "size": {
+    "x": 128,
+    "y": 128
+  },
+  "states": [
+    {
+      "name": "hopper",
+      "directions": 4
+    },
+    {
+      "name": "hopper-open",
+      "directions": 4
+    },
+    {
+      "name": "hopper-broken",
+      "directions": 4
+    },
+    {
+      "name": "federationhopper",
+      "directions": 4
+    },
+    {
+      "name": "federationhopper-open",
+      "directions": 4
+    },
+    {
+      "name": "federationhopper-broken",
+      "directions": 4
+    }
+  ]
+}
