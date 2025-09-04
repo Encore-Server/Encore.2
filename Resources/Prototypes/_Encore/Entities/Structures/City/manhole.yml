@@ -1,0 +1,13 @@
+#Looks and works like a drain. Must be a drain?
+- type: entity
+  id: ManHole
+  name: manhole
+  description: Drains puddles around it. Useful for dumping mop buckets or keeping the streets clean.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    drawdepth: FloorObjects
+    sprite: _Encore/Structures/City/manhole.rsi
+    layers:
+    - state: manhole
