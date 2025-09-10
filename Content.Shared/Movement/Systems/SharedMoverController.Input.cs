@@ -319,15 +319,15 @@ namespace Content.Shared.Movement.Systems
             {
                 DebugTools.Assert(relayMover.RelayEntity != entity);
                 DebugTools.AssertNotNull(relayMover.RelayEntity);
+                DebugTools.Assert(TryComp<InputMoverComponent>(relayMover.RelayEntity, out var relayInputMover));
 
                 if (MoverQuery.TryGetComponent(entity, out var mover))
                     SetMoveInput((entity, mover), MoveButtons.None);
 
-                if (_mobState.IsDead(entity)
-                    || _mobState.IsCritical(entity) && !_configManager.GetCVar(CCVars.AllowMovementWhileCrit))
-                    return;
-
-                HandleDirChange(relayMover.RelayEntity, dir, subTick, state);
+                if (mover?.CanMove == true)
+                    HandleDirChange(relayMover.RelayEntity, dir, subTick, state);
+                else // Cancel movement if our relay source cannot move
+                    SetMoveInput((relayMover.RelayEntity, relayInputMover), MoveButtons.None);
 
                 return;
             }
