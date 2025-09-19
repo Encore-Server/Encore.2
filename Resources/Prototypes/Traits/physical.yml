@@ -532,7 +532,6 @@
           departments:
           - Security
           - Command
-          - Dignitary
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -674,7 +673,6 @@
       departments:
         - Security
         - Command
-        - Dignitary
     - !type:CharacterTraitRequirement
       traits:
         - CyberEyes
@@ -757,7 +755,6 @@
       departments:
         - Security
         - Command
-        - Dignitary
     - !type:CharacterTraitRequirement
       traits:
         - CyberEyes
@@ -1000,7 +997,6 @@
       departments:
         - Security
         - Command
-        - Dignitary
     - !type:CharacterSpeciesRequirement
       species:
         - IPC
@@ -1092,7 +1088,6 @@
       departments:
         - Security
         - Command
-        - Dignitary
     - !type:CharacterSpeciesRequirement
       species:
         - IPC
