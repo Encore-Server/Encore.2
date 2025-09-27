@@ -49,7 +49,7 @@
     layers:
       - state: green
       - sprite: Objects/Vehicles/wheelchair.rsi
-        state: vehicle
+        state: wheelchair
   - type: ConditionalSpawner
     prototypes:
       - VehicleWheelchair
@@ -63,7 +63,7 @@
     layers:
       - state: green
       - sprite: Objects/Vehicles/wheelchair.rsi
-        state: vehicle_folded
+        state: wheelchair_folded
   - type: ConditionalSpawner
     prototypes:
       - VehicleWheelchairFolded
