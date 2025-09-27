@@ -1,6 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using Content.Shared.Access.Components;
 using Content.Shared.ActionBlocker;
+using Content.Shared.Actions;
 using Content.Shared.Damage;
 using Content.Shared.Movement.Components;
 using Content.Shared.Movement.Events;
