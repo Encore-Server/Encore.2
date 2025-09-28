@@ -1583,7 +1583,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitAristocraticTuxedo
   name: aristocratic tuxedo
-  description: You can almost smell the spesos this was sewn from.
+  description: You can almost smell the cubits this was sewn from.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/aristocratic_tuxedo.rsi
