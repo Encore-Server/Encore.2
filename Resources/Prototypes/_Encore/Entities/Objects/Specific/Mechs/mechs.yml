@@ -1,0 +1,732 @@
+# SPDX-FileCopyrightText: 2025 Avalon
+# SPDX-FileCopyrightText: 2025 Ilya246
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 ScyronX
+# SPDX-FileCopyrightText: 2025 starch
+# SPDX-FileCopyrightText: 2025 wewman222
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# MONOLITH MECH HARDPOINTS
+- type: entity
+  id: LightMechMount
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Mech
+    equipmentWhitelist:
+      tags:
+      - LightMechMount
+      - IFFMechMount
+
+- type: entity
+  id: MediumMechMount
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Mech
+    equipmentWhitelist:
+      tags:
+      - MediumMechMount
+      - IFFMechMount
+
+- type: entity
+  id: LightMultiroleMount
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Mech
+    equipmentWhitelist:
+      tags:
+      - MediumMechMount
+      - LightMechMount
+      - IFFMechMount
+
+- type: entity
+  id: HeavyMechMount
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Mech
+    equipmentWhitelist:
+      tags:
+      - HeavyMechMount
+      - IFFMechMount
+
+- type: entity
+  id: EWARMechMount
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Mech
+    equipmentWhitelist:
+      tags:
+      - EWARMechMount
+      - LightMechMount
+      - IFFMechMount
+
+
+# S2 Mechas
+- type: entity
+  id: AFInterceptor
+  parent: [ BaseMech, LightMechMount, BaseRestrictedContraband ]
+  name: AF-28 "Broadsword"
+  description: A Curasuan "bully" Armored Frame, originally made for infantry support and later repurposed for police usage.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.9
+        density: 300
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - LargeMobLayer
+        - MachineLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Mono/Objects/Specific/Mech/mechaS2.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: broadsword
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: broadsword
+    openState: broadsword-open
+    brokenState: broadsword-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 3
+    airtight: true
+    maxIntegrity: 2400
+    pilotWhitelist:
+      components:
+        - HumanoidAppearance
+        - BorgChassis
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 55
+        Structural: 550
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 4800
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadarConsole
+    maxRange: 256
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1
+    baseSprintSpeed: 2
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 40
+    doAfterDelay: 30
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Broadsword
+
+- type: entity
+  id: AFInterceptorBattery
+  parent: AFInterceptor
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
+
+- type: entity
+  id: AFInterceptorM
+  parent: [ BaseMech, LightMultiroleMount, BaseRestrictedContraband ]
+  name: AF-28-M "Halberd"
+  description: A modification of the Broadsword, the Halberd sacrifices armor and speed for heavier weapon mounts.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.9
+        density: 300
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - LargeMobLayer
+        - MachineLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Mono/Objects/Specific/Mech/mechaS2.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: broadsword
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: broadsword
+    openState: broadsword-open
+    brokenState: broadsword-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 3
+    airtight: true
+    maxIntegrity: 1800
+    pilotWhitelist:
+      components:
+        - HumanoidAppearance
+        - BorgChassis
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 55
+        Structural: 150
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3600
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadarConsole
+    maxRange: 256
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 0.8
+    baseSprintSpeed: 1.1
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 40
+    doAfterDelay: 30
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Halberd
+    - MilitaryMechBounty
+
+- type: entity
+  id: AFInterceptorG
+  parent: [ BaseMech, LightMultiroleMount, BaseRestrictedContraband ]
+  name: AF-28-G "Sabre"
+  description: A modification of the Broadsword, the Sabre sacrifices it's jetpack and spaceproof shielding to function on planets. Has two hardpoints, which can carry Light or Medium hardpoints.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.9
+        density: 300
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - LargeMobLayer
+        - MachineLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Mono/Objects/Specific/Mech/mechaS2.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: broadsword
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: broadsword
+    openState: broadsword-open
+    brokenState: broadsword-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 3
+    airtight: false
+    maxIntegrity: 1000
+    pilotWhitelist:
+      components:
+        - HumanoidAppearance
+        - BorgChassis
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 55
+        Structural: 150
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 2000
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  # Terrible radar, mostly good for navigating planets
+  - type: RadarConsole
+    maxRange: 56
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1
+    baseSprintSpeed: 2
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 40
+    doAfterDelay: 30
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Sabre
+    - MilitaryMechBounty
+
+#4x4 mechas
+- type: entity
+  id: AFFlail
+  parent: [ BaseMech, HeavyMechMount, BaseRestrictedContraband ]
+  name: ASF-59 "Flail"
+  description: An aged, mass-produced and ubiquitous light Armored Frame. Designed for light duties, as far as a forty-ton war machine goes. It has relatively powerful thrusters able to keep it afloat in gravity or space.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 1.1
+        density: 600
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - LargeMobLayer
+        - MachineLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Mono/Objects/Specific/Mech/mechaS4.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: flail
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: flail
+    openState: flail-open
+    brokenState: flail-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 3
+    airtight: true
+    maxIntegrity: 4000
+    pilotWhitelist:
+      components:
+        - HumanoidAppearance
+        - BorgChassis
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 80
+        Structural: 550
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 8000
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadarConsole
+    maxRange: 256
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1
+    baseSprintSpeed: 2
+    baseWeightlessModifier: 3
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 60
+    doAfterDelay: 40
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Flail
+    - MilitaryMechBounty
+
+- type: entity
+  id: AFFlailBattery
+  parent: AFFlail
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
+
+- type: entity
+  id: AFFlailE
+  parent: [ BaseMech, EWARMechMount, BaseRestrictedContraband ]
+  name: ASF-59-E "Spyglass"
+  description: An extremely specialized mech based off the Flail Chassis. Uses sophisticated radar systems to provide command and control capabilities, in addition to employing advanced EWAR weaponry.  It has very powerful thrusters able to keep it afloat in gravity or space.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 1.1
+        density: 600
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - LargeMobLayer
+        - MachineLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Mono/Objects/Specific/Mech/mechaS4.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: flail
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: flail
+    openState: flail-open
+    brokenState: flail-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 3
+    airtight: true
+    maxIntegrity: 1850
+    pilotWhitelist:
+      components:
+        - HumanoidAppearance
+        - BorgChassis
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 50
+        Structural: 550
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 4500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadarConsole
+    maxRange: 768 #It's a radar/EWAC platform.
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1
+    baseSprintSpeed: 2.5
+    baseWeightlessModifier: 6
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 60
+    doAfterDelay: 40
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Spyglass
+    - MilitaryMechBounty
+
+- type: entity
+  id: AFFlailEBattery
+  parent: AFFlailE
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
+
+- type: entity
+  id: AFMace
+  parent: [ BaseMech, HeavyMechMount, BaseRestrictedContraband ]
+  name: ASF-59-B "Mace"
+  description: A haphazard refit, sacrificing most plating for costs and flexibility. Due to the power constraints, it can only equip a single weapon, limiting versatility. Fits Heavy Mounts.  It lacks any thrusters to maintain flight.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 1.1
+        density: 600
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - LargeMobLayer
+        - MachineLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Mono/Objects/Specific/Mech/mechaS4.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: flail
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: flail
+    openState: flail-open
+    brokenState: flail-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 2
+    airtight: true
+    maxIntegrity: 2300
+    pilotWhitelist:
+      components:
+        - HumanoidAppearance
+        - BorgChassis
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 80
+        Structural: 550
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 4000
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadarConsole
+    maxRange: 256
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1
+    baseSprintSpeed: 2
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 60
+    doAfterDelay: 40
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Mace
+    - MilitaryMechBounty
+
+- type: entity
+  id: AFMaceBattery
+  parent: AFMace
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
+
+- type: entity
+  id: AFStarlight
+  parent: [ BaseMech, HeavyMechMount, BaseRestrictedContraband ]
+  name: ASF-7-A "Starlight"
+  description: A sleek and mean Armored Frame built for agility and turning its pilots into jelly. Has overpowered thrusters and underwhelming armor for its size. Fits Heavy Mounts.
+  components:
+  - type: Fixtures
+    fixtures: # Custom hitbox
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 1.1
+        density: 600
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - LargeMobLayer
+        - MachineLayer
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _Encore/Objects/Specific/Mech/starlight.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: starlight
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: starlight
+    openState: starlight-open
+    brokenState: starlight-broken
+    mechToPilotDamageMultiplier: 0
+    maxEquipmentAmount: 2
+    airtight: true
+    maxIntegrity: 3500
+    pilotWhitelist:
+      components:
+      - HumanoidAppearance
+      - BorgChassis
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 80
+        Structural: 550
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 4000
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadarConsole
+    maxRange: 256
+    followEntity: true
+  - type: Appearance
+  - type: GenericVisualizer
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1
+    baseSprintSpeed: 2
+  - type: Damageable
+    damageModifierSet: HeavyArmorNT
+  - type: Repairable
+    fuelCost: 60
+    doAfterDelay: 40
+  - type: StaticPrice
+    price: 3000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Starlight
+    - MilitaryMechBounty
+
+- type: entity
+  id: AFStarlightBattery
+  parent: AFStarlight
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
