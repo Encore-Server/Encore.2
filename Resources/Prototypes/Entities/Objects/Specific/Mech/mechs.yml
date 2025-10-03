@@ -348,9 +348,6 @@
     operatorWhitelist:
       tags:
       - VimPilot
-    equipmentWhitelist:
-      tags:
-      - CombatMech
   - type: MeleeWeapon
     hidden: true
     attackRate: 1.25
