@@ -28,9 +28,7 @@
   - Passenger
   - Reporter
   - Visitor
-  - Zookeeper
   - ServiceWorker
-  - MartialArtist
   - Prisoner
   - Gladiator
 
@@ -80,18 +78,6 @@
   weight: 100
 
 - type: department
-  id: Dignitary
-  name: department-Dignitary
-  description: department-Dignitary-description
-  color: "#33FE6D"
-  roles:
-  - BlueshieldOfficer
-  - NanotrasenRepresentative
-  - Magistrate
-  primary: false
-  weight: 101
-
-- type: department
   id: Engineering
   name: department-Engineering
   description: department-Engineering-description
@@ -132,7 +118,6 @@
   - Detective
   - Warden
   - PrisonGuard
-  - Brigmedic
 
 - type: department
   id: Research
@@ -167,10 +152,7 @@
   roles:
   - Boxer
   - Reporter
-  - Zookeeper
   - Psychologist
-  - MartialArtist
   - Gladiator
   - Prisoner
-  - Brigmedic
   primary: false

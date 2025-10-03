@@ -39,9 +39,9 @@
   text: phrase-request
 
 - type: quickPhrase
-  id: SpesosPhrase
+  id: CubitsPhrase
   parent: BaseLogisticsSubjectPhrase
-  text: phrase-spesos
+  text: phrase-cubits
 
 - type: quickPhrase
   id: RestockPhrase
