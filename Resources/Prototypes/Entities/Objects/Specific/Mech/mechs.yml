@@ -265,9 +265,6 @@
     brokenState: hamtr-broken
     maxEquipmentAmount: 2
     airtight: true
-    equipmentWhitelist:
-      tags:
-      - SmallMech
   - type: Vehicle
     transferDamageModifier:
       coefficients:
