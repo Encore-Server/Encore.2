@@ -31,7 +31,7 @@
 - type: entity
   id: BriefcaseSyndieLobbyingBundleFilled
   parent: BriefcaseSyndie
-  suffix: Syndicate, Spesos
+  suffix: Syndicate, Cubits
   components:
   - type: StorageFill
     contents:
@@ -50,7 +50,7 @@
 - type: entity
   id: BriefcaseSyndieLobbyingBundlePlasmamanFilled
   parent: BriefcaseSyndie
-  suffix: Syndicate, Spesos, Plasmaman
+  suffix: Syndicate, Cubits, Plasmaman
   components:
   - type: StorageFill
     contents:
@@ -77,7 +77,7 @@
 - type: entity
   id: BriefcaseThiefBribingBundleFilled
   parent: BriefcaseSyndie
-  suffix: Thief, Spesos
+  suffix: Thief, Cubits
   components:
   - type: StorageFill
     contents:
@@ -90,7 +90,7 @@
 - type: entity
   id: BriefcaseThiefBribingBundlePlasmamanFilled
   parent: BriefcaseSyndie
-  suffix: Thief, Spesos, Plasmaman
+  suffix: Thief, Cubits, Plasmaman
   components:
   - type: StorageFill
     contents:

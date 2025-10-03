@@ -198,7 +198,7 @@ accent-ohio-words-replace-57 = L + Ratio idiot
 accent-ohio-words-58 = nice
 accent-ohio-words-replace-58 = rizzlike
 
-accent-ohio-words-59 = spesos
+accent-ohio-words-59 = cubits
 accent-ohio-words-replace-59 = rizzbucks
 
 accent-ohio-words-60 = dollars
