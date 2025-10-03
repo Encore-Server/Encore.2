@@ -63,9 +63,6 @@
     openState: ripleymkii-open
     brokenState: ripleymkii-broken
     airtight: true
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -120,9 +117,6 @@
     openState: clarke-open
     brokenState: clarke-broken
     airtight: true
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -190,9 +184,6 @@
     openState: gygax-open
     brokenState: gygax-broken
     airtight: true
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -249,9 +240,6 @@
     brokenState: durand-broken
     airtight: true
     maxIntegrity: 400
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -316,9 +304,6 @@
     airtight: true
     maxIntegrity: 500
     maxEquipmentAmount: 4
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -388,9 +373,6 @@
     airtight: true
     maxIntegrity: 550
     maxEquipmentAmount: 5
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -463,9 +445,6 @@
     airtight: true
     maxIntegrity: 300
     maxEquipmentAmount: 4
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -535,9 +514,6 @@
     airtight: true
     maxIntegrity: 500
     maxEquipmentAmount: 5
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1

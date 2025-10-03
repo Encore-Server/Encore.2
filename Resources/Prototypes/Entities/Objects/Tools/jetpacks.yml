@@ -26,7 +26,6 @@
   description: It's a jetpack. It can hold 5 L of gas.
   components:
   - type: InputMover
-    toParent: true
   - type: MovementSpeedModifier
     weightlessAcceleration: 1
     weightlessFriction: 0.3
