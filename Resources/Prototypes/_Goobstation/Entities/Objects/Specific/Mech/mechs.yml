@@ -4,9 +4,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Mech
-    equipmentWhitelist:
-      tags:
-      - CombatMech
 
 - type: entity
   id: IndustrialMech
@@ -14,9 +11,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Mech
-    equipmentWhitelist:
-      tags:
-      - IndustrialMech
 
 - type: entity
   id: SpecialMech
@@ -24,9 +18,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Mech
-    equipmentWhitelist:
-      tags:
-      - SpecialMech
 
 - type: entity
   id: SmallMech
@@ -34,9 +25,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Mech
-    equipmentWhitelist:
-      tags:
-      - SmallMech
 
 # Ripley MK-II
 - type: entity
