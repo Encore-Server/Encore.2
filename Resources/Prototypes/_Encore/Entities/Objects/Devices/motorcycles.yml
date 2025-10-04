@@ -1,0 +1,106 @@
+- type: entity
+  id: VehicleScooterGrey
+  parent: BaseVehicleStrap
+  name: grey scooter
+  description: A cheap and ubiquotous model of a popular daily commuter.
+  components:
+  - type: Sprite
+    sprite: _Encore/Objects/Vehicles/scooter_grey.rsi
+    layers:
+    - state: vehicle_overlay
+      drawdepth: 4
+    - state: vehicle
+      drawdepth: 2
+      map: ["movement"]
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: vehicle_moving
+    noMovementLayers:
+      movement:
+        state: vehicle
+  - type: GenericKeyedVehicle
+    containerId: key_slot
+    keyWhitelist:
+      tags:
+      - GenericScooterKeys_Grey
+  - type: UnpoweredFlashlight
+  - type: PointLight
+    enabled: false
+    radius: 3.5
+    softness: 2
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 250
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalGlassBreak
+      - !type:ExplodeBehavior
+  - type: Strap
+    buckleOffset: "0.01,0.75"
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 360
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - TableLayer
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          tags:
+          - GenericScooterKeys_Grey
+        insertSound:
+          path: /Audio/Effects/Vehicle/vehiclestartup.ogg
+          params:
+            volume: -3
+      saddlebag_slot:
+        name: vehicle-slot-component-slot-name-saddlebag
+        whitelist:
+          tags:
+          - GenericVehicleSaddlebag
+  - type: ContainerContainer
+    containers:
+      key_slot: !type:ContainerSlot
+      trashbag_slot: !type:ContainerSlot
+  - type: ItemMapper
+    mapLayers:
+      storage:
+        whitelist:
+          tags:
+          - GenericVehicleSaddlebag
+    sprite: _Encore/Objects/Vehicles/scooter_grey.rsi
+
+- type: entity
+  parent: BaseItem
+  id: GenericScooterKeys_Grey
+  name: scooter keys
+  description: Seems factory pressed.
+  components:
+  - type: Sprite
+    sprite: _Encore/Objects/Vehicles/keys.rsi
+    state: keys_grey
+  - type: Item
+    size: Small
+  - type: Tag
+    tags: [ GenericScooterKeys_Grey ]

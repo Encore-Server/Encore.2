@@ -7,6 +7,9 @@
   components:
   - type: Item
     size: Ginormous
+  - type: Tag
+    tags:
+    - GenericVehicleSaddlebag
   - type: Sprite
     scale: 0.8, 0.8
     sprite: Objects/Specific/Mail/mail_large.rsi

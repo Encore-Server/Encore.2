@@ -23,6 +23,7 @@
   - type: Tag
     tags:
     - BoxCardboard
+    - GenericVehicleSaddlebag
 
 - type: entity
   name: mousetrap box

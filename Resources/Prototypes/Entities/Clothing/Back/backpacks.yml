@@ -17,6 +17,9 @@
     grid:
     - 0,0,6,3
     maxItemSize: Huge
+  - type: Tag
+    tags:
+    - GenericVehicleSaddlebag
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
