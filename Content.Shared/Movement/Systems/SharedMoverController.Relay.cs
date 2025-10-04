@@ -1,4 +1,5 @@
 using Content.Shared.Movement.Components;
+using Content.Shared.Movement.Events;
 
 namespace Content.Shared.Movement.Systems;
 
@@ -10,16 +11,26 @@ public abstract partial class SharedMoverController
         SubscribeLocalEvent<MovementRelayTargetComponent, ComponentShutdown>(OnTargetRelayShutdown);
         SubscribeLocalEvent<MovementRelayTargetComponent, AfterAutoHandleStateEvent>(OnAfterRelayTargetState);
         SubscribeLocalEvent<RelayInputMoverComponent, AfterAutoHandleStateEvent>(OnAfterRelayState);
+        SubscribeLocalEvent<RelayInputMoverComponent, CanMoveUpdatedEvent>(OnRelayCanMoveUpdated);
     }
 
     private void OnAfterRelayTargetState(Entity<MovementRelayTargetComponent> entity, ref AfterAutoHandleStateEvent args)
     {
-        Physics.UpdateIsPredicted(entity.Owner);
+        PhysicsSystem.UpdateIsPredicted(entity.Owner);
     }
 
     private void OnAfterRelayState(Entity<RelayInputMoverComponent> entity, ref AfterAutoHandleStateEvent args)
     {
-        Physics.UpdateIsPredicted(entity.Owner);
+        PhysicsSystem.UpdateIsPredicted(entity.Owner);
+    }
+
+    private void OnRelayCanMoveUpdated(Entity<RelayInputMoverComponent> ent, ref CanMoveUpdatedEvent args)
+    {
+        if (args.CanMove)
+            return;
+
+        if (MoverQuery.TryComp(ent.Comp.RelayEntity, out var inputMoverComponent))
+            SetMoveInput((ent.Comp.RelayEntity, inputMoverComponent), MoveButtons.None);
     }
 
     /// <summary>
@@ -42,7 +53,7 @@ public abstract partial class SharedMoverController
         {
             oldTarget.Source = EntityUid.Invalid;
             RemComp(component.RelayEntity, oldTarget);
-            Physics.UpdateIsPredicted(component.RelayEntity);
+            PhysicsSystem.UpdateIsPredicted(component.RelayEntity);
         }
 
         var targetComp = EnsureComp<MovementRelayTargetComponent>(relayEntity);
@@ -50,11 +61,11 @@ public abstract partial class SharedMoverController
         {
             oldRelay.RelayEntity = EntityUid.Invalid;
             RemComp(targetComp.Source, oldRelay);
-            Physics.UpdateIsPredicted(targetComp.Source);
+            PhysicsSystem.UpdateIsPredicted(targetComp.Source);
         }
 
-        Physics.UpdateIsPredicted(uid);
-        Physics.UpdateIsPredicted(relayEntity);
+        PhysicsSystem.UpdateIsPredicted(uid);
+        PhysicsSystem.UpdateIsPredicted(relayEntity);
         component.RelayEntity = relayEntity;
         targetComp.Source = uid;
         Dirty(uid, component);
@@ -63,8 +74,8 @@ public abstract partial class SharedMoverController
 
     private void OnRelayShutdown(Entity<RelayInputMoverComponent> entity, ref ComponentShutdown args)
     {
-        Physics.UpdateIsPredicted(entity.Owner);
-        Physics.UpdateIsPredicted(entity.Comp.RelayEntity);
+        PhysicsSystem.UpdateIsPredicted(entity.Owner);
+        PhysicsSystem.UpdateIsPredicted(entity.Comp.RelayEntity);
 
         if (TryComp<InputMoverComponent>(entity.Comp.RelayEntity, out var inputMover))
             SetMoveInput((entity.Comp.RelayEntity, inputMover), MoveButtons.None);
@@ -78,8 +89,8 @@ public abstract partial class SharedMoverController
 
     private void OnTargetRelayShutdown(Entity<MovementRelayTargetComponent> entity, ref ComponentShutdown args)
     {
-        Physics.UpdateIsPredicted(entity.Owner);
-        Physics.UpdateIsPredicted(entity.Comp.Source);
+        PhysicsSystem.UpdateIsPredicted(entity.Owner);
+        PhysicsSystem.UpdateIsPredicted(entity.Comp.Source);
 
         if (Timing.ApplyingState)
             return;

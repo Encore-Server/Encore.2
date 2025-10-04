@@ -4,9 +4,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Mech
-    equipmentWhitelist:
-      tags:
-      - CombatMech
 
 - type: entity
   id: IndustrialMech
@@ -14,9 +11,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Mech
-    equipmentWhitelist:
-      tags:
-      - IndustrialMech
 
 - type: entity
   id: SpecialMech
@@ -24,9 +18,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Mech
-    equipmentWhitelist:
-      tags:
-      - SpecialMech
 
 - type: entity
   id: SmallMech
@@ -34,9 +25,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Mech
-    equipmentWhitelist:
-      tags:
-      - SmallMech
 
 # Ripley MK-II
 - type: entity
@@ -62,11 +50,7 @@
     baseState: ripleymkii
     openState: ripleymkii-open
     brokenState: ripleymkii-broken
-    mechToPilotDamageMultiplier: 0.4
     airtight: true
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -85,7 +69,7 @@
     - DoorBumpOpener
     - FootstepSound
     - RipleyMkII
-    
+
 - type: entity
   id: MechRipley2Battery
   parent: MechRipley2
@@ -120,11 +104,7 @@
     baseState: clarke
     openState: clarke-open
     brokenState: clarke-broken
-    mechToPilotDamageMultiplier: 0.5
     airtight: true
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -191,11 +171,7 @@
     baseState: gygax
     openState: gygax-open
     brokenState: gygax-broken
-    mechToPilotDamageMultiplier: 0.3
     airtight: true
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -204,7 +180,7 @@
         Blunt: 25
         Structural: 180
   - type: CanMoveInAir
-  - type: MovementAlwaysTouching        
+  - type: MovementAlwaysTouching
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 2.6
@@ -250,12 +226,8 @@
     baseState: durand
     openState: durand-open
     brokenState: durand-broken
-    mechToPilotDamageMultiplier: 0.25
     airtight: true
     maxIntegrity: 400
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -317,13 +289,9 @@
     baseState: marauder
     openState: marauder-open
     brokenState: marauder-broken
-    mechToPilotDamageMultiplier: 0.1
     airtight: true
     maxIntegrity: 500
     maxEquipmentAmount: 4
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -390,13 +358,9 @@
     baseState: seraph
     openState: seraph-open
     brokenState: seraph-broken
-    mechToPilotDamageMultiplier: 0.05
     airtight: true
     maxIntegrity: 550
     maxEquipmentAmount: 5
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -466,13 +430,9 @@
     baseState: darkgygax
     openState: darkgygax-open
     brokenState: darkgygax-broken
-    mechToPilotDamageMultiplier: 0.15
     airtight: true
     maxIntegrity: 300
     maxEquipmentAmount: 4
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
@@ -539,13 +499,9 @@
     baseState: mauler
     openState: mauler-open
     brokenState: mauler-broken
-    mechToPilotDamageMultiplier: 0.1
     airtight: true
     maxIntegrity: 500
     maxEquipmentAmount: 5
-    pilotWhitelist:
-      components:
-        - HumanoidAppearance
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
