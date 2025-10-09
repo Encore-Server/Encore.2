@@ -7,18 +7,10 @@
   - type: Sprite
     sprite: _Encore/Objects/Vehicles/scooter_grey.rsi
     layers:
-    - state: vehicle_overlay
-      drawdepth: 4
     - state: vehicle
-      drawdepth: 2
-      map: ["movement"]
-  - type: SpriteMovement
-    movementLayers:
-      movement:
-        state: vehicle_moving
-    noMovementLayers:
-      movement:
-        state: vehicle
+      drawdepth: Mobs
+    - state: vehicle_overlay
+      drawdepth: Overdoors
   - type: GenericKeyedVehicle
     containerId: key_slot
     keyWhitelist:
@@ -50,7 +42,8 @@
           collection: MetalGlassBreak
       - !type:ExplodeBehavior
   - type: Strap
-    buckleOffset: "0.01,0.75"
+    buckleOffset: "0.01,0.15"
+    modifyBuckleDrawDepth: false
   - type: Fixtures
     fixtures:
       fix1:
@@ -58,6 +51,7 @@
           !type:PhysShapeCircle
           radius: 0.2
         density: 360
+        offset: "0.5,0.5"
         restitution: 0.0
         mask:
         - MobMask
