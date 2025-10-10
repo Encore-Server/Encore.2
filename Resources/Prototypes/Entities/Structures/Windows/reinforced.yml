@@ -4,10 +4,10 @@
   parent: Window
   components:
   - type: Sprite
-    drawdepth: WallTops
-    sprite: Structures/Windows/reinforced_window.rsi
+    drawdepth: Mobs
+    sprite: _Encore/Structures/Windows/tall/reinforced_window.rsi
   - type: Icon
-    sprite: Structures/Windows/reinforced_window.rsi
+    sprite: _Encore/Structures/Windows/tall/reinforced_window.rsi
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 2
@@ -126,7 +126,7 @@
     - Window
   components:
   - type: Sprite
-    drawdepth: WallTops
+    drawdepth: Mobs
     sprite: Structures/Windows/reinforced_window_diagonal.rsi
     state: state0
   - type: Tag
