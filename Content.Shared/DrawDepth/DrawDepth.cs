@@ -79,7 +79,7 @@ namespace Content.Shared.DrawDepth
         /// <summary>
         ///     Posters, APCs, air alarms, etc. This also includes most lights & lamps.
         /// </summary>
-        WallMountedItems = DrawDepthTag.Default + 2,
+        WallMountedItems = DrawDepthTag.Default + 5,
 
         /// <summary>
         ///     Generic items. Things that should be above crates & tables, but underneath mobs.

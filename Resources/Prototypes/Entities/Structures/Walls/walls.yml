@@ -587,9 +587,9 @@
   name: reinforced wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Encore/Structures/Walls/tall/metal.rsi
   - type: Icon
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Encore/Structures/Walls/tall/metal.rsi
     state: rgeneric
   - type: Construction
     graph: Girder
