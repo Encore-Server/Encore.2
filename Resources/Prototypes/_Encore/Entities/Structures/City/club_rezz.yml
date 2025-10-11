@@ -1,0 +1,25 @@
+- type: entity
+  id: PoweredLEDLightClubRezzSign
+  name: club sign
+  description: "The magnanimous sign of Club Rezz, infamous as it may be. You're certain those sodium bulbs inside have been running longer than you've been alive..."
+  parent: LightPostSmall
+  components:
+  - type: Sprite
+    sprite: _Encore/Structures/City/club_rezz_sign.rsi
+    snapCardinals: true
+    drawdepth: Overdoors
+    Offset: 0,1.25
+  - type: PointLight
+    enabled: true
+    radius: 6
+    energy: 1
+    softness: 0.9
+    color: "#EB8B3D"
+  - type: PoweredLight
+    hasLampOnSpawn: LedLightTube
+  - type: AmbientOnPowered
+  - type: AmbientSound
+    volume: -15
+    range: 3
+    sound:
+      path: /Audio/Ambience/Objects/light_hum.ogg

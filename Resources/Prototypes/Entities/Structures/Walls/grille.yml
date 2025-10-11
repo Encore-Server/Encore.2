@@ -15,8 +15,9 @@
       fx: EffectRCDDeconstruct4
     - type: CanBuildWindowOnTop
     - type: Sprite
-      drawdepth: Walls
+      drawdepth: Mobs
       sprite: Structures/Walls/grille.rsi
+      snapCardinals: true
       layers:
         - state: grille
         - state: electrified

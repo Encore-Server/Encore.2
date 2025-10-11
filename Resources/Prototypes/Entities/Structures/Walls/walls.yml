@@ -23,7 +23,7 @@
     - Wall
   - type: IsRoof
   - type: Sprite
-    drawdepth: Walls
+    drawdepth: Mobs
   - type: Icon
     state: full
   - type: PlacementReplacement
@@ -499,7 +499,7 @@
     - Wall
   components:
   - type: Sprite
-    drawdepth: Walls
+    drawdepth: Mobs
     sprite: Structures/Walls/plastitanium_diagonal.rsi
     state: state0
   - type: IconSmooth
@@ -550,7 +550,7 @@
     - Wall
     - Diagonal
   - type: Sprite
-    drawdepth: Walls
+    drawdepth: Mobs
     sprite: Structures/Walls/plastitanium_diagonal.rsi
     state: state0
   - type: IconSmooth
@@ -694,7 +694,7 @@
     tags:
     - Diagonal
   - type: Sprite
-    drawdepth: Walls
+    drawdepth: Mobs
     sprite: Structures/Walls/reinforced_diagonal.rsi
     state: state0
   - type: IconSmooth
@@ -837,7 +837,7 @@
     - Wall
     - Diagonal
   - type: Sprite
-    drawdepth: Walls
+    drawdepth: Mobs
     sprite: Structures/Walls/shuttle_diagonal.rsi
     state: state0
   - type: IconSmooth
@@ -964,13 +964,13 @@
     tags:
       - Wall
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Encore/Structures/Walls/tall/metal.rsi
   - type: WallReplacementMarker
   - type: Construction
     graph: Girder
     node: wall
   - type: Icon
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Encore/Structures/Walls/tall/metal.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -1012,7 +1012,7 @@
     - Wall
   components:
   - type: Sprite
-    drawdepth: Walls
+    drawdepth: Mobs
     sprite: Structures/Walls/solid_diagonal.rsi
     state: state0
   - type: IconSmooth
@@ -1252,7 +1252,7 @@
     - Wall
   components:
   - type: Sprite
-    drawdepth: Walls
+    drawdepth: Mobs
     sprite: Structures/Walls/mining_diagonal.rsi
     state: state0
   - type: IconSmooth
