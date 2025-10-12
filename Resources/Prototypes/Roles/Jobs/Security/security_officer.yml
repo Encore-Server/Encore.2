@@ -4,9 +4,6 @@
   description: job-description-security
   playTimeTracker: JobSecurityOfficer
   requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 36000 # 10 hours
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
@@ -19,7 +16,9 @@
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.  weight: 10
+    - TERRESTACO
+    - IKON
+  weight: 10
   startingGear: SecurityOfficerGear
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos

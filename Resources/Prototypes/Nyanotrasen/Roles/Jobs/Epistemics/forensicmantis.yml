@@ -4,11 +4,6 @@
   description: job-description-mantis
   playTimeTracker: JobForensicMantis
   requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 18000
-    - !type:CharacterDepartmentTimeRequirement
-      department: Research # DeltaV - Research Department replacing Science
-      min: 3600
     - !type:CharacterLogicOrRequirement
       requirements:
         - !type:CharacterSpeciesRequirement
@@ -25,7 +20,8 @@
     - !type:CharacterEmployerRequirement
       employers:
       - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+      - IKON
+      - TERRESTACO
     - !type:CharacterItemGroupRequirement
       group: TraitsCasterType
   startingGear: ForensicMantisGear

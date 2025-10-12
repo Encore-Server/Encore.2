@@ -4,9 +4,6 @@
   description: job-description-librarian
   playTimeTracker: JobLibrarian
   requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Research
-    min: 14400
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterSpeciesRequirement
@@ -19,12 +16,14 @@
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
+    - TERRESTACO
+    - IKON
 #Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
   - !type:CharacterItemGroupRequirement
     group: TraitsCasterType
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
-  supervisors: job-supervisors-rd
+  supervisors: job-supervisors-service
   access:
   - Research
   - Maintenance

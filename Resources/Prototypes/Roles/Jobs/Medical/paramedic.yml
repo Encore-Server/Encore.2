@@ -4,13 +4,12 @@
   description: job-description-paramedic
   playTimeTracker: JobParamedic
   requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Medical
-    min: 28800
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.  weight: 10
+    - TERRESTACO
+    - IKON
+  weight: 10
   startingGear: ParamedicGear
   icon: "JobIconParamedic"
   supervisors: job-supervisors-cmo

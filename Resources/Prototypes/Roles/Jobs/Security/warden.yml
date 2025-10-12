@@ -4,26 +4,11 @@
   description: job-description-warden
   playTimeTracker: JobWarden
   requirements:
-  - !type:CharacterPlaytimeRequirement
-    tracker: JobSecurityOfficer
-    min: 43200 # DeltaV - 12 hrs
-  - !type:CharacterPlaytimeRequirement
-    tracker: JobDetective
-    min: 14400 # DeltaV - 4 hours
-  - !type:CharacterWhitelistRequirement
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - Foreigner
-    - ForeignerLight
-    - Muted
-    - Blindness
-    - Pacifist
-    - BrittleBoneDisease
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+    - TERRESTACO
+    - IKON
   startingGear: WardenGear
   icon: "JobIconWarden"
   supervisors: job-supervisors-hos

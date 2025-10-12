@@ -488,7 +488,7 @@
   parent: BaseComputerAiAccess
   id: ComputerStationRecords
   name: station records computer
-  description: This can be used to check station records.
+  description: This can be used to check city records.
   components:
   - type: GeneralStationRecordConsole
   - type: UserInterface

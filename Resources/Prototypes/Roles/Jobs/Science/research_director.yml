@@ -4,33 +4,18 @@
   description: job-description-rd
   playTimeTracker: JobResearchDirector
   requirements:
-  - !type:CharacterItemGroupRequirement
-    group: TraitsCasterType
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-      - IPC
-    - !type:CharacterTraitRequirement
-      traits:
-      - AnomalousPositronics
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - Muted
-    - Foreigner
-    - ForeignerLight
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.  weight: 10
+    - TERRESTACO
+    - IKON
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
+  whitelistRequired: true
   access:
   - Research
   - Command

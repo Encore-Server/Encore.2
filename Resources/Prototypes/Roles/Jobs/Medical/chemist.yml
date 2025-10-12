@@ -4,13 +4,11 @@
   description: job-description-chemist
   playTimeTracker: JobChemist
   requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Medical
-    min: 28800
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+    - TERRESTACO
+    - IKON
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo

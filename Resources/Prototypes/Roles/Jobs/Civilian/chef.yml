@@ -4,13 +4,11 @@
   description: job-description-chef
   playTimeTracker: JobChef
   requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Civilian
-    min: 3600
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+    - TERRESTACO
+    - IKON
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hop

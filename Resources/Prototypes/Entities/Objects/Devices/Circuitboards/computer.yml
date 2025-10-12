@@ -90,8 +90,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationRecordsComputerCircuitboard
-  name: station records computer board
-  description: A computer printed circuit board for a station records computer.
+  name: city records computer board
+  description: A computer printed circuit board for a city records computer.
   components:
   - type: Sprite
     state: cpu_command

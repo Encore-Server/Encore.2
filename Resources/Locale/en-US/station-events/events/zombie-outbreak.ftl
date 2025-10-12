@@ -1,1 +1,1 @@
-station-event-zombie-outbreak-announcement = Confirmed sightings of various undead aboard the station. All personnel should arm themselves, barricade doors, and secure their location in order to prevent further infection.
+station-event-zombie-outbreak-announcement = Automated systems report confirmed sightings of contagion elements classified as Terminus. District infrastructure will be severed indefinitely and quarantine measures are now in place. Seek shelter and avoid traits associated with the infection.

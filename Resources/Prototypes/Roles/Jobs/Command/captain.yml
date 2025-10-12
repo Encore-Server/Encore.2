@@ -4,17 +4,11 @@
   description: job-description-captain
   playTimeTracker: JobCaptain
   requirements:
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - Foreigner
-    - ForeignerLight
-    - Pacifist
-    - Muted
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+    - TERRESTACO
+    - IKON
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"
@@ -22,6 +16,7 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  whitelistRequired: true
   accessGroups:
   - AllAccess
   special:
