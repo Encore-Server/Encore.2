@@ -1,1 +1,1 @@
-station-event-kudzu-growth-announcement = Attention crew, we have detected a Type 2 Biological Invader on-station, that poses potentially serious threat to crew productivity. We advise you to exterminate it.
+station-event-kudzu-growth-announcement = Biohazard sensors have detected a Type 2 Biological Invader within the district, prepare for hostile floral elements and overgrowth if unchecked.

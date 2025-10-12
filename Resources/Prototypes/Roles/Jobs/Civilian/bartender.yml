@@ -4,13 +4,11 @@
   description: job-description-bartender
   playTimeTracker: JobBartender
   requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Civilian
-    min: 3600 #DeltaV
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+    - TERRESTACO
+    - IKON
   startingGear: BartenderGear
   icon: "JobIconBartender"
   supervisors: job-supervisors-hop

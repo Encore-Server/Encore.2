@@ -4,13 +4,11 @@
   description: job-description-salvagespec
   playTimeTracker: JobSalvageSpecialist
   requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Logistics
-    min: 21600
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+    - TERRESTACO
+    - IKON
   icon: "JobIconShaftMiner"
   startingGear: SalvageSpecialistGear
   supervisors: job-supervisors-qm

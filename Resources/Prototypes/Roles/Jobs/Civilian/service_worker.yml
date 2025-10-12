@@ -15,9 +15,10 @@
   - Kitchen
   requirements:
   - !type:CharacterEmployerRequirement
-    inverted: true
     employers:
-    - Unemployed
+    - NEWSTAR
+    - TERRESTACO
+    - IKON
 
 - type: startingGear
   id: ServiceWorkerGear

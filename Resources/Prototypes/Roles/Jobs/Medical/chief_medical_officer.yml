@@ -6,16 +6,11 @@
   description: job-description-cmo
   playTimeTracker: JobChiefMedicalOfficer
   requirements:
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - Foreigner
-    - ForeignerLight
-    - Muted
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.  weight: 10
+    - TERRESTACO
+    - IKON
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"

@@ -4,16 +4,11 @@
   description: job-description-hop
   playTimeTracker: JobHeadOfPersonnel
   requirements:
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - Foreigner
-    - ForeignerLight
-    - Muted
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+    - TERRESTACO
+    - IKON
   weight: 10
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"

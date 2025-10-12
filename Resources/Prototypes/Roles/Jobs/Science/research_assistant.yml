@@ -4,10 +4,11 @@
   description: job-description-research-assistant
   playTimeTracker: JobResearchAssistant
   requirements:
-    - !type:CharacterEmployerRequirement
-      employers:
-      - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+  - !type:CharacterEmployerRequirement
+    employers:
+    - NEWSTAR
+    - TERRESTACO
+    - IKON
   startingGear: ResearchAssistantGear
   icon: "JobIconResearchAssistant"
   supervisors: job-supervisors-science

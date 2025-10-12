@@ -4,13 +4,11 @@
   description: job-description-senior-researcher
   playTimeTracker: JobSeniorResearcher
   requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Research
-      min: 216000 #60 hrs
-    - !type:CharacterEmployerRequirement
-      employers:
-      - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+  - !type:CharacterEmployerRequirement
+    employers:
+    - NEWSTAR
+    - TERRESTACO
+    - IKON
   startingGear: SeniorResearcherGear
   icon: "JobIconSeniorResearcher"
   supervisors: job-supervisors-rd

@@ -4,12 +4,11 @@
   description: job-description-scientist
   playTimeTracker: JobScientist
   requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Research
-    min: 14400 #4 hrs
   - !type:CharacterEmployerRequirement
     employers:
     - NEWSTAR
+    - TERRESTACO
+    - IKON
   startingGear: ScientistGear
   icon: "JobIconScientist"
   supervisors: job-supervisors-rd
