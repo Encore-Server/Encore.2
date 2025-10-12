@@ -9,11 +9,13 @@
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
+  whitelistRequired: true
   requirements:
     - !type:CharacterEmployerRequirement
       employers:
       - NEWSTAR
-#Encore edit- adjusted to fix compiling. Needs role assigned to proper employer later.
+      - IKON
+      - TERRESTACO
   access:
   - Command
   - ChiefJustice
