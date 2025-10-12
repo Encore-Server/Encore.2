@@ -23,7 +23,7 @@
     group: TraitsCasterType
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
-  supervisors: job-supervisors-rd
+  supervisors: job-supervisors-service
   access:
   - Research
   - Maintenance

@@ -23,7 +23,7 @@
     group: TraitsCasterType
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
-  supervisors: job-supervisors-rd
+  supervisors: job-supervisors-service
   access:
   - Chapel
   - Research

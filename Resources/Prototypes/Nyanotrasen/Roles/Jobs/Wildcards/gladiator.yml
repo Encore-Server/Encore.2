@@ -9,15 +9,6 @@
   icon: "JobIconGladiator"
   supervisors: job-supervisors-security
   setPreference: true
-#  whitelistRequired: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 21600
-  special:
-  - !type:AddTraitSpecial
-    traits:
-    - MartialArtist
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
     charges: 3

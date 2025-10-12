@@ -1,6 +1,6 @@
 department-Logistics = Logistics
 department-Civilian = Service
-department-Command = District Command
+department-Command = District Executive
 department-CentralCommand = Federation Command
 department-Engineering = Engineering Infrastructure
 department-Medical = Hospital Staff

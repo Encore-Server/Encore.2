@@ -9,14 +9,6 @@
     - NEWSTAR
     - TERRESTACO
     - IKON
-    inverted: true
-    traits:
-    - Foreigner
-    - ForeignerLight
-    - Muted
-    - Blindness
-    - Pacifist
-    - BrittleBoneDisease
   startingGear: WardenGear
   icon: "JobIconWarden"
   supervisors: job-supervisors-hos

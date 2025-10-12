@@ -31,6 +31,8 @@
   - ServiceWorker
   - Prisoner
   - Gladiator
+  - Librarian
+  - Chaplain
 
 - type: department
   id: CentralCommand
@@ -129,9 +131,7 @@
   - SeniorResearcher
   - Scientist
   - ResearchAssistant
-  - Chaplain
   - ForensicMantis
-  - Librarian
   - Roboticist
 
 - type: department
