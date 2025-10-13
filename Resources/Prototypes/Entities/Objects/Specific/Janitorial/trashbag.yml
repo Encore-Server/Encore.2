@@ -27,6 +27,7 @@
   - type: Tag
     tags:
     - TrashBag
+    - GenericVehicleSaddlebag
   - type: Appearance
   - type: StorageFillVisualizer
     maxFillLevels: 4

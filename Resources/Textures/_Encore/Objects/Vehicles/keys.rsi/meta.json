@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "license": "CC-BY-SA-3.0",
+  "copyright": "by kyres1",
+  "states": [
+    {
+      "name": "keys_grey"
+    },
+    {
+      "name": "keys_blue"
+    },
+    {
+      "name": "keys_red"
+    },
+    {
+      "name": "keys_green"
+    },
+    {
+      "name": "keys_yellow"
+    },
+    {
+      "name": "keys_orange"
+    }
+  ]
+}

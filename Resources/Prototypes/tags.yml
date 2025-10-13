@@ -639,6 +639,12 @@
   id: GeigerCounter
 
 - type: Tag
+  id: GenericScooterKeys_Grey
+
+- type: Tag
+  id: GenericVehicleSaddlebag
+
+- type: Tag
   id: GlassAirlock
 
 - type: Tag
